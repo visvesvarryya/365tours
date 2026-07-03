@@ -49,6 +49,8 @@ export async function getGoogleReviews(): Promise<LiveReviews | null> {
 
     const r = data.result;
     const reviews: LiveReview[] = (r.reviews ?? [])
+      // Only show 5-star reviews on the site (never < 5 stars).
+      .filter((rv: { text?: string; rating?: number }) => Number(rv.rating) >= 5)
       .filter((rv: { text?: string }) => rv.text && rv.text.trim().length > 0)
       .map((rv: Record<string, unknown>) => ({
         author: String(rv.author_name ?? "Google user"),

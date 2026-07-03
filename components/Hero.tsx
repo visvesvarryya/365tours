@@ -53,6 +53,7 @@ export default function Hero() {
             alt=""
             fill
             priority={i === 0}
+            quality={68}
             sizes="100vw"
             className="object-cover transition-opacity duration-[1500ms] ease-in-out"
             style={{ opacity: i === active ? 1 : 0 }}

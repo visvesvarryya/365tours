@@ -99,6 +99,7 @@ export default function DestinationPage({ params }: { params: { slug: string } }
               alt=""
               fill
               priority
+              quality={68}
               sizes="100vw"
               className="object-cover"
             />
