@@ -1,7 +1,9 @@
 "use client";
 
-import { useState, type FormEvent } from "react";
+import { useState, useEffect, type FormEvent } from "react";
 import { trackLeadConversion } from "@/lib/analytics";
+
+const STORAGE_KEY = "365tours_contact";
 
 const DEFAULT_INTERESTS = [
   "India",
@@ -28,6 +30,25 @@ export default function LeadForm({
   const [selected, setSelected] = useState<string[]>(destination ? [destination] : []);
   const [status, setStatus] = useState<Status>("idle");
   const [error, setError] = useState("");
+  // Prefilled contact details, remembered from the visitor's last enquiry.
+  const [contact, setContact] = useState({ name: "", email: "", phone: "" });
+
+  // Load saved contact details on mount (client-only, so no hydration mismatch).
+  useEffect(() => {
+    try {
+      const raw = localStorage.getItem(STORAGE_KEY);
+      if (raw) {
+        const c = JSON.parse(raw);
+        setContact({ name: c.name || "", email: c.email || "", phone: c.phone || "" });
+      }
+    } catch {
+      /* ignore */
+    }
+  }, []);
+
+  const setField = (field: "name" | "email" | "phone") => (
+    e: React.ChangeEvent<HTMLInputElement>
+  ) => setContact((c) => ({ ...c, [field]: e.target.value }));
 
   const toggle = (item: string) =>
     setSelected((prev) =>
@@ -40,9 +61,9 @@ export default function LeadForm({
     const form = e.currentTarget;
     const data = new FormData(form);
     const payload = {
-      name: String(data.get("name") || "").trim(),
-      email: String(data.get("email") || "").trim(),
-      phone: String(data.get("phone") || "").trim(),
+      name: contact.name.trim(),
+      email: contact.email.trim(),
+      phone: contact.phone.trim(),
       groupSize: String(data.get("groupSize") || ""),
       message: String(data.get("message") || "").trim(),
       interests: destination ? [destination] : selected,
@@ -69,6 +90,15 @@ export default function LeadForm({
       if (!res.ok) {
         const body = await res.json().catch(() => ({}));
         throw new Error(body.error || "Something went wrong. Please try again.");
+      }
+      // Remember contact details so the form is prefilled on the visitor's next visit.
+      try {
+        localStorage.setItem(
+          STORAGE_KEY,
+          JSON.stringify({ name: payload.name, email: payload.email, phone: payload.phone })
+        );
+      } catch {
+        /* ignore */
       }
       trackLeadConversion({ destination, source });
       setStatus("success");
@@ -115,11 +145,11 @@ export default function LeadForm({
           <span className="text-xs font-medium uppercase tracking-widest text-stone-400">
             Your Name *
           </span>
-          <input name="name" type="text" required placeholder="Ravi Kumar" className={`mt-2 ${inputClass}`} />
+          <input name="name" type="text" required placeholder="Ravi Kumar" value={contact.name} onChange={setField("name")} className={`mt-2 ${inputClass}`} />
         </label>
         <label className="block">
           <span className="text-xs font-medium uppercase tracking-widest text-stone-400">Email</span>
-          <input name="email" type="email" placeholder="you@example.com" className={`mt-2 ${inputClass}`} />
+          <input name="email" type="email" placeholder="you@example.com" value={contact.email} onChange={setField("email")} className={`mt-2 ${inputClass}`} />
         </label>
       </div>
 
@@ -128,7 +158,7 @@ export default function LeadForm({
           <span className="text-xs font-medium uppercase tracking-widest text-stone-400">
             Phone / WhatsApp
           </span>
-          <input name="phone" type="tel" placeholder="+91 98000 00000" className={`mt-2 ${inputClass}`} />
+          <input name="phone" type="tel" placeholder="+91 98000 00000" value={contact.phone} onChange={setField("phone")} className={`mt-2 ${inputClass}`} />
         </label>
         <label className="block">
           <span className="text-xs font-medium uppercase tracking-widest text-stone-400">

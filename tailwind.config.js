@@ -10,6 +10,7 @@ module.exports = {
         serif: ["var(--font-playfair)", "Georgia", "serif"],
         brush: ["var(--font-brush)", "cursive"],
         merri: ["var(--font-merri)", "Georgia", "serif"],
+        oswald: ["var(--font-oswald)", "var(--font-inter)", "sans-serif"],
       },
       colors: {
         brand: {

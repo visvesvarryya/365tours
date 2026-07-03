@@ -1,14 +1,33 @@
+"use client";
+
 import Script from "next/script";
+import { useState, useEffect } from "react";
 import { GOOGLE_ADS_ID, GA4_ID } from "@/lib/analytics";
+import { COOKIE_CONSENT_KEY } from "@/components/CookieConsent";
 
 /**
  * Loads the Google tag (gtag.js) for Google Ads conversion tracking + remarketing
- * and, optionally, GA4. Renders nothing unless at least one ID is configured, so
- * local/dev without env vars stays clean.
+ * and, optionally, GA4 — but ONLY after the visitor accepts cookies, and only if an
+ * ID is configured. Nothing loads on decline or before a choice is made.
  */
 export default function Analytics() {
+  const [consented, setConsented] = useState(false);
+
+  useEffect(() => {
+    const read = () => {
+      try {
+        setConsented(localStorage.getItem(COOKIE_CONSENT_KEY) === "granted");
+      } catch {
+        setConsented(false);
+      }
+    };
+    read();
+    window.addEventListener("cookie-consent", read);
+    return () => window.removeEventListener("cookie-consent", read);
+  }, []);
+
   const primaryId = GOOGLE_ADS_ID || GA4_ID;
-  if (!primaryId) return null;
+  if (!consented || !primaryId) return null;
 
   return (
     <>

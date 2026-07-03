@@ -24,6 +24,8 @@ export interface Destination {
   regions?: string[];
   /** Signature itinerary photos with their duration + places covered */
   itineraries?: Itinerary[];
+  /** "Recipe book" feature image for the Travel Rewards card */
+  recipeImage?: string;
 }
 
 export interface Itinerary {
@@ -1240,6 +1242,7 @@ for (const dest of destinations) {
   dest.flag = entry.flag || undefined;
   dest.regions = entry.regions;
   dest.itineraries = entry.itineraries;
+  dest.recipeImage = entry.recipeImage || undefined;
   if (entry.gallery.length > 0) {
     dest.image = entry.gallery[0];
     dest.heroImage = entry.gallery[0];

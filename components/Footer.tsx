@@ -25,9 +25,10 @@ const company = [
   { label: "Careers", href: "#" },
   { label: "CSR", href: "#" },
   { label: "Privacy Policy", href: "#" },
+  { label: "Cookie Policy", href: "/cookie-policy" },
   { label: "Booking Conditions", href: "#" },
   { label: "Terms & Conditions", href: "#" },
-  { label: "Sitemap", href: "#" },
+  { label: "Sitemap", href: "/sitemap.xml" },
 ];
 
 const socials = [

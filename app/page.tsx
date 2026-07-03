@@ -4,6 +4,7 @@ import Destinations from "@/components/Destinations";
 import DestinationDirectory from "@/components/DestinationDirectory";
 import AccommodationTypes from "@/components/AccommodationTypes";
 import TwelveReasons from "@/components/TwelveReasons";
+import TravelRewards from "@/components/TravelRewards";
 import WhyUs from "@/components/WhyUs";
 import MakeNewMemories from "@/components/MakeNewMemories";
 import TrustBar from "@/components/TrustBar";
@@ -52,6 +53,7 @@ export default function Home() {
       <DestinationDirectory />
       <AccommodationTypes />
       <TwelveReasons />
+      <TravelRewards />
       <WhyUs />
       <Testimonials />
       <MakeNewMemories />
