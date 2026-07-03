@@ -6,7 +6,6 @@ import Logo from "@/components/Logo";
 
 // Root-relative hrefs so the links work from every page (home *and* destination pages).
 const navLinks = [
-  { label: "India", href: "/india" },
   { label: "Destinations", href: "/#all-destinations" },
   { label: "Accommodation", href: "/#accommodation" },
   { label: "12 Reasons", href: "/#twelve-reasons" },
@@ -47,14 +46,14 @@ export default function Navbar() {
         <Logo priority />
 
         {/* Desktop Nav */}
-        <nav className="hidden items-center gap-7 lg:flex">
+        <nav className="hidden items-center gap-8 lg:flex">
           {navLinks.map((link) => (
             <Link
               key={link.label}
               href={link.href}
               target={link.external ? "_blank" : undefined}
               rel={link.external ? "noopener noreferrer" : undefined}
-              className={`text-sm font-medium transition-colors hover:text-brand-400 ${
+              className={`text-lg font-semibold transition-colors hover:text-brand-400 ${
                 scrolled ? "text-stone-700" : "text-white/90"
               }`}
             >

@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
-import { Playfair_Display, Inter, Gochi_Hand } from "next/font/google";
+import { Playfair_Display, Inter, Merriweather } from "next/font/google";
+import localFont from "next/font/local";
 import "./globals.css";
 import Analytics from "@/components/Analytics";
 import FloatingWhatsApp from "@/components/FloatingWhatsApp";
@@ -19,11 +20,20 @@ const inter = Inter({
   display: "swap",
 });
 
-// Handwritten brush display font — the same one the original 365tours.in used.
-const brush = Gochi_Hand({
-  subsets: ["latin"],
-  weight: "400",
+// "Above The Sky Script" — the exact brush font the original 365tours.in uses
+// (self-hosted, subset to Latin ~128 KB woff2).
+const brush = localFont({
+  src: "./fonts/ats-script.woff2",
   variable: "--font-brush",
+  display: "swap",
+});
+
+// Merriweather italic — the original's subtitle serif.
+const merri = Merriweather({
+  subsets: ["latin"],
+  weight: ["400"],
+  style: ["italic"],
+  variable: "--font-merri",
   display: "swap",
 });
 
@@ -57,7 +67,7 @@ export const viewport: Viewport = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" className={`${playfair.variable} ${inter.variable} ${brush.variable}`}>
+    <html lang="en" className={`${playfair.variable} ${inter.variable} ${brush.variable} ${merri.variable}`}>
       <body>
         <Navbar />
         {children}

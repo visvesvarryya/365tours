@@ -53,9 +53,9 @@ export default function Home() {
       <AccommodationTypes />
       <TwelveReasons />
       <WhyUs />
+      <Testimonials />
       <MakeNewMemories />
       <TrustBar />
-      <Testimonials />
       <Contact />
       <Footer />
     </>

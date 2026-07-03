@@ -16,14 +16,13 @@ export default function DestinationDirectory() {
       <div className="mx-auto max-w-7xl px-6 lg:px-10">
         {/* Header */}
         <div className="mx-auto mb-8 max-w-2xl text-center">
-          <p className="text-xs font-semibold uppercase tracking-[0.3em] text-brand-500">
-            100 Countries · 1500+ Destinations
-          </p>
-          <h2 className="mt-3 font-serif text-3xl font-bold text-stone-900 sm:text-4xl">
-            A–Z Destination Directory
+          {/* Exact original 365tours.in treatment: "Above The Sky" brush script + Merriweather italic */}
+          <h2 className="font-brush leading-none text-stone-900">
+            <span className="text-7xl sm:text-8xl">100</span>{" "}
+            <span className="text-5xl sm:text-7xl">Countries</span>
           </h2>
-          <p className="mt-3 leading-relaxed text-stone-500">
-            From Antarctica to Zimbabwe — don&apos;t see your dream destination? We likely cover it.
+          <p className="mt-2 font-merri text-lg italic text-stone-600 sm:text-xl">
+            Across 7 Continents &amp; 1500 + Destinations
           </p>
         </div>
 
