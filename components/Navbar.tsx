@@ -42,8 +42,8 @@ export default function Navbar() {
       }`}
     >
       <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 lg:px-10">
-        {/* Logo */}
-        <Logo priority />
+        {/* Logo — eager but not preloaded, so it doesn't compete with the hero LCP */}
+        <Logo />
 
         {/* Desktop Nav */}
         <nav className="hidden items-center gap-8 lg:flex">

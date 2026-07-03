@@ -70,3 +70,11 @@ img {
     text-wrap: balance;
   }
 }
+
+/* Performance: skip rendering/layout of off-screen sections until scrolled into
+   view. Big win for long pages (keeps initial Style & Layout cheap). The first
+   section (hero) is excluded so it never delays the LCP. */
+body section:not(:first-of-type) {
+  content-visibility: auto;
+  contain-intrinsic-size: auto 720px;
+}

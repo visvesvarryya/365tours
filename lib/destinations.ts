@@ -41,6 +41,8 @@ type CatalogEntry = {
   flag: string;
   regions: string[];
   itineraries?: Itinerary[];
+  /** The destination's real hero banner (tour_images/<id>/main_image.jpg) */
+  mainImage?: string;
 };
 
 const catalog = catalogImages as Record<string, CatalogEntry>;
@@ -1245,7 +1247,9 @@ for (const dest of destinations) {
   dest.recipeImage = entry.recipeImage || undefined;
   if (entry.gallery.length > 0) {
     dest.image = entry.gallery[0];
-    dest.heroImage = entry.gallery[0];
+    // Hero uses the destination's real main_image banner (as on 365tours.in),
+    // falling back to the first gallery photo if it's ever missing.
+    dest.heroImage = entry.mainImage || entry.gallery[0];
   }
 }
 

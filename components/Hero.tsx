@@ -11,6 +11,8 @@ const heroSlugs = ["maldives", "egypt", "kenya", "japan", "iceland", "greece", "
 const heroSlides = heroSlugs
   .map((slug) => {
     const d = getDestinationBySlug(slug);
+    // Gallery photo (taller aspect) fits the full-screen hero better than the wide
+    // main_image banner — keeps the homepage LCP fast.
     return d?.gallery?.[0] ? { name: d.name, image: d.gallery[0] } : null;
   })
   .filter(Boolean) as { name: string; image: string }[];
