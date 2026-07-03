@@ -22,6 +22,14 @@ export interface Destination {
   flag?: string;
   /** Regions / cities offered within this destination */
   regions?: string[];
+  /** Signature itinerary photos with their duration + places covered */
+  itineraries?: Itinerary[];
+}
+
+export interface Itinerary {
+  src: string;
+  days: string;
+  places: string[];
 }
 
 type CatalogEntry = {
@@ -30,6 +38,7 @@ type CatalogEntry = {
   recipeImage: string;
   flag: string;
   regions: string[];
+  itineraries?: Itinerary[];
 };
 
 const catalog = catalogImages as Record<string, CatalogEntry>;
@@ -1230,6 +1239,7 @@ for (const dest of destinations) {
   dest.gallery = entry.gallery;
   dest.flag = entry.flag || undefined;
   dest.regions = entry.regions;
+  dest.itineraries = entry.itineraries;
   if (entry.gallery.length > 0) {
     dest.image = entry.gallery[0];
     dest.heroImage = entry.gallery[0];

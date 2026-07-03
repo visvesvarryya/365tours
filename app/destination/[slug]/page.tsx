@@ -264,7 +264,7 @@ export default function DestinationPage({ params }: { params: { slug: string } }
 
               {/* Right: sticky enquiry card */}
               <div>
-                <div className="sticky top-24">
+                <div id="enquire" className="scroll-mt-24 sticky top-24">
                   <div className="rounded-3xl bg-stone-950 p-8 text-white shadow-2xl">
                     <p className="text-xs font-semibold uppercase tracking-widest text-brand-400">
                       Plan Your Trip
@@ -318,34 +318,73 @@ export default function DestinationPage({ params }: { params: { slug: string } }
           </div>
         </section>
 
-        {/* ── PHOTO GALLERY ── */}
-        {dest.gallery && dest.gallery.length > 0 && (
-          <section className="bg-white pb-20">
+        {/* ── SIGNATURE ITINERARIES (photo + number of days + places covered) ── */}
+        {dest.itineraries && dest.itineraries.length > 0 && (
+          <section className="bg-white py-16">
             <div className="mx-auto max-w-7xl px-6 lg:px-10">
               <p className="text-xs font-semibold uppercase tracking-[0.3em] text-brand-500">
-                Gallery
+                Signature Itineraries
               </p>
               <h2 className="mt-3 font-serif text-3xl font-bold text-stone-900">
-                Glimpses of {dest.name}
+                Ready-Made Journeys Through {dest.name}
               </h2>
-              <div className="mt-8 grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4">
-                {dest.gallery.map((src, i) => (
+              <p className="mt-3 max-w-2xl leading-relaxed text-stone-500">
+                Well-researched routes to suit your interest, time &amp; budget — every one fully
+                private and customisable.
+              </p>
+
+              <div className="mt-8 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
+                {dest.itineraries.map((it, i) => (
                   <div
-                    key={src}
-                    className={`group relative overflow-hidden rounded-2xl ${
-                      i === 0 ? "col-span-2 row-span-2 aspect-square sm:col-span-2" : "aspect-square"
-                    }`}
+                    key={it.src}
+                    className="group overflow-hidden rounded-2xl bg-white shadow-sm ring-1 ring-stone-100 transition hover:-translate-y-1 hover:shadow-lg"
                   >
-                    <Image
-                      src={src}
-                      alt={`${dest.name} photo ${i + 1}`}
-                      fill
-                      loading="lazy"
-                      sizes={i === 0 ? "(max-width: 640px) 100vw, 50vw" : "(max-width: 640px) 50vw, 25vw"}
-                      className="object-cover transition-transform duration-500 group-hover:scale-110"
-                    />
+                    <div className="relative h-56">
+                      <Image
+                        src={it.src}
+                        alt={`${dest.name} itinerary ${i + 1}${it.places.length ? " — " + it.places.join(", ") : ""}`}
+                        fill
+                        loading="lazy"
+                        sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
+                        className="object-cover transition-transform duration-500 group-hover:scale-105"
+                      />
+                      <div className="absolute inset-0 bg-gradient-to-t from-stone-900/85 via-stone-900/15 to-transparent" />
+                      {it.days && (
+                        <span className="absolute right-3 top-3 rounded-full bg-amber-400 px-3 py-1 text-xs font-bold text-stone-900 shadow">
+                          {it.days}
+                        </span>
+                      )}
+                      <div className="absolute inset-x-0 bottom-0 p-4">
+                        {it.places.length > 0 ? (
+                          <>
+                            <p className="mb-1 flex items-center gap-1 text-[11px] font-semibold uppercase tracking-wide text-amber-300">
+                              <svg width="12" height="12" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                                <path strokeLinecap="round" strokeLinejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
+                                <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
+                              </svg>
+                              Places Covered
+                            </p>
+                            <p className="text-sm font-semibold leading-snug text-white">
+                              {it.places.join(" · ")}
+                            </p>
+                          </>
+                        ) : (
+                          <p className="text-sm font-semibold text-white">{dest.name}</p>
+                        )}
+                      </div>
+                    </div>
                   </div>
                 ))}
+              </div>
+
+              <div className="mt-8 rounded-3xl border border-brand-100 bg-brand-50 p-6 text-center sm:p-8">
+                <p className="text-stone-600">
+                  For a detailed day-wise itinerary, price, inclusions &amp; exclusions,{" "}
+                  <a href="#enquire" className="font-semibold text-brand-600 hover:text-brand-700">
+                    send us an enquiry
+                  </a>{" "}
+                  — response within 24 hours.
+                </p>
               </div>
             </div>
           </section>
