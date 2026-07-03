@@ -306,14 +306,13 @@ export default function DestinationPage({ params }: { params: { slug: string } }
               </div>
 
               {/* Right: Travel Rewards sidebar — beside "What You'll Experience" */}
-              {dest.recipeImage && (
-                <aside className="lg:sticky lg:top-24">
+              <aside className="lg:sticky lg:top-24">
                   <div className="overflow-hidden rounded-3xl border border-amber-100 bg-white shadow-sm">
-                    {/* The poster itself lists the Travel Rewards & Benefits — show it whole */}
+                    {/* Generic Travel Rewards & Benefits poster — same for every destination */}
                     <div className="relative aspect-[717/1280]">
                       <Image
-                        src={dest.recipeImage}
-                        alt={`${dest.name} travel rewards & benefits`}
+                        src="/brand/travel-rewards.jpg"
+                        alt="Travel Rewards & Benefits — 365 Tours"
                         fill
                         loading="lazy"
                         sizes="(max-width: 1024px) 100vw, 340px"
@@ -334,7 +333,6 @@ export default function DestinationPage({ params }: { params: { slug: string } }
                     </div>
                   </div>
                 </aside>
-              )}
             </div>
           </div>
         </section>
