@@ -1,0 +1,74 @@
+{
+  "id": "365T_00078",
+  "name": "Switzerland",
+  "display_name": "SWITZERLAND",
+  "slug": "switzerland-365T_00078",
+  "detail_url": "https://365tours.in/destination-detail.php?id=365T_00078",
+  "flag_file": "SWITZERLAND_flag.png",
+  "signature_itineraries": 8,
+  "destinations_offered": [
+    "Bern",
+    "Bernese Oberland",
+    "Geneva",
+    "Grindelwald",
+    "Interlaken",
+    "Lucerne",
+    "Lugano",
+    "Lausanne",
+    "Montreux",
+    "St Moritz",
+    "Swiss Alps",
+    "Wengen",
+    "Zermatt",
+    "Zurich"
+  ],
+  "folder": "public/destinations/switzerland-365T_00078",
+  "image_count": 9,
+  "images": [
+    {
+      "file": "itenary_47.jpg",
+      "path": "public/destinations/switzerland-365T_00078/itenary_47.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00078/itenary_47.jpg"
+    },
+    {
+      "file": "itenary_74.jpg",
+      "path": "public/destinations/switzerland-365T_00078/itenary_74.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00078/itenary_74.jpg"
+    },
+    {
+      "file": "itenary_100.jpg",
+      "path": "public/destinations/switzerland-365T_00078/itenary_100.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00078/itenary_100.jpg"
+    },
+    {
+      "file": "itenary_14.jpg",
+      "path": "public/destinations/switzerland-365T_00078/itenary_14.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00078/itenary_14.jpg"
+    },
+    {
+      "file": "itenary_89.jpg",
+      "path": "public/destinations/switzerland-365T_00078/itenary_89.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00078/itenary_89.jpg"
+    },
+    {
+      "file": "itenary_53.jpg",
+      "path": "public/destinations/switzerland-365T_00078/itenary_53.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00078/itenary_53.jpg"
+    },
+    {
+      "file": "itenary_42.jpg",
+      "path": "public/destinations/switzerland-365T_00078/itenary_42.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00078/itenary_42.jpg"
+    },
+    {
+      "file": "recipebook_img.jpg",
+      "path": "public/destinations/switzerland-365T_00078/recipebook_img.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00078/recipebook_img.jpg"
+    },
+    {
+      "file": "SWITZERLAND_flag.png",
+      "path": "public/destinations/switzerland-365T_00078/SWITZERLAND_flag.png",
+      "source_url": "https://365tours.in/tour_images/365T_00078/SWITZERLAND_flag.png"
+    }
+  ]
+}

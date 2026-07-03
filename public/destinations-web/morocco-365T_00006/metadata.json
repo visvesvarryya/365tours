@@ -1,0 +1,88 @@
+{
+  "id": "365T_00006",
+  "name": "Morocco",
+  "display_name": "MOROCCO",
+  "slug": "morocco-365T_00006",
+  "detail_url": "https://365tours.in/destination-detail.php?id=365T_00006",
+  "flag_file": "MOROCCO_flag.png",
+  "signature_itineraries": 8,
+  "destinations_offered": [
+    "Asilah",
+    "Casblanca",
+    "Chefchaouen",
+    "Essaouria",
+    "Fes",
+    "Skoura",
+    "Meknes",
+    "Volubillis",
+    "Oued Mellah",
+    "Ourika Valley",
+    "Ourzazate",
+    "Rabat",
+    "Drar Valley",
+    "Tangier",
+    "Taroudant",
+    "Anti Atlas",
+    "Atlas Mountains",
+    "Dadges Valley",
+    "Erg Chebbi",
+    "Sous Massa",
+    "Southern Oasis",
+    "Zagora",
+    "Marrakech"
+  ],
+  "folder": "public/destinations/morocco-365T_00006",
+  "image_count": 10,
+  "images": [
+    {
+      "file": "365T_00006_86.jpg",
+      "path": "public/destinations/morocco-365T_00006/365T_00006_86.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00006/365T_00006_86.jpg"
+    },
+    {
+      "file": "365T_00006_23.jpg",
+      "path": "public/destinations/morocco-365T_00006/365T_00006_23.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00006/365T_00006_23.jpg"
+    },
+    {
+      "file": "365T_00006_75.jpg",
+      "path": "public/destinations/morocco-365T_00006/365T_00006_75.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00006/365T_00006_75.jpg"
+    },
+    {
+      "file": "365T_00006_3.jpg",
+      "path": "public/destinations/morocco-365T_00006/365T_00006_3.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00006/365T_00006_3.jpg"
+    },
+    {
+      "file": "365T_00006_44.jpg",
+      "path": "public/destinations/morocco-365T_00006/365T_00006_44.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00006/365T_00006_44.jpg"
+    },
+    {
+      "file": "365T_00006_56.jpg",
+      "path": "public/destinations/morocco-365T_00006/365T_00006_56.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00006/365T_00006_56.jpg"
+    },
+    {
+      "file": "365T_00006_84.jpg",
+      "path": "public/destinations/morocco-365T_00006/365T_00006_84.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00006/365T_00006_84.jpg"
+    },
+    {
+      "file": "365T_00006_35.jpg",
+      "path": "public/destinations/morocco-365T_00006/365T_00006_35.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00006/365T_00006_35.jpg"
+    },
+    {
+      "file": "recipebook_img.jpg",
+      "path": "public/destinations/morocco-365T_00006/recipebook_img.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00006/recipebook_img.jpg"
+    },
+    {
+      "file": "MOROCCO_flag.png",
+      "path": "public/destinations/morocco-365T_00006/MOROCCO_flag.png",
+      "source_url": "https://365tours.in/tour_images/365T_00006/MOROCCO_flag.png"
+    }
+  ]
+}

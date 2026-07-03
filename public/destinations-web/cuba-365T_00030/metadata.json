@@ -1,0 +1,79 @@
+{
+  "id": "365T_00030",
+  "name": "Cuba",
+  "display_name": "CUBA",
+  "slug": "cuba-365T_00030",
+  "detail_url": "https://365tours.in/destination-detail.php?id=365T_00030",
+  "flag_file": "CUBA_flag.png",
+  "signature_itineraries": 8,
+  "destinations_offered": [
+    "Baracoa",
+    "Camaguey",
+    "Cienfuegos",
+    "Guardalvaca",
+    "Havana",
+    "Maria La Gorda",
+    "Northern Cayes",
+    "Playa Esmeralda",
+    "Sancti Spiritius",
+    "Santa Clara",
+    "Santiago De Cuba",
+    "Trinidad",
+    "Varadero",
+    "Vinales"
+  ],
+  "folder": "public/destinations/cuba-365T_00030",
+  "image_count": 10,
+  "images": [
+    {
+      "file": "itenary_88.jpg",
+      "path": "public/destinations/cuba-365T_00030/itenary_88.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00030/itenary_88.jpg"
+    },
+    {
+      "file": "itenary_86.jpg",
+      "path": "public/destinations/cuba-365T_00030/itenary_86.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00030/itenary_86.jpg"
+    },
+    {
+      "file": "itenary_30.jpg",
+      "path": "public/destinations/cuba-365T_00030/itenary_30.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00030/itenary_30.jpg"
+    },
+    {
+      "file": "itenary_56.jpg",
+      "path": "public/destinations/cuba-365T_00030/itenary_56.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00030/itenary_56.jpg"
+    },
+    {
+      "file": "itenary_7.jpg",
+      "path": "public/destinations/cuba-365T_00030/itenary_7.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00030/itenary_7.jpg"
+    },
+    {
+      "file": "itenary_22.jpg",
+      "path": "public/destinations/cuba-365T_00030/itenary_22.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00030/itenary_22.jpg"
+    },
+    {
+      "file": "itenary_12.jpg",
+      "path": "public/destinations/cuba-365T_00030/itenary_12.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00030/itenary_12.jpg"
+    },
+    {
+      "file": "itenary_8.jpg",
+      "path": "public/destinations/cuba-365T_00030/itenary_8.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00030/itenary_8.jpg"
+    },
+    {
+      "file": "recipebook_img.jpg",
+      "path": "public/destinations/cuba-365T_00030/recipebook_img.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00030/recipebook_img.jpg"
+    },
+    {
+      "file": "CUBA_flag.png",
+      "path": "public/destinations/cuba-365T_00030/CUBA_flag.png",
+      "source_url": "https://365tours.in/tour_images/365T_00030/CUBA_flag.png"
+    }
+  ]
+}

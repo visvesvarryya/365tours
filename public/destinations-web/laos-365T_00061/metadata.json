@@ -1,0 +1,79 @@
+{
+  "id": "365T_00061",
+  "name": "Laos",
+  "display_name": "LAOS",
+  "slug": "laos-365T_00061",
+  "detail_url": "https://365tours.in/destination-detail.php?id=365T_00061",
+  "flag_file": "LAOS_flag.png",
+  "signature_itineraries": 8,
+  "destinations_offered": [
+    "Bolavan Plateau",
+    "Champasak",
+    "Hin Boun",
+    "Luang Nam Tha",
+    "Luang Prabang",
+    "Muang La",
+    "Nong Khiaw",
+    "Pakbeng",
+    "Pakse",
+    "Sam Neau",
+    "Thakek",
+    "Vang Vieng",
+    "Vieng Xai",
+    "Vientaine"
+  ],
+  "folder": "public/destinations/laos-365T_00061",
+  "image_count": 10,
+  "images": [
+    {
+      "file": "itenary_8.jpg",
+      "path": "public/destinations/laos-365T_00061/itenary_8.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00061/itenary_8.jpg"
+    },
+    {
+      "file": "itenary_31.jpg",
+      "path": "public/destinations/laos-365T_00061/itenary_31.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00061/itenary_31.jpg"
+    },
+    {
+      "file": "itenary_28.jpg",
+      "path": "public/destinations/laos-365T_00061/itenary_28.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00061/itenary_28.jpg"
+    },
+    {
+      "file": "itenary_49.jpg",
+      "path": "public/destinations/laos-365T_00061/itenary_49.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00061/itenary_49.jpg"
+    },
+    {
+      "file": "itenary_94.jpg",
+      "path": "public/destinations/laos-365T_00061/itenary_94.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00061/itenary_94.jpg"
+    },
+    {
+      "file": "itenary_100.jpg",
+      "path": "public/destinations/laos-365T_00061/itenary_100.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00061/itenary_100.jpg"
+    },
+    {
+      "file": "itenary_82.jpg",
+      "path": "public/destinations/laos-365T_00061/itenary_82.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00061/itenary_82.jpg"
+    },
+    {
+      "file": "itenary_56.jpg",
+      "path": "public/destinations/laos-365T_00061/itenary_56.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00061/itenary_56.jpg"
+    },
+    {
+      "file": "recipebook_img.jpg",
+      "path": "public/destinations/laos-365T_00061/recipebook_img.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00061/recipebook_img.jpg"
+    },
+    {
+      "file": "LAOS_flag.png",
+      "path": "public/destinations/laos-365T_00061/LAOS_flag.png",
+      "source_url": "https://365tours.in/tour_images/365T_00061/LAOS_flag.png"
+    }
+  ]
+}

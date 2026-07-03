@@ -1,0 +1,18 @@
+# Keep the Vercel deployment lean — exclude anything not needed to run the site.
+
+# Python virtualenv (local scraping/creative tooling)
+.venv
+
+# Build-time scripts (not needed at runtime)
+scripts
+
+# Original full-size scraped images (242 MB). The site serves /public/destinations-web
+# instead; originals stay on your machine as an archive.
+public/destinations
+
+# Google Ads creatives — you upload these to Google Ads manually, they aren't served
+public/retargeting-creatives
+
+# local leads + logs
+data
+*.log

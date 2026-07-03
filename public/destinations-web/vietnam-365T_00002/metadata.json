@@ -1,0 +1,96 @@
+{
+  "id": "365T_00002",
+  "name": "Vietnam",
+  "display_name": "VIETNAM",
+  "slug": "vietnam-365T_00002",
+  "detail_url": "https://365tours.in/destination-detail.php?id=365T_00002",
+  "flag_file": "VIETNAM_flag.png",
+  "signature_itineraries": 8,
+  "destinations_offered": [
+    "Bach Ma National Park",
+    "Cat Tien National Park",
+    "Dalat",
+    "Hanoi",
+    "Ky Son",
+    "Mekong Delta",
+    "Ninh Binh",
+    "Qui Nihon",
+    "Buon MaThout",
+    "Central Highlands",
+    "Dien Bien Phu",
+    "Hoi An",
+    "Lak Lake",
+    "Mu Chang Chai",
+    "Phan Thiet",
+    "Ho Chi Minh City",
+    "Cai Be",
+    "Chau Doc",
+    "Ha Giang",
+    "Hue",
+    "Lao Cai",
+    "Mui Ne",
+    "Phong Nha Ke Bang",
+    "Sapa",
+    "Can Tho",
+    "Con Do Islands",
+    "Ha Long Bay",
+    "Kon Tum",
+    "Mai Chau",
+    "Nha Trang",
+    "Phu Quoc"
+  ],
+  "folder": "public/destinations/vietnam-365T_00002",
+  "image_count": 10,
+  "images": [
+    {
+      "file": "365T_00002_35.jpg",
+      "path": "public/destinations/vietnam-365T_00002/365T_00002_35.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00002/365T_00002_35.jpg"
+    },
+    {
+      "file": "365T_00002_50.jpg",
+      "path": "public/destinations/vietnam-365T_00002/365T_00002_50.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00002/365T_00002_50.jpg"
+    },
+    {
+      "file": "365T_00002_69.jpg",
+      "path": "public/destinations/vietnam-365T_00002/365T_00002_69.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00002/365T_00002_69.jpg"
+    },
+    {
+      "file": "365T_00002_24.jpg",
+      "path": "public/destinations/vietnam-365T_00002/365T_00002_24.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00002/365T_00002_24.jpg"
+    },
+    {
+      "file": "365T_00002_67.jpg",
+      "path": "public/destinations/vietnam-365T_00002/365T_00002_67.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00002/365T_00002_67.jpg"
+    },
+    {
+      "file": "365T_00002_30.jpg",
+      "path": "public/destinations/vietnam-365T_00002/365T_00002_30.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00002/365T_00002_30.jpg"
+    },
+    {
+      "file": "365T_00002_53.jpg",
+      "path": "public/destinations/vietnam-365T_00002/365T_00002_53.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00002/365T_00002_53.jpg"
+    },
+    {
+      "file": "365T_00002_70.jpg",
+      "path": "public/destinations/vietnam-365T_00002/365T_00002_70.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00002/365T_00002_70.jpg"
+    },
+    {
+      "file": "recipebook_img.jpg",
+      "path": "public/destinations/vietnam-365T_00002/recipebook_img.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00002/recipebook_img.jpg"
+    },
+    {
+      "file": "VIETNAM_flag.png",
+      "path": "public/destinations/vietnam-365T_00002/VIETNAM_flag.png",
+      "source_url": "https://365tours.in/tour_images/365T_00002/VIETNAM_flag.png"
+    }
+  ]
+}

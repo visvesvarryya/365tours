@@ -1,0 +1,75 @@
+{
+  "id": "365T_00064",
+  "name": "Iran",
+  "display_name": "IRAN",
+  "slug": "iran-365T_00064",
+  "detail_url": "https://365tours.in/destination-detail.php?id=365T_00064",
+  "flag_file": "IRAN_flag.png",
+  "signature_itineraries": 8,
+  "destinations_offered": [
+    "Tehran",
+    "Hamedan",
+    "Isfahan",
+    "Yazd",
+    "Kermanshah",
+    "Mashad",
+    "Qom",
+    "Shiraz",
+    "Tabriz",
+    "Caspian Sea"
+  ],
+  "folder": "public/destinations/iran-365T_00064",
+  "image_count": 10,
+  "images": [
+    {
+      "file": "itenary_73.jpg",
+      "path": "public/destinations/iran-365T_00064/itenary_73.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00064/itenary_73.jpg"
+    },
+    {
+      "file": "itenary_37.jpg",
+      "path": "public/destinations/iran-365T_00064/itenary_37.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00064/itenary_37.jpg"
+    },
+    {
+      "file": "itenary_45.jpg",
+      "path": "public/destinations/iran-365T_00064/itenary_45.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00064/itenary_45.jpg"
+    },
+    {
+      "file": "itenary_64.jpg",
+      "path": "public/destinations/iran-365T_00064/itenary_64.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00064/itenary_64.jpg"
+    },
+    {
+      "file": "itenary_13.jpg",
+      "path": "public/destinations/iran-365T_00064/itenary_13.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00064/itenary_13.jpg"
+    },
+    {
+      "file": "itenary_49.jpg",
+      "path": "public/destinations/iran-365T_00064/itenary_49.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00064/itenary_49.jpg"
+    },
+    {
+      "file": "itenary_83.jpg",
+      "path": "public/destinations/iran-365T_00064/itenary_83.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00064/itenary_83.jpg"
+    },
+    {
+      "file": "itenary_22.jpg",
+      "path": "public/destinations/iran-365T_00064/itenary_22.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00064/itenary_22.jpg"
+    },
+    {
+      "file": "recipebook_img.jpg",
+      "path": "public/destinations/iran-365T_00064/recipebook_img.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00064/recipebook_img.jpg"
+    },
+    {
+      "file": "IRAN_flag.png",
+      "path": "public/destinations/iran-365T_00064/IRAN_flag.png",
+      "source_url": "https://365tours.in/tour_images/365T_00064/IRAN_flag.png"
+    }
+  ]
+}

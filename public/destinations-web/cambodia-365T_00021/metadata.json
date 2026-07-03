@@ -1,0 +1,78 @@
+{
+  "id": "365T_00021",
+  "name": "Cambodia",
+  "display_name": "CAMBODIA",
+  "slug": "cambodia-365T_00021",
+  "detail_url": "https://365tours.in/destination-detail.php?id=365T_00021",
+  "flag_file": "CAMBODIA_flag.png",
+  "signature_itineraries": 8,
+  "destinations_offered": [
+    "Ban Lung",
+    "Banteay Chhmar",
+    "Battambang",
+    "Kampot",
+    "Kep",
+    "Koh Kong",
+    "Kratie & Chhlong",
+    "Modulkiri",
+    "Phnom Penh",
+    "Ratnakiri",
+    "Sen Monorom",
+    "Siem Reap",
+    "Sihanoukville"
+  ],
+  "folder": "public/destinations/cambodia-365T_00021",
+  "image_count": 10,
+  "images": [
+    {
+      "file": "365T_00021_81.jpg",
+      "path": "public/destinations/cambodia-365T_00021/365T_00021_81.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00021/365T_00021_81.jpg"
+    },
+    {
+      "file": "365T_00021_70.jpg",
+      "path": "public/destinations/cambodia-365T_00021/365T_00021_70.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00021/365T_00021_70.jpg"
+    },
+    {
+      "file": "365T_00021_60.jpg",
+      "path": "public/destinations/cambodia-365T_00021/365T_00021_60.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00021/365T_00021_60.jpg"
+    },
+    {
+      "file": "365T_00021_22.jpg",
+      "path": "public/destinations/cambodia-365T_00021/365T_00021_22.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00021/365T_00021_22.jpg"
+    },
+    {
+      "file": "365T_00021_51.jpg",
+      "path": "public/destinations/cambodia-365T_00021/365T_00021_51.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00021/365T_00021_51.jpg"
+    },
+    {
+      "file": "365T_00021_97.jpg",
+      "path": "public/destinations/cambodia-365T_00021/365T_00021_97.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00021/365T_00021_97.jpg"
+    },
+    {
+      "file": "365T_00021_25.jpg",
+      "path": "public/destinations/cambodia-365T_00021/365T_00021_25.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00021/365T_00021_25.jpg"
+    },
+    {
+      "file": "365T_00021_11.jpg",
+      "path": "public/destinations/cambodia-365T_00021/365T_00021_11.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00021/365T_00021_11.jpg"
+    },
+    {
+      "file": "recipebook_img.jpg",
+      "path": "public/destinations/cambodia-365T_00021/recipebook_img.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00021/recipebook_img.jpg"
+    },
+    {
+      "file": "CAMBODIA_flag.png",
+      "path": "public/destinations/cambodia-365T_00021/CAMBODIA_flag.png",
+      "source_url": "https://365tours.in/tour_images/365T_00021/CAMBODIA_flag.png"
+    }
+  ]
+}

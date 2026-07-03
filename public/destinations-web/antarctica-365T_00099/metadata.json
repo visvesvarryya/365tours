@@ -1,0 +1,64 @@
+{
+  "id": "365T_00099",
+  "name": "Antarctica",
+  "display_name": "ANTARCTICA",
+  "slug": "antarctica-365T_00099",
+  "detail_url": "https://365tours.in/destination-detail.php?id=365T_00099",
+  "flag_file": "ANTARCTICA_flag.png",
+  "signature_itineraries": 8,
+  "destinations_offered": [],
+  "folder": "public/destinations/antarctica-365T_00099",
+  "image_count": 10,
+  "images": [
+    {
+      "file": "itenary_28.jpg",
+      "path": "public/destinations/antarctica-365T_00099/itenary_28.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00099/itenary_28.jpg"
+    },
+    {
+      "file": "itenary_92.jpg",
+      "path": "public/destinations/antarctica-365T_00099/itenary_92.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00099/itenary_92.jpg"
+    },
+    {
+      "file": "itenary_73.jpg",
+      "path": "public/destinations/antarctica-365T_00099/itenary_73.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00099/itenary_73.jpg"
+    },
+    {
+      "file": "itenary_56.jpg",
+      "path": "public/destinations/antarctica-365T_00099/itenary_56.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00099/itenary_56.jpg"
+    },
+    {
+      "file": "itenary_93.jpg",
+      "path": "public/destinations/antarctica-365T_00099/itenary_93.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00099/itenary_93.jpg"
+    },
+    {
+      "file": "itenary_21.jpg",
+      "path": "public/destinations/antarctica-365T_00099/itenary_21.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00099/itenary_21.jpg"
+    },
+    {
+      "file": "itenary_88.jpg",
+      "path": "public/destinations/antarctica-365T_00099/itenary_88.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00099/itenary_88.jpg"
+    },
+    {
+      "file": "itenary_79.jpg",
+      "path": "public/destinations/antarctica-365T_00099/itenary_79.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00099/itenary_79.jpg"
+    },
+    {
+      "file": "recipebook_img.jpg",
+      "path": "public/destinations/antarctica-365T_00099/recipebook_img.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00099/recipebook_img.jpg"
+    },
+    {
+      "file": "ANTARCTICA_flag.png",
+      "path": "public/destinations/antarctica-365T_00099/ANTARCTICA_flag.png",
+      "source_url": "https://365tours.in/tour_images/365T_00099/ANTARCTICA_flag.png"
+    }
+  ]
+}

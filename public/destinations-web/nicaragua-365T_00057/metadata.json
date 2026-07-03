@@ -1,0 +1,76 @@
+{
+  "id": "365T_00057",
+  "name": "Nicaragua",
+  "display_name": "NICARAGUA",
+  "slug": "nicaragua-365T_00057",
+  "detail_url": "https://365tours.in/destination-detail.php?id=365T_00057",
+  "flag_file": "NICARAGUA_flag.png",
+  "signature_itineraries": 8,
+  "destinations_offered": [
+    "Corn Islands",
+    "El Castillo",
+    "Granada",
+    "Leon",
+    "Managua",
+    "Masaya Volcano",
+    "Matagalpa",
+    "Ometepe",
+    "Rio San Juan",
+    "San Juan Del Sur",
+    "Solentinmane Island"
+  ],
+  "folder": "public/destinations/nicaragua-365T_00057",
+  "image_count": 10,
+  "images": [
+    {
+      "file": "itenary_93.jpg",
+      "path": "public/destinations/nicaragua-365T_00057/itenary_93.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00057/itenary_93.jpg"
+    },
+    {
+      "file": "itenary_3.jpg",
+      "path": "public/destinations/nicaragua-365T_00057/itenary_3.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00057/itenary_3.jpg"
+    },
+    {
+      "file": "itenary_41.jpg",
+      "path": "public/destinations/nicaragua-365T_00057/itenary_41.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00057/itenary_41.jpg"
+    },
+    {
+      "file": "itenary_55.jpg",
+      "path": "public/destinations/nicaragua-365T_00057/itenary_55.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00057/itenary_55.jpg"
+    },
+    {
+      "file": "itenary_81.jpg",
+      "path": "public/destinations/nicaragua-365T_00057/itenary_81.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00057/itenary_81.jpg"
+    },
+    {
+      "file": "itenary_85.jpg",
+      "path": "public/destinations/nicaragua-365T_00057/itenary_85.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00057/itenary_85.jpg"
+    },
+    {
+      "file": "itenary_67.jpg",
+      "path": "public/destinations/nicaragua-365T_00057/itenary_67.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00057/itenary_67.jpg"
+    },
+    {
+      "file": "itenary_13.jpg",
+      "path": "public/destinations/nicaragua-365T_00057/itenary_13.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00057/itenary_13.jpg"
+    },
+    {
+      "file": "recipebook_img.jpg",
+      "path": "public/destinations/nicaragua-365T_00057/recipebook_img.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00057/recipebook_img.jpg"
+    },
+    {
+      "file": "NICARAGUA_flag.png",
+      "path": "public/destinations/nicaragua-365T_00057/NICARAGUA_flag.png",
+      "source_url": "https://365tours.in/tour_images/365T_00057/NICARAGUA_flag.png"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "id": "365T_00096",
+  "name": "Seychelles",
+  "display_name": "SEYCHELLES",
+  "slug": "seychelles-365T_00096",
+  "detail_url": "https://365tours.in/destination-detail.php?id=365T_00096",
+  "flag_file": "SEYCHELLES_flag.png",
+  "signature_itineraries": null,
+  "destinations_offered": [
+    "Bird Island",
+    "Cerf Island",
+    "Cousine Island",
+    "Denis Island",
+    "Fregate Island",
+    "La Digue",
+    "Mahe",
+    "Praslin"
+  ],
+  "folder": "public/destinations/seychelles-365T_00096",
+  "image_count": 9,
+  "images": [
+    {
+      "file": "itenary_79.jpg",
+      "path": "public/destinations/seychelles-365T_00096/itenary_79.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00096/itenary_79.jpg"
+    },
+    {
+      "file": "itenary_15.jpg",
+      "path": "public/destinations/seychelles-365T_00096/itenary_15.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00096/itenary_15.jpg"
+    },
+    {
+      "file": "itenary_63.jpg",
+      "path": "public/destinations/seychelles-365T_00096/itenary_63.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00096/itenary_63.jpg"
+    },
+    {
+      "file": "itenary_6.jpg",
+      "path": "public/destinations/seychelles-365T_00096/itenary_6.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00096/itenary_6.jpg"
+    },
+    {
+      "file": "itenary_68.jpg",
+      "path": "public/destinations/seychelles-365T_00096/itenary_68.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00096/itenary_68.jpg"
+    },
+    {
+      "file": "itenary_14.jpg",
+      "path": "public/destinations/seychelles-365T_00096/itenary_14.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00096/itenary_14.jpg"
+    },
+    {
+      "file": "itenary_16.jpg",
+      "path": "public/destinations/seychelles-365T_00096/itenary_16.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00096/itenary_16.jpg"
+    },
+    {
+      "file": "recipebook_img.jpg",
+      "path": "public/destinations/seychelles-365T_00096/recipebook_img.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00096/recipebook_img.jpg"
+    },
+    {
+      "file": "SEYCHELLES_flag.png",
+      "path": "public/destinations/seychelles-365T_00096/SEYCHELLES_flag.png",
+      "source_url": "https://365tours.in/tour_images/365T_00096/SEYCHELLES_flag.png"
+    }
+  ]
+}

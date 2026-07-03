@@ -1,0 +1,86 @@
+{
+  "id": "365T_00063",
+  "name": "Armenia",
+  "display_name": "ARMENIA",
+  "slug": "armenia-365T_00063",
+  "detail_url": "https://365tours.in/destination-detail.php?id=365T_00063",
+  "flag_file": "ARMENIA_flag.png",
+  "signature_itineraries": 8,
+  "destinations_offered": [
+    "Yerevan",
+    "Echmiadzin",
+    "Garni",
+    "Tsaghkazor",
+    "Aramvir",
+    "Artashat",
+    "Ashtarak",
+    "Lake Sevan Region",
+    "Dillijan",
+    "Gyumri",
+    "Vanadzor",
+    "Ijevan",
+    "Alaverdi",
+    "Noyemberyan",
+    "Stepanavan",
+    "Goris",
+    "Jemuk",
+    "Kajaran",
+    "Kapan",
+    "Meghri",
+    "Sisian"
+  ],
+  "folder": "public/destinations/armenia-365T_00063",
+  "image_count": 10,
+  "images": [
+    {
+      "file": "itenary_45.jpg",
+      "path": "public/destinations/armenia-365T_00063/itenary_45.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00063/itenary_45.jpg"
+    },
+    {
+      "file": "itenary_80.jpg",
+      "path": "public/destinations/armenia-365T_00063/itenary_80.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00063/itenary_80.jpg"
+    },
+    {
+      "file": "itenary_14.jpg",
+      "path": "public/destinations/armenia-365T_00063/itenary_14.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00063/itenary_14.jpg"
+    },
+    {
+      "file": "itenary_83.jpg",
+      "path": "public/destinations/armenia-365T_00063/itenary_83.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00063/itenary_83.jpg"
+    },
+    {
+      "file": "itenary_86.jpg",
+      "path": "public/destinations/armenia-365T_00063/itenary_86.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00063/itenary_86.jpg"
+    },
+    {
+      "file": "itenary_85.jpg",
+      "path": "public/destinations/armenia-365T_00063/itenary_85.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00063/itenary_85.jpg"
+    },
+    {
+      "file": "itenary_9.jpg",
+      "path": "public/destinations/armenia-365T_00063/itenary_9.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00063/itenary_9.jpg"
+    },
+    {
+      "file": "itenary_11.jpg",
+      "path": "public/destinations/armenia-365T_00063/itenary_11.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00063/itenary_11.jpg"
+    },
+    {
+      "file": "recipebook_img.jpg",
+      "path": "public/destinations/armenia-365T_00063/recipebook_img.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00063/recipebook_img.jpg"
+    },
+    {
+      "file": "ARMENIA_flag.png",
+      "path": "public/destinations/armenia-365T_00063/ARMENIA_flag.png",
+      "source_url": "https://365tours.in/tour_images/365T_00063/ARMENIA_flag.png"
+    }
+  ]
+}

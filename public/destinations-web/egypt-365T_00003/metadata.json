@@ -1,0 +1,83 @@
+{
+  "id": "365T_00003",
+  "name": "Egypt",
+  "display_name": "EGYPT",
+  "slug": "egypt-365T_00003",
+  "detail_url": "https://365tours.in/destination-detail.php?id=365T_00003",
+  "flag_file": "EGYPT_flag.png",
+  "signature_itineraries": 8,
+  "destinations_offered": [
+    "Abu Simbel",
+    "Alexandria",
+    "Aswan",
+    "Dahshur",
+    "Cairo",
+    "Dahab",
+    "Dakhla",
+    "Hurghada",
+    "Saqqara",
+    "Memphis",
+    "Farafra",
+    "Siwa",
+    "Kharga",
+    "Luxor",
+    "Sharm El Sheikh",
+    "Sinai",
+    "Bahariya",
+    "Nile Cruise"
+  ],
+  "folder": "public/destinations/egypt-365T_00003",
+  "image_count": 10,
+  "images": [
+    {
+      "file": "365T_00003_37.jpg",
+      "path": "public/destinations/egypt-365T_00003/365T_00003_37.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00003/365T_00003_37.jpg"
+    },
+    {
+      "file": "365T_00003_61.jpg",
+      "path": "public/destinations/egypt-365T_00003/365T_00003_61.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00003/365T_00003_61.jpg"
+    },
+    {
+      "file": "365T_00003_76.jpg",
+      "path": "public/destinations/egypt-365T_00003/365T_00003_76.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00003/365T_00003_76.jpg"
+    },
+    {
+      "file": "365T_00003_48.jpg",
+      "path": "public/destinations/egypt-365T_00003/365T_00003_48.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00003/365T_00003_48.jpg"
+    },
+    {
+      "file": "365T_00003_20.jpg",
+      "path": "public/destinations/egypt-365T_00003/365T_00003_20.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00003/365T_00003_20.jpg"
+    },
+    {
+      "file": "365T_00003_54.jpg",
+      "path": "public/destinations/egypt-365T_00003/365T_00003_54.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00003/365T_00003_54.jpg"
+    },
+    {
+      "file": "365T_00003_14.jpg",
+      "path": "public/destinations/egypt-365T_00003/365T_00003_14.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00003/365T_00003_14.jpg"
+    },
+    {
+      "file": "365T_00003_93.jpg",
+      "path": "public/destinations/egypt-365T_00003/365T_00003_93.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00003/365T_00003_93.jpg"
+    },
+    {
+      "file": "recipebook_img.jpg",
+      "path": "public/destinations/egypt-365T_00003/recipebook_img.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00003/recipebook_img.jpg"
+    },
+    {
+      "file": "EGYPT_flag.png",
+      "path": "public/destinations/egypt-365T_00003/EGYPT_flag.png",
+      "source_url": "https://365tours.in/tour_images/365T_00003/EGYPT_flag.png"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "id": "365T_00074",
+  "name": "Croatia",
+  "display_name": "CROATIA",
+  "slug": "croatia-365T_00074",
+  "detail_url": "https://365tours.in/destination-detail.php?id=365T_00074",
+  "flag_file": "CROATIA_flag.png",
+  "signature_itineraries": 8,
+  "destinations_offered": [
+    "Brac",
+    "Dalmatian Coast",
+    "Dubrovnik",
+    "Hvar",
+    "Istria",
+    "Korcula",
+    "Plitvice Lakes",
+    "Pula",
+    "Rovinj",
+    "Sibenik",
+    "Solta",
+    "Split",
+    "Trogir",
+    "Zadar",
+    "Zagreb"
+  ],
+  "folder": "public/destinations/croatia-365T_00074",
+  "image_count": 10,
+  "images": [
+    {
+      "file": "itenary_73.jpg",
+      "path": "public/destinations/croatia-365T_00074/itenary_73.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00074/itenary_73.jpg"
+    },
+    {
+      "file": "itenary_30.jpg",
+      "path": "public/destinations/croatia-365T_00074/itenary_30.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00074/itenary_30.jpg"
+    },
+    {
+      "file": "itenary_45.jpg",
+      "path": "public/destinations/croatia-365T_00074/itenary_45.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00074/itenary_45.jpg"
+    },
+    {
+      "file": "itenary_84.jpg",
+      "path": "public/destinations/croatia-365T_00074/itenary_84.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00074/itenary_84.jpg"
+    },
+    {
+      "file": "itenary_10.jpg",
+      "path": "public/destinations/croatia-365T_00074/itenary_10.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00074/itenary_10.jpg"
+    },
+    {
+      "file": "itenary_74.jpg",
+      "path": "public/destinations/croatia-365T_00074/itenary_74.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00074/itenary_74.jpg"
+    },
+    {
+      "file": "itenary_16.jpg",
+      "path": "public/destinations/croatia-365T_00074/itenary_16.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00074/itenary_16.jpg"
+    },
+    {
+      "file": "itenary_0.jpg",
+      "path": "public/destinations/croatia-365T_00074/itenary_0.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00074/itenary_0.jpg"
+    },
+    {
+      "file": "recipebook_img.jpg",
+      "path": "public/destinations/croatia-365T_00074/recipebook_img.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00074/recipebook_img.jpg"
+    },
+    {
+      "file": "CROATIA_flag.png",
+      "path": "public/destinations/croatia-365T_00074/CROATIA_flag.png",
+      "source_url": "https://365tours.in/tour_images/365T_00074/CROATIA_flag.png"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "id": "365T_00082",
+  "name": "Estonia",
+  "display_name": "ESTONIA",
+  "slug": "estonia-365T_00082",
+  "detail_url": "https://365tours.in/destination-detail.php?id=365T_00082",
+  "flag_file": "ESTONIA_flag.png",
+  "signature_itineraries": 8,
+  "destinations_offered": [
+    "Tallin",
+    "Happsalu",
+    "Kuressaare",
+    "Rakvere",
+    "Pamu",
+    "Valga",
+    "Hiiumaa",
+    "Karula NP",
+    "Lahmeema NP",
+    "Matsalu NP",
+    "Saareema",
+    "Sooma NP",
+    "Visandi NP"
+  ],
+  "folder": "public/destinations/estonia-365T_00082",
+  "image_count": 10,
+  "images": [
+    {
+      "file": "itenary_9.jpg",
+      "path": "public/destinations/estonia-365T_00082/itenary_9.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00082/itenary_9.jpg"
+    },
+    {
+      "file": "itenary_72.jpg",
+      "path": "public/destinations/estonia-365T_00082/itenary_72.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00082/itenary_72.jpg"
+    },
+    {
+      "file": "itenary_96.jpg",
+      "path": "public/destinations/estonia-365T_00082/itenary_96.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00082/itenary_96.jpg"
+    },
+    {
+      "file": "itenary_12.jpg",
+      "path": "public/destinations/estonia-365T_00082/itenary_12.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00082/itenary_12.jpg"
+    },
+    {
+      "file": "itenary_65.jpg",
+      "path": "public/destinations/estonia-365T_00082/itenary_65.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00082/itenary_65.jpg"
+    },
+    {
+      "file": "itenary_39.jpg",
+      "path": "public/destinations/estonia-365T_00082/itenary_39.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00082/itenary_39.jpg"
+    },
+    {
+      "file": "itenary_47.jpg",
+      "path": "public/destinations/estonia-365T_00082/itenary_47.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00082/itenary_47.jpg"
+    },
+    {
+      "file": "itenary_33.jpg",
+      "path": "public/destinations/estonia-365T_00082/itenary_33.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00082/itenary_33.jpg"
+    },
+    {
+      "file": "recipebook_img.jpg",
+      "path": "public/destinations/estonia-365T_00082/recipebook_img.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00082/recipebook_img.jpg"
+    },
+    {
+      "file": "ESTONIA_flag.png",
+      "path": "public/destinations/estonia-365T_00082/ESTONIA_flag.png",
+      "source_url": "https://365tours.in/tour_images/365T_00082/ESTONIA_flag.png"
+    }
+  ]
+}

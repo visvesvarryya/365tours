@@ -1,0 +1,71 @@
+{
+  "id": "365T_00040",
+  "name": "Austria",
+  "display_name": "AUSTRIA",
+  "slug": "austria-365T_00040",
+  "detail_url": "https://365tours.in/destination-detail.php?id=365T_00040",
+  "flag_file": "AUSTRIA_flag.png",
+  "signature_itineraries": 8,
+  "destinations_offered": [
+    "Fuschi",
+    "Hallstatt",
+    "Innsbruck",
+    "Saint Wolfgang",
+    "Salzburg",
+    "Vienna"
+  ],
+  "folder": "public/destinations/austria-365T_00040",
+  "image_count": 10,
+  "images": [
+    {
+      "file": "itenary_76.jpg",
+      "path": "public/destinations/austria-365T_00040/itenary_76.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00040/itenary_76.jpg"
+    },
+    {
+      "file": "itenary_2.jpg",
+      "path": "public/destinations/austria-365T_00040/itenary_2.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00040/itenary_2.jpg"
+    },
+    {
+      "file": "itenary_33.jpg",
+      "path": "public/destinations/austria-365T_00040/itenary_33.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00040/itenary_33.jpg"
+    },
+    {
+      "file": "itenary_24.jpg",
+      "path": "public/destinations/austria-365T_00040/itenary_24.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00040/itenary_24.jpg"
+    },
+    {
+      "file": "itenary_22.jpg",
+      "path": "public/destinations/austria-365T_00040/itenary_22.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00040/itenary_22.jpg"
+    },
+    {
+      "file": "itenary_89.jpg",
+      "path": "public/destinations/austria-365T_00040/itenary_89.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00040/itenary_89.jpg"
+    },
+    {
+      "file": "itenary_29.jpg",
+      "path": "public/destinations/austria-365T_00040/itenary_29.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00040/itenary_29.jpg"
+    },
+    {
+      "file": "itenary_94.jpg",
+      "path": "public/destinations/austria-365T_00040/itenary_94.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00040/itenary_94.jpg"
+    },
+    {
+      "file": "recipebook_img.jpg",
+      "path": "public/destinations/austria-365T_00040/recipebook_img.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00040/recipebook_img.jpg"
+    },
+    {
+      "file": "AUSTRIA_flag.png",
+      "path": "public/destinations/austria-365T_00040/AUSTRIA_flag.png",
+      "source_url": "https://365tours.in/tour_images/365T_00040/AUSTRIA_flag.png"
+    }
+  ]
+}

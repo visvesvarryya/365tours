@@ -1,0 +1,76 @@
+{
+  "id": "365T_00058",
+  "name": "Panama",
+  "display_name": "PANAMA",
+  "slug": "panama-365T_00058",
+  "detail_url": "https://365tours.in/destination-detail.php?id=365T_00058",
+  "flag_file": "PANAMA_flag.png",
+  "signature_itineraries": 8,
+  "destinations_offered": [
+    "Bocas Del Toro",
+    "Cala Mia",
+    "Canal Zone",
+    "Chiriqui Highlands",
+    "Cocle Province",
+    "Darien",
+    "Pacific Coast Beaches",
+    "Panama City",
+    "Pearl Islands",
+    "San Blas Islands",
+    "Tranquilo Bay"
+  ],
+  "folder": "public/destinations/panama-365T_00058",
+  "image_count": 10,
+  "images": [
+    {
+      "file": "itenary_65.jpg",
+      "path": "public/destinations/panama-365T_00058/itenary_65.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00058/itenary_65.jpg"
+    },
+    {
+      "file": "itenary_41.jpg",
+      "path": "public/destinations/panama-365T_00058/itenary_41.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00058/itenary_41.jpg"
+    },
+    {
+      "file": "itenary_88.jpg",
+      "path": "public/destinations/panama-365T_00058/itenary_88.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00058/itenary_88.jpg"
+    },
+    {
+      "file": "itenary_18.jpg",
+      "path": "public/destinations/panama-365T_00058/itenary_18.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00058/itenary_18.jpg"
+    },
+    {
+      "file": "itenary_92.jpg",
+      "path": "public/destinations/panama-365T_00058/itenary_92.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00058/itenary_92.jpg"
+    },
+    {
+      "file": "itenary_28.jpg",
+      "path": "public/destinations/panama-365T_00058/itenary_28.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00058/itenary_28.jpg"
+    },
+    {
+      "file": "itenary_50.jpg",
+      "path": "public/destinations/panama-365T_00058/itenary_50.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00058/itenary_50.jpg"
+    },
+    {
+      "file": "itenary_66.jpg",
+      "path": "public/destinations/panama-365T_00058/itenary_66.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00058/itenary_66.jpg"
+    },
+    {
+      "file": "recipebook_img.jpg",
+      "path": "public/destinations/panama-365T_00058/recipebook_img.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00058/recipebook_img.jpg"
+    },
+    {
+      "file": "PANAMA_flag.png",
+      "path": "public/destinations/panama-365T_00058/PANAMA_flag.png",
+      "source_url": "https://365tours.in/tour_images/365T_00058/PANAMA_flag.png"
+    }
+  ]
+}

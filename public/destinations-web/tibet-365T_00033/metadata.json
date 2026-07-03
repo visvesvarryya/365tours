@@ -1,0 +1,71 @@
+{
+  "id": "365T_00033",
+  "name": "Tibet",
+  "display_name": "TIBET",
+  "slug": "tibet-365T_00033",
+  "detail_url": "https://365tours.in/destination-detail.php?id=365T_00033",
+  "flag_file": "TIBET_flag.png",
+  "signature_itineraries": 8,
+  "destinations_offered": [
+    "Lhasa",
+    "Gyanste",
+    "Everest Base Camp",
+    "Shigatse",
+    "Tingri",
+    "Tsetang"
+  ],
+  "folder": "public/destinations/tibet-365T_00033",
+  "image_count": 10,
+  "images": [
+    {
+      "file": "itenary_8.jpg",
+      "path": "public/destinations/tibet-365T_00033/itenary_8.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00033/itenary_8.jpg"
+    },
+    {
+      "file": "itenary_12.jpg",
+      "path": "public/destinations/tibet-365T_00033/itenary_12.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00033/itenary_12.jpg"
+    },
+    {
+      "file": "itenary_40.jpg",
+      "path": "public/destinations/tibet-365T_00033/itenary_40.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00033/itenary_40.jpg"
+    },
+    {
+      "file": "itenary_52.jpg",
+      "path": "public/destinations/tibet-365T_00033/itenary_52.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00033/itenary_52.jpg"
+    },
+    {
+      "file": "itenary_68.jpg",
+      "path": "public/destinations/tibet-365T_00033/itenary_68.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00033/itenary_68.jpg"
+    },
+    {
+      "file": "itenary_51.jpg",
+      "path": "public/destinations/tibet-365T_00033/itenary_51.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00033/itenary_51.jpg"
+    },
+    {
+      "file": "itenary_99.jpg",
+      "path": "public/destinations/tibet-365T_00033/itenary_99.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00033/itenary_99.jpg"
+    },
+    {
+      "file": "itenary_3.jpg",
+      "path": "public/destinations/tibet-365T_00033/itenary_3.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00033/itenary_3.jpg"
+    },
+    {
+      "file": "recipebook_img.jpg",
+      "path": "public/destinations/tibet-365T_00033/recipebook_img.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00033/recipebook_img.jpg"
+    },
+    {
+      "file": "TIBET_flag.png",
+      "path": "public/destinations/tibet-365T_00033/TIBET_flag.png",
+      "source_url": "https://365tours.in/tour_images/365T_00033/TIBET_flag.png"
+    }
+  ]
+}

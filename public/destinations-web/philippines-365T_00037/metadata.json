@@ -1,0 +1,78 @@
+{
+  "id": "365T_00037",
+  "name": "Philippines",
+  "display_name": "PHILIPPINES",
+  "slug": "philippines-365T_00037",
+  "detail_url": "https://365tours.in/destination-detail.php?id=365T_00037",
+  "flag_file": "PHILIPPINES_flag.png",
+  "signature_itineraries": 8,
+  "destinations_offered": [
+    "Banaue",
+    "Batanes",
+    "Bohol",
+    "Panglao island",
+    "Boracay. Cebu",
+    "Dumaguete",
+    "El Nido",
+    "Palawan",
+    "Manila",
+    "Sagada",
+    "Siquijor",
+    "Southern Luzon",
+    "Vigan"
+  ],
+  "folder": "public/destinations/philippines-365T_00037",
+  "image_count": 10,
+  "images": [
+    {
+      "file": "itenary_64.jpg",
+      "path": "public/destinations/philippines-365T_00037/itenary_64.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00037/itenary_64.jpg"
+    },
+    {
+      "file": "itenary_84.jpg",
+      "path": "public/destinations/philippines-365T_00037/itenary_84.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00037/itenary_84.jpg"
+    },
+    {
+      "file": "itenary_1.jpg",
+      "path": "public/destinations/philippines-365T_00037/itenary_1.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00037/itenary_1.jpg"
+    },
+    {
+      "file": "itenary_99.jpg",
+      "path": "public/destinations/philippines-365T_00037/itenary_99.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00037/itenary_99.jpg"
+    },
+    {
+      "file": "itenary_10.jpg",
+      "path": "public/destinations/philippines-365T_00037/itenary_10.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00037/itenary_10.jpg"
+    },
+    {
+      "file": "itenary_74.jpg",
+      "path": "public/destinations/philippines-365T_00037/itenary_74.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00037/itenary_74.jpg"
+    },
+    {
+      "file": "itenary_62.jpg",
+      "path": "public/destinations/philippines-365T_00037/itenary_62.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00037/itenary_62.jpg"
+    },
+    {
+      "file": "itenary_90.jpg",
+      "path": "public/destinations/philippines-365T_00037/itenary_90.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00037/itenary_90.jpg"
+    },
+    {
+      "file": "recipebook_img.jpg",
+      "path": "public/destinations/philippines-365T_00037/recipebook_img.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00037/recipebook_img.jpg"
+    },
+    {
+      "file": "PHILIPPINES_flag.png",
+      "path": "public/destinations/philippines-365T_00037/PHILIPPINES_flag.png",
+      "source_url": "https://365tours.in/tour_images/365T_00037/PHILIPPINES_flag.png"
+    }
+  ]
+}

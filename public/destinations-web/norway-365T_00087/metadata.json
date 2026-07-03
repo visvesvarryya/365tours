@@ -1,0 +1,74 @@
+{
+  "id": "365T_00087",
+  "name": "Norway",
+  "display_name": "NORWAY",
+  "slug": "norway-365T_00087",
+  "detail_url": "https://365tours.in/destination-detail.php?id=365T_00087",
+  "flag_file": "NORWAY_flag.png",
+  "signature_itineraries": 8,
+  "destinations_offered": [
+    "Oslo",
+    "Alesund",
+    "Bodo",
+    "Tromso",
+    "Trondheim",
+    "Jostedalsbreen",
+    "Lofoten",
+    "Nordkaap",
+    "Sognefjorden"
+  ],
+  "folder": "public/destinations/norway-365T_00087",
+  "image_count": 10,
+  "images": [
+    {
+      "file": "itenary_41.jpg",
+      "path": "public/destinations/norway-365T_00087/itenary_41.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00087/itenary_41.jpg"
+    },
+    {
+      "file": "itenary_61.jpg",
+      "path": "public/destinations/norway-365T_00087/itenary_61.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00087/itenary_61.jpg"
+    },
+    {
+      "file": "itenary_43.jpg",
+      "path": "public/destinations/norway-365T_00087/itenary_43.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00087/itenary_43.jpg"
+    },
+    {
+      "file": "itenary_83.jpg",
+      "path": "public/destinations/norway-365T_00087/itenary_83.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00087/itenary_83.jpg"
+    },
+    {
+      "file": "itenary_84.jpg",
+      "path": "public/destinations/norway-365T_00087/itenary_84.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00087/itenary_84.jpg"
+    },
+    {
+      "file": "itenary_47.jpg",
+      "path": "public/destinations/norway-365T_00087/itenary_47.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00087/itenary_47.jpg"
+    },
+    {
+      "file": "itenary_48.jpg",
+      "path": "public/destinations/norway-365T_00087/itenary_48.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00087/itenary_48.jpg"
+    },
+    {
+      "file": "itenary_27.jpg",
+      "path": "public/destinations/norway-365T_00087/itenary_27.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00087/itenary_27.jpg"
+    },
+    {
+      "file": "recipebook_img.jpg",
+      "path": "public/destinations/norway-365T_00087/recipebook_img.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00087/recipebook_img.jpg"
+    },
+    {
+      "file": "NORWAY_flag.png",
+      "path": "public/destinations/norway-365T_00087/NORWAY_flag.png",
+      "source_url": "https://365tours.in/tour_images/365T_00087/NORWAY_flag.png"
+    }
+  ]
+}

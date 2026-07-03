@@ -1,0 +1,70 @@
+{
+  "id": "365T_00079",
+  "name": "Netherlands",
+  "display_name": "NETHERLANDS",
+  "slug": "netherlands-365T_00079",
+  "detail_url": "https://365tours.in/destination-detail.php?id=365T_00079",
+  "flag_file": "NETHERLANDS_flag.png",
+  "signature_itineraries": 8,
+  "destinations_offered": [
+    "Amsterdam",
+    "The Hague",
+    "Maastricht",
+    "Rotterdam",
+    "Utercht"
+  ],
+  "folder": "public/destinations/netherlands-365T_00079",
+  "image_count": 10,
+  "images": [
+    {
+      "file": "itenary_50.jpg",
+      "path": "public/destinations/netherlands-365T_00079/itenary_50.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00079/itenary_50.jpg"
+    },
+    {
+      "file": "itenary_61.jpg",
+      "path": "public/destinations/netherlands-365T_00079/itenary_61.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00079/itenary_61.jpg"
+    },
+    {
+      "file": "itenary_20.jpg",
+      "path": "public/destinations/netherlands-365T_00079/itenary_20.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00079/itenary_20.jpg"
+    },
+    {
+      "file": "itenary_96.jpg",
+      "path": "public/destinations/netherlands-365T_00079/itenary_96.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00079/itenary_96.jpg"
+    },
+    {
+      "file": "itenary_78.jpg",
+      "path": "public/destinations/netherlands-365T_00079/itenary_78.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00079/itenary_78.jpg"
+    },
+    {
+      "file": "itenary_43.jpg",
+      "path": "public/destinations/netherlands-365T_00079/itenary_43.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00079/itenary_43.jpg"
+    },
+    {
+      "file": "itenary_37.jpg",
+      "path": "public/destinations/netherlands-365T_00079/itenary_37.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00079/itenary_37.jpg"
+    },
+    {
+      "file": "itenary_23.jpg",
+      "path": "public/destinations/netherlands-365T_00079/itenary_23.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00079/itenary_23.jpg"
+    },
+    {
+      "file": "recipebook_img.jpg",
+      "path": "public/destinations/netherlands-365T_00079/recipebook_img.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00079/recipebook_img.jpg"
+    },
+    {
+      "file": "NETHERLANDS_flag.png",
+      "path": "public/destinations/netherlands-365T_00079/NETHERLANDS_flag.png",
+      "source_url": "https://365tours.in/tour_images/365T_00079/NETHERLANDS_flag.png"
+    }
+  ]
+}

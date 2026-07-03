@@ -1,0 +1,90 @@
+{
+  "id": "365T_00070",
+  "name": "Italy",
+  "display_name": "ITALY",
+  "slug": "italy-365T_00070",
+  "detail_url": "https://365tours.in/destination-detail.php?id=365T_00070",
+  "flag_file": "ITALY_flag.png",
+  "signature_itineraries": 8,
+  "destinations_offered": [
+    "Rome",
+    "Vatican",
+    "Florence",
+    "Venice",
+    "Milan",
+    "Pisa",
+    "Sicily",
+    "Piedmont",
+    "Puglia",
+    "Amalfi Coast",
+    "Como",
+    "Genoa",
+    "Herculaneum",
+    "Ischia",
+    "Lake Maggiore",
+    "Matera",
+    "Naples",
+    "Umbria",
+    "Parma",
+    "Pompeii",
+    "Porto Venere",
+    "Torno",
+    "Turin",
+    "Verbania",
+    "Verona"
+  ],
+  "folder": "public/destinations/italy-365T_00070",
+  "image_count": 10,
+  "images": [
+    {
+      "file": "itenary_10.jpg",
+      "path": "public/destinations/italy-365T_00070/itenary_10.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00070/itenary_10.jpg"
+    },
+    {
+      "file": "itenary_60.jpg",
+      "path": "public/destinations/italy-365T_00070/itenary_60.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00070/itenary_60.jpg"
+    },
+    {
+      "file": "itenary_34.jpg",
+      "path": "public/destinations/italy-365T_00070/itenary_34.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00070/itenary_34.jpg"
+    },
+    {
+      "file": "itenary_75.jpg",
+      "path": "public/destinations/italy-365T_00070/itenary_75.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00070/itenary_75.jpg"
+    },
+    {
+      "file": "itenary_41.jpg",
+      "path": "public/destinations/italy-365T_00070/itenary_41.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00070/itenary_41.jpg"
+    },
+    {
+      "file": "itenary_97.jpg",
+      "path": "public/destinations/italy-365T_00070/itenary_97.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00070/itenary_97.jpg"
+    },
+    {
+      "file": "itenary_30.jpg",
+      "path": "public/destinations/italy-365T_00070/itenary_30.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00070/itenary_30.jpg"
+    },
+    {
+      "file": "itenary_83.jpg",
+      "path": "public/destinations/italy-365T_00070/itenary_83.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00070/itenary_83.jpg"
+    },
+    {
+      "file": "recipebook_img.jpg",
+      "path": "public/destinations/italy-365T_00070/recipebook_img.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00070/recipebook_img.jpg"
+    },
+    {
+      "file": "ITALY_flag.png",
+      "path": "public/destinations/italy-365T_00070/ITALY_flag.png",
+      "source_url": "https://365tours.in/tour_images/365T_00070/ITALY_flag.png"
+    }
+  ]
+}

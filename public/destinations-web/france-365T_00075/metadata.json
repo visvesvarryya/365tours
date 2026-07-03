@@ -1,0 +1,75 @@
+{
+  "id": "365T_00075",
+  "name": "France",
+  "display_name": "FRANCE",
+  "slug": "france-365T_00075",
+  "detail_url": "https://365tours.in/destination-detail.php?id=365T_00075",
+  "flag_file": "FRANCE_flag.png",
+  "signature_itineraries": 8,
+  "destinations_offered": [
+    "Paris",
+    "Provence Region",
+    "Loire Valley",
+    "French Riviera",
+    "Normandy",
+    "Dordogne",
+    "Rhone-Alpes",
+    "Lyon",
+    "Nice",
+    "St Tropez"
+  ],
+  "folder": "public/destinations/france-365T_00075",
+  "image_count": 10,
+  "images": [
+    {
+      "file": "itenary_24.jpg",
+      "path": "public/destinations/france-365T_00075/itenary_24.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00075/itenary_24.jpg"
+    },
+    {
+      "file": "itenary_16.jpg",
+      "path": "public/destinations/france-365T_00075/itenary_16.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00075/itenary_16.jpg"
+    },
+    {
+      "file": "itenary_7.jpg",
+      "path": "public/destinations/france-365T_00075/itenary_7.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00075/itenary_7.jpg"
+    },
+    {
+      "file": "itenary_26.jpg",
+      "path": "public/destinations/france-365T_00075/itenary_26.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00075/itenary_26.jpg"
+    },
+    {
+      "file": "itenary_83.jpg",
+      "path": "public/destinations/france-365T_00075/itenary_83.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00075/itenary_83.jpg"
+    },
+    {
+      "file": "itenary_20.jpg",
+      "path": "public/destinations/france-365T_00075/itenary_20.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00075/itenary_20.jpg"
+    },
+    {
+      "file": "itenary_76.jpg",
+      "path": "public/destinations/france-365T_00075/itenary_76.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00075/itenary_76.jpg"
+    },
+    {
+      "file": "itenary_53.jpg",
+      "path": "public/destinations/france-365T_00075/itenary_53.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00075/itenary_53.jpg"
+    },
+    {
+      "file": "recipebook_img.jpg",
+      "path": "public/destinations/france-365T_00075/recipebook_img.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00075/recipebook_img.jpg"
+    },
+    {
+      "file": "FRANCE_flag.png",
+      "path": "public/destinations/france-365T_00075/FRANCE_flag.png",
+      "source_url": "https://365tours.in/tour_images/365T_00075/FRANCE_flag.png"
+    }
+  ]
+}

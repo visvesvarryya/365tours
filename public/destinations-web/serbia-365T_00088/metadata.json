@@ -1,0 +1,76 @@
+{
+  "id": "365T_00088",
+  "name": "Serbia",
+  "display_name": "SERBIA",
+  "slug": "serbia-365T_00088",
+  "detail_url": "https://365tours.in/destination-detail.php?id=365T_00088",
+  "flag_file": "SERBIA_flag.png",
+  "signature_itineraries": 8,
+  "destinations_offered": [
+    "Belgrade",
+    "Novi Sad",
+    "Kragujevac",
+    "Kraljevo",
+    "Nis",
+    "Subotica",
+    "Vrsac",
+    "Sremska Mitrovica",
+    "Pozarevac",
+    "Sombor",
+    "Zrenjanin",
+    "Smederevo",
+    "Pancevo",
+    "Leskovac",
+    "Vranje",
+    "Zlatibor"
+  ],
+  "folder": "public/destinations/serbia-365T_00088",
+  "image_count": 9,
+  "images": [
+    {
+      "file": "itenary_80.jpg",
+      "path": "public/destinations/serbia-365T_00088/itenary_80.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00088/itenary_80.jpg"
+    },
+    {
+      "file": "itenary_89.jpg",
+      "path": "public/destinations/serbia-365T_00088/itenary_89.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00088/itenary_89.jpg"
+    },
+    {
+      "file": "itenary_67.jpg",
+      "path": "public/destinations/serbia-365T_00088/itenary_67.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00088/itenary_67.jpg"
+    },
+    {
+      "file": "itenary_82.jpg",
+      "path": "public/destinations/serbia-365T_00088/itenary_82.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00088/itenary_82.jpg"
+    },
+    {
+      "file": "itenary_73.jpg",
+      "path": "public/destinations/serbia-365T_00088/itenary_73.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00088/itenary_73.jpg"
+    },
+    {
+      "file": "itenary_91.jpg",
+      "path": "public/destinations/serbia-365T_00088/itenary_91.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00088/itenary_91.jpg"
+    },
+    {
+      "file": "itenary_85.jpg",
+      "path": "public/destinations/serbia-365T_00088/itenary_85.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00088/itenary_85.jpg"
+    },
+    {
+      "file": "recipebook_img.jpg",
+      "path": "public/destinations/serbia-365T_00088/recipebook_img.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00088/recipebook_img.jpg"
+    },
+    {
+      "file": "SERBIA_flag.png",
+      "path": "public/destinations/serbia-365T_00088/SERBIA_flag.png",
+      "source_url": "https://365tours.in/tour_images/365T_00088/SERBIA_flag.png"
+    }
+  ]
+}

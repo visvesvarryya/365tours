@@ -1,0 +1,81 @@
+{
+  "id": "365T_00056",
+  "name": "Costa rica",
+  "display_name": "COSTA RICA",
+  "slug": "costa-rica-365T_00056",
+  "detail_url": "https://365tours.in/destination-detail.php?id=365T_00056",
+  "flag_file": "COSTA_RICA_flag.png",
+  "signature_itineraries": 8,
+  "destinations_offered": [
+    "Arenal Volcano",
+    "Can Negro",
+    "Corcovado & Osa Peninsula",
+    "Dominical",
+    "Esterillos",
+    "Golfo de Papagayo",
+    "Manuel Antonio",
+    "Manzanillo",
+    "Monteverde Cloud Forest",
+    "Playa Potrero",
+    "Puerto Viejo de Sarapiqui",
+    "Puerto Viejo de Talamanca",
+    "Punta Islita",
+    "Rincon de le Vieja",
+    "San Gerardo de Dota",
+    "San Ramon",
+    "San Jose",
+    "Tamarindo",
+    "Tenorio Volcano",
+    "Tortuguero",
+    "Turrialba"
+  ],
+  "folder": "public/destinations/costa-rica-365T_00056",
+  "image_count": 9,
+  "images": [
+    {
+      "file": "itenary_3.jpg",
+      "path": "public/destinations/costa-rica-365T_00056/itenary_3.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00056/itenary_3.jpg"
+    },
+    {
+      "file": "itenary_26.jpg",
+      "path": "public/destinations/costa-rica-365T_00056/itenary_26.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00056/itenary_26.jpg"
+    },
+    {
+      "file": "itenary_23.jpg",
+      "path": "public/destinations/costa-rica-365T_00056/itenary_23.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00056/itenary_23.jpg"
+    },
+    {
+      "file": "itenary_48.jpg",
+      "path": "public/destinations/costa-rica-365T_00056/itenary_48.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00056/itenary_48.jpg"
+    },
+    {
+      "file": "itenary_90.jpg",
+      "path": "public/destinations/costa-rica-365T_00056/itenary_90.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00056/itenary_90.jpg"
+    },
+    {
+      "file": "itenary_5.jpg",
+      "path": "public/destinations/costa-rica-365T_00056/itenary_5.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00056/itenary_5.jpg"
+    },
+    {
+      "file": "itenary_67.jpg",
+      "path": "public/destinations/costa-rica-365T_00056/itenary_67.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00056/itenary_67.jpg"
+    },
+    {
+      "file": "recipebook_img.jpg",
+      "path": "public/destinations/costa-rica-365T_00056/recipebook_img.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00056/recipebook_img.jpg"
+    },
+    {
+      "file": "COSTA_RICA_flag.png",
+      "path": "public/destinations/costa-rica-365T_00056/COSTA_RICA_flag.png",
+      "source_url": "https://365tours.in/tour_images/365T_00056/COSTA RICA_flag.png"
+    }
+  ]
+}

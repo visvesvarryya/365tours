@@ -1,0 +1,80 @@
+{
+  "id": "365T_00022",
+  "name": "Peru",
+  "display_name": "PERU",
+  "slug": "peru-365T_00022",
+  "detail_url": "https://365tours.in/destination-detail.php?id=365T_00022",
+  "flag_file": "PERU_flag.png",
+  "signature_itineraries": 8,
+  "destinations_offered": [
+    "Arequipa",
+    "Cajamarca",
+    "Chachapoyas",
+    "Chiclayo",
+    "Colca Canyon",
+    "Cuzco",
+    "Iquitos",
+    "Lake Titicaca",
+    "Lima",
+    "Machu Picchu",
+    "Parcas",
+    "Puno",
+    "Sacred Valley",
+    "Southern Amazon",
+    "Trujillo"
+  ],
+  "folder": "public/destinations/peru-365T_00022",
+  "image_count": 10,
+  "images": [
+    {
+      "file": "365T_00022_7.jpg",
+      "path": "public/destinations/peru-365T_00022/365T_00022_7.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00022/365T_00022_7.jpg"
+    },
+    {
+      "file": "365T_00022_13.jpg",
+      "path": "public/destinations/peru-365T_00022/365T_00022_13.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00022/365T_00022_13.jpg"
+    },
+    {
+      "file": "365T_00022_42.jpg",
+      "path": "public/destinations/peru-365T_00022/365T_00022_42.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00022/365T_00022_42.jpg"
+    },
+    {
+      "file": "365T_00022_30.jpg",
+      "path": "public/destinations/peru-365T_00022/365T_00022_30.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00022/365T_00022_30.jpg"
+    },
+    {
+      "file": "365T_00022_9.jpg",
+      "path": "public/destinations/peru-365T_00022/365T_00022_9.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00022/365T_00022_9.jpg"
+    },
+    {
+      "file": "365T_00022_75.jpg",
+      "path": "public/destinations/peru-365T_00022/365T_00022_75.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00022/365T_00022_75.jpg"
+    },
+    {
+      "file": "365T_00022_93.jpg",
+      "path": "public/destinations/peru-365T_00022/365T_00022_93.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00022/365T_00022_93.jpg"
+    },
+    {
+      "file": "365T_00022_27.jpg",
+      "path": "public/destinations/peru-365T_00022/365T_00022_27.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00022/365T_00022_27.jpg"
+    },
+    {
+      "file": "recipebook_img.jpg",
+      "path": "public/destinations/peru-365T_00022/recipebook_img.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00022/recipebook_img.jpg"
+    },
+    {
+      "file": "PERU_flag.png",
+      "path": "public/destinations/peru-365T_00022/PERU_flag.png",
+      "source_url": "https://365tours.in/tour_images/365T_00022/PERU_flag.png"
+    }
+  ]
+}

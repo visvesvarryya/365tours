@@ -1,0 +1,75 @@
+{
+  "id": "365T_00017",
+  "name": "Uzbekistan",
+  "display_name": "UZBEKISTAN",
+  "slug": "uzbekistan-365T_00017",
+  "detail_url": "https://365tours.in/destination-detail.php?id=365T_00017",
+  "flag_file": "UZBEKISTAN_flag.png",
+  "signature_itineraries": 8,
+  "destinations_offered": [
+    "Tashkent",
+    "Fergana",
+    "Andijan",
+    "Bukhara",
+    "Khiva",
+    "Namangan",
+    "Nukus",
+    "Samarkand",
+    "Shakhrisabz",
+    "Termez"
+  ],
+  "folder": "public/destinations/uzbekistan-365T_00017",
+  "image_count": 10,
+  "images": [
+    {
+      "file": "365T_00017_1.jpg",
+      "path": "public/destinations/uzbekistan-365T_00017/365T_00017_1.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00017/365T_00017_1.jpg"
+    },
+    {
+      "file": "365T_00017_2.jpg",
+      "path": "public/destinations/uzbekistan-365T_00017/365T_00017_2.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00017/365T_00017_2.jpg"
+    },
+    {
+      "file": "365T_00017_58.jpg",
+      "path": "public/destinations/uzbekistan-365T_00017/365T_00017_58.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00017/365T_00017_58.jpg"
+    },
+    {
+      "file": "365T_00017_40.jpg",
+      "path": "public/destinations/uzbekistan-365T_00017/365T_00017_40.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00017/365T_00017_40.jpg"
+    },
+    {
+      "file": "365T_00017_47.jpg",
+      "path": "public/destinations/uzbekistan-365T_00017/365T_00017_47.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00017/365T_00017_47.jpg"
+    },
+    {
+      "file": "365T_00017_21.jpg",
+      "path": "public/destinations/uzbekistan-365T_00017/365T_00017_21.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00017/365T_00017_21.jpg"
+    },
+    {
+      "file": "365T_00017_78.jpg",
+      "path": "public/destinations/uzbekistan-365T_00017/365T_00017_78.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00017/365T_00017_78.jpg"
+    },
+    {
+      "file": "365T_00017_68.jpg",
+      "path": "public/destinations/uzbekistan-365T_00017/365T_00017_68.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00017/365T_00017_68.jpg"
+    },
+    {
+      "file": "recipebook_img.jpg",
+      "path": "public/destinations/uzbekistan-365T_00017/recipebook_img.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00017/recipebook_img.jpg"
+    },
+    {
+      "file": "UZBEKISTAN_flag.png",
+      "path": "public/destinations/uzbekistan-365T_00017/UZBEKISTAN_flag.png",
+      "source_url": "https://365tours.in/tour_images/365T_00017/UZBEKISTAN_flag.png"
+    }
+  ]
+}

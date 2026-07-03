@@ -1,0 +1,80 @@
+{
+  "id": "365T_00077",
+  "name": "Germany",
+  "display_name": "GERMANY",
+  "slug": "germany-365T_00077",
+  "detail_url": "https://365tours.in/destination-detail.php?id=365T_00077",
+  "flag_file": "GERMANY_flag.png",
+  "signature_itineraries": 8,
+  "destinations_offered": [
+    "Berlina",
+    "Bavaria Region",
+    "Black Forest",
+    "Cologne",
+    "Dresden",
+    "Frankfurt",
+    "Hamburg",
+    "Heidelberg",
+    "Rhine Valley",
+    "Munich",
+    "Neuschwanstein",
+    "Nuremberg",
+    "Rothernberg",
+    "Sylt",
+    "Titisee"
+  ],
+  "folder": "public/destinations/germany-365T_00077",
+  "image_count": 10,
+  "images": [
+    {
+      "file": "itenary_79.jpg",
+      "path": "public/destinations/germany-365T_00077/itenary_79.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00077/itenary_79.jpg"
+    },
+    {
+      "file": "itenary_61.jpg",
+      "path": "public/destinations/germany-365T_00077/itenary_61.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00077/itenary_61.jpg"
+    },
+    {
+      "file": "itenary_74.jpg",
+      "path": "public/destinations/germany-365T_00077/itenary_74.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00077/itenary_74.jpg"
+    },
+    {
+      "file": "itenary_55.jpg",
+      "path": "public/destinations/germany-365T_00077/itenary_55.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00077/itenary_55.jpg"
+    },
+    {
+      "file": "itenary_49.jpg",
+      "path": "public/destinations/germany-365T_00077/itenary_49.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00077/itenary_49.jpg"
+    },
+    {
+      "file": "itenary_91.jpg",
+      "path": "public/destinations/germany-365T_00077/itenary_91.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00077/itenary_91.jpg"
+    },
+    {
+      "file": "itenary_84.jpg",
+      "path": "public/destinations/germany-365T_00077/itenary_84.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00077/itenary_84.jpg"
+    },
+    {
+      "file": "itenary_73.jpg",
+      "path": "public/destinations/germany-365T_00077/itenary_73.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00077/itenary_73.jpg"
+    },
+    {
+      "file": "recipebook_img.jpg",
+      "path": "public/destinations/germany-365T_00077/recipebook_img.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00077/recipebook_img.jpg"
+    },
+    {
+      "file": "GERMANY_flag.png",
+      "path": "public/destinations/germany-365T_00077/GERMANY_flag.png",
+      "source_url": "https://365tours.in/tour_images/365T_00077/GERMANY_flag.png"
+    }
+  ]
+}

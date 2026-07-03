@@ -1,0 +1,80 @@
+{
+  "id": "365T_00073",
+  "name": "Iceland",
+  "display_name": "ICELAND",
+  "slug": "iceland-365T_00073",
+  "detail_url": "https://365tours.in/destination-detail.php?id=365T_00073",
+  "flag_file": "ICELAND_flag.png",
+  "signature_itineraries": 8,
+  "destinations_offered": [
+    "Akureyri",
+    "Blue Lagoon",
+    "Dettifoss",
+    "Eastfjords",
+    "Flatey",
+    "Golden Circle",
+    "Jokulsarion",
+    "Lake Myvatn",
+    "North Iceland",
+    "Reykjavik",
+    "Snaefellsnes Peninsula",
+    "Troll Peninsula",
+    "South Iceland",
+    "West Iceland",
+    "Vatnajokull National Park"
+  ],
+  "folder": "public/destinations/iceland-365T_00073",
+  "image_count": 10,
+  "images": [
+    {
+      "file": "itenary_36.jpg",
+      "path": "public/destinations/iceland-365T_00073/itenary_36.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00073/itenary_36.jpg"
+    },
+    {
+      "file": "itenary_96.jpg",
+      "path": "public/destinations/iceland-365T_00073/itenary_96.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00073/itenary_96.jpg"
+    },
+    {
+      "file": "itenary_60.jpg",
+      "path": "public/destinations/iceland-365T_00073/itenary_60.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00073/itenary_60.jpg"
+    },
+    {
+      "file": "itenary_11.jpg",
+      "path": "public/destinations/iceland-365T_00073/itenary_11.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00073/itenary_11.jpg"
+    },
+    {
+      "file": "itenary_81.jpg",
+      "path": "public/destinations/iceland-365T_00073/itenary_81.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00073/itenary_81.jpg"
+    },
+    {
+      "file": "itenary_1.jpg",
+      "path": "public/destinations/iceland-365T_00073/itenary_1.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00073/itenary_1.jpg"
+    },
+    {
+      "file": "itenary_54.jpg",
+      "path": "public/destinations/iceland-365T_00073/itenary_54.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00073/itenary_54.jpg"
+    },
+    {
+      "file": "itenary_71.jpg",
+      "path": "public/destinations/iceland-365T_00073/itenary_71.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00073/itenary_71.jpg"
+    },
+    {
+      "file": "recipebook_img.jpg",
+      "path": "public/destinations/iceland-365T_00073/recipebook_img.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00073/recipebook_img.jpg"
+    },
+    {
+      "file": "ICELAND_flag.png",
+      "path": "public/destinations/iceland-365T_00073/ICELAND_flag.png",
+      "source_url": "https://365tours.in/tour_images/365T_00073/ICELAND_flag.png"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "id": "365T_00011",
+  "name": "Turkey",
+  "display_name": "TURKEY",
+  "slug": "turkey-365T_00011",
+  "detail_url": "https://365tours.in/destination-detail.php?id=365T_00011",
+  "flag_file": "TURKEY_flag.png",
+  "signature_itineraries": 8,
+  "destinations_offered": [
+    "Alcati",
+    "Ankara",
+    "Antalya",
+    "Bodrum",
+    "Canakkale",
+    "Cappadocia",
+    "Cirali",
+    "Ephesus",
+    "Istanbul",
+    "Izmir",
+    "Kalkan",
+    "Kas",
+    "Konya",
+    "Kusadasi",
+    "Nemrut",
+    "Pamakule",
+    "Sirince"
+  ],
+  "folder": "public/destinations/turkey-365T_00011",
+  "image_count": 10,
+  "images": [
+    {
+      "file": "365T_00011_62.jpg",
+      "path": "public/destinations/turkey-365T_00011/365T_00011_62.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00011/365T_00011_62.jpg"
+    },
+    {
+      "file": "365T_00011_74.jpg",
+      "path": "public/destinations/turkey-365T_00011/365T_00011_74.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00011/365T_00011_74.jpg"
+    },
+    {
+      "file": "365T_00011_78.jpg",
+      "path": "public/destinations/turkey-365T_00011/365T_00011_78.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00011/365T_00011_78.jpg"
+    },
+    {
+      "file": "365T_00011_98.jpg",
+      "path": "public/destinations/turkey-365T_00011/365T_00011_98.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00011/365T_00011_98.jpg"
+    },
+    {
+      "file": "365T_00011_14.jpg",
+      "path": "public/destinations/turkey-365T_00011/365T_00011_14.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00011/365T_00011_14.jpg"
+    },
+    {
+      "file": "365T_00011_2.jpg",
+      "path": "public/destinations/turkey-365T_00011/365T_00011_2.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00011/365T_00011_2.jpg"
+    },
+    {
+      "file": "365T_00011_51.jpg",
+      "path": "public/destinations/turkey-365T_00011/365T_00011_51.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00011/365T_00011_51.jpg"
+    },
+    {
+      "file": "365T_00011_22.jpg",
+      "path": "public/destinations/turkey-365T_00011/365T_00011_22.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00011/365T_00011_22.jpg"
+    },
+    {
+      "file": "recipebook_img.jpg",
+      "path": "public/destinations/turkey-365T_00011/recipebook_img.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00011/recipebook_img.jpg"
+    },
+    {
+      "file": "TURKEY_flag.png",
+      "path": "public/destinations/turkey-365T_00011/TURKEY_flag.png",
+      "source_url": "https://365tours.in/tour_images/365T_00011/TURKEY_flag.png"
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "id": "365T_00005",
+  "name": "Myanmar",
+  "display_name": "MYANMAR",
+  "slug": "myanmar-365T_00005",
+  "detail_url": "https://365tours.in/destination-detail.php?id=365T_00005",
+  "flag_file": "MYANMAR_flag.png",
+  "signature_itineraries": 8,
+  "destinations_offered": [
+    "Bagan",
+    "Bhamo",
+    "Golden Rock",
+    "Hpa An",
+    "Hsipaw",
+    "Lake Inle",
+    "Kalaw",
+    "Kanpetlet",
+    "Kyaingtong",
+    "Lashio",
+    "Loikaw",
+    "Mandalay",
+    "Mawlamyine",
+    "Mindat",
+    "Monywa",
+    "Mt Popa",
+    "Mrauk U",
+    "Myeik",
+    "Ngapali",
+    "Ngwe Saung",
+    "Pindaya",
+    "Putao",
+    "Yangon"
+  ],
+  "folder": "public/destinations/myanmar-365T_00005",
+  "image_count": 10,
+  "images": [
+    {
+      "file": "365T_00005_48.jpg",
+      "path": "public/destinations/myanmar-365T_00005/365T_00005_48.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00005/365T_00005_48.jpg"
+    },
+    {
+      "file": "365T_00005_66.jpg",
+      "path": "public/destinations/myanmar-365T_00005/365T_00005_66.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00005/365T_00005_66.jpg"
+    },
+    {
+      "file": "365T_00005_25.jpg",
+      "path": "public/destinations/myanmar-365T_00005/365T_00005_25.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00005/365T_00005_25.jpg"
+    },
+    {
+      "file": "365T_00005_63.jpg",
+      "path": "public/destinations/myanmar-365T_00005/365T_00005_63.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00005/365T_00005_63.jpg"
+    },
+    {
+      "file": "365T_00005_43.jpg",
+      "path": "public/destinations/myanmar-365T_00005/365T_00005_43.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00005/365T_00005_43.jpg"
+    },
+    {
+      "file": "365T_00005_41.jpg",
+      "path": "public/destinations/myanmar-365T_00005/365T_00005_41.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00005/365T_00005_41.jpg"
+    },
+    {
+      "file": "365T_00005_76.jpg",
+      "path": "public/destinations/myanmar-365T_00005/365T_00005_76.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00005/365T_00005_76.jpg"
+    },
+    {
+      "file": "365T_00005_9.jpg",
+      "path": "public/destinations/myanmar-365T_00005/365T_00005_9.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00005/365T_00005_9.jpg"
+    },
+    {
+      "file": "recipebook_img.jpg",
+      "path": "public/destinations/myanmar-365T_00005/recipebook_img.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00005/recipebook_img.jpg"
+    },
+    {
+      "file": "MYANMAR_flag.png",
+      "path": "public/destinations/myanmar-365T_00005/MYANMAR_flag.png",
+      "source_url": "https://365tours.in/tour_images/365T_00005/MYANMAR_flag.png"
+    }
+  ]
+}

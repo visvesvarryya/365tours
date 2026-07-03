@@ -1,0 +1,75 @@
+{
+  "id": "365T_00081",
+  "name": "Lithuania",
+  "display_name": "LITHUANIA",
+  "slug": "lithuania-365T_00081",
+  "detail_url": "https://365tours.in/destination-detail.php?id=365T_00081",
+  "flag_file": "LITHUANIA_flag.png",
+  "signature_itineraries": 8,
+  "destinations_offered": [
+    "Vilnius",
+    "Kupiskis",
+    "Trakai",
+    "Telsiai",
+    "Siauilai",
+    "Penevezys",
+    "Palanga",
+    "Klaipeda",
+    "Kaunas",
+    "Alytus"
+  ],
+  "folder": "public/destinations/lithuania-365T_00081",
+  "image_count": 10,
+  "images": [
+    {
+      "file": "itenary_23.jpg",
+      "path": "public/destinations/lithuania-365T_00081/itenary_23.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00081/itenary_23.jpg"
+    },
+    {
+      "file": "itenary_99.jpg",
+      "path": "public/destinations/lithuania-365T_00081/itenary_99.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00081/itenary_99.jpg"
+    },
+    {
+      "file": "itenary_40.jpg",
+      "path": "public/destinations/lithuania-365T_00081/itenary_40.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00081/itenary_40.jpg"
+    },
+    {
+      "file": "itenary_15.jpg",
+      "path": "public/destinations/lithuania-365T_00081/itenary_15.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00081/itenary_15.jpg"
+    },
+    {
+      "file": "365T_00081_26.jpg",
+      "path": "public/destinations/lithuania-365T_00081/365T_00081_26.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00081/365T_00081_26.jpg"
+    },
+    {
+      "file": "itenary_69.jpg",
+      "path": "public/destinations/lithuania-365T_00081/itenary_69.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00081/itenary_69.jpg"
+    },
+    {
+      "file": "itenary_24.jpg",
+      "path": "public/destinations/lithuania-365T_00081/itenary_24.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00081/itenary_24.jpg"
+    },
+    {
+      "file": "itenary_58.jpg",
+      "path": "public/destinations/lithuania-365T_00081/itenary_58.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00081/itenary_58.jpg"
+    },
+    {
+      "file": "recipebook_img.jpg",
+      "path": "public/destinations/lithuania-365T_00081/recipebook_img.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00081/recipebook_img.jpg"
+    },
+    {
+      "file": "LITHUANIA_flag.png",
+      "path": "public/destinations/lithuania-365T_00081/LITHUANIA_flag.png",
+      "source_url": "https://365tours.in/tour_images/365T_00081/LITHUANIA_flag.png"
+    }
+  ]
+}

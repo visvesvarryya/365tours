@@ -1,0 +1,75 @@
+{
+  "id": "365T_00014",
+  "name": "Thailand",
+  "display_name": "THAILAND",
+  "slug": "thailand-365T_00014",
+  "detail_url": "https://365tours.in/destination-detail.php?id=365T_00014",
+  "flag_file": "THAILAND_flag.png",
+  "signature_itineraries": 8,
+  "destinations_offered": [
+    "Bangkok",
+    "Ayutthaya",
+    "Chiang Mai",
+    "Chiang Rai",
+    "Pattaya",
+    "Kanchanaburi",
+    "Ko Samui",
+    "Khao Sok",
+    "Krabi",
+    "Phuket"
+  ],
+  "folder": "public/destinations/thailand-365T_00014",
+  "image_count": 10,
+  "images": [
+    {
+      "file": "365T_00014_40.jpg",
+      "path": "public/destinations/thailand-365T_00014/365T_00014_40.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00014/365T_00014_40.jpg"
+    },
+    {
+      "file": "365T_00014_100.jpg",
+      "path": "public/destinations/thailand-365T_00014/365T_00014_100.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00014/365T_00014_100.jpg"
+    },
+    {
+      "file": "365T_00014_70.jpg",
+      "path": "public/destinations/thailand-365T_00014/365T_00014_70.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00014/365T_00014_70.jpg"
+    },
+    {
+      "file": "365T_00014_92.jpg",
+      "path": "public/destinations/thailand-365T_00014/365T_00014_92.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00014/365T_00014_92.jpg"
+    },
+    {
+      "file": "365T_00014_48.jpg",
+      "path": "public/destinations/thailand-365T_00014/365T_00014_48.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00014/365T_00014_48.jpg"
+    },
+    {
+      "file": "365T_00014_34.jpg",
+      "path": "public/destinations/thailand-365T_00014/365T_00014_34.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00014/365T_00014_34.jpg"
+    },
+    {
+      "file": "365T_00014_44.jpg",
+      "path": "public/destinations/thailand-365T_00014/365T_00014_44.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00014/365T_00014_44.jpg"
+    },
+    {
+      "file": "365T_00014_33.jpg",
+      "path": "public/destinations/thailand-365T_00014/365T_00014_33.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00014/365T_00014_33.jpg"
+    },
+    {
+      "file": "recipebook_img.jpg",
+      "path": "public/destinations/thailand-365T_00014/recipebook_img.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00014/recipebook_img.jpg"
+    },
+    {
+      "file": "THAILAND_flag.png",
+      "path": "public/destinations/thailand-365T_00014/THAILAND_flag.png",
+      "source_url": "https://365tours.in/tour_images/365T_00014/THAILAND_flag.png"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "id": "365T_00069",
+  "name": "Paraguay",
+  "display_name": "PARAGUAY",
+  "slug": "paraguay-365T_00069",
+  "detail_url": "https://365tours.in/destination-detail.php?id=365T_00069",
+  "flag_file": "PARAGUAY_flag.png",
+  "signature_itineraries": 8,
+  "destinations_offered": [
+    "Asuncion",
+    "Ciudad del Este",
+    "Encarnacion",
+    "Filadelfia",
+    "Concepcion",
+    "Pilar",
+    "Arequa"
+  ],
+  "folder": "public/destinations/paraguay-365T_00069",
+  "image_count": 8,
+  "images": [
+    {
+      "file": "itenary_2.jpg",
+      "path": "public/destinations/paraguay-365T_00069/itenary_2.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00069/itenary_2.jpg"
+    },
+    {
+      "file": "itenary_23.jpg",
+      "path": "public/destinations/paraguay-365T_00069/itenary_23.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00069/itenary_23.jpg"
+    },
+    {
+      "file": "itenary_18.jpg",
+      "path": "public/destinations/paraguay-365T_00069/itenary_18.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00069/itenary_18.jpg"
+    },
+    {
+      "file": "itenary_88.jpg",
+      "path": "public/destinations/paraguay-365T_00069/itenary_88.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00069/itenary_88.jpg"
+    },
+    {
+      "file": "itenary_1.jpg",
+      "path": "public/destinations/paraguay-365T_00069/itenary_1.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00069/itenary_1.jpg"
+    },
+    {
+      "file": "itenary_21.jpg",
+      "path": "public/destinations/paraguay-365T_00069/itenary_21.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00069/itenary_21.jpg"
+    },
+    {
+      "file": "recipebook_img.jpg",
+      "path": "public/destinations/paraguay-365T_00069/recipebook_img.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00069/recipebook_img.jpg"
+    },
+    {
+      "file": "PARAGUAY_flag.png",
+      "path": "public/destinations/paraguay-365T_00069/PARAGUAY_flag.png",
+      "source_url": "https://365tours.in/tour_images/365T_00069/PARAGUAY_flag.png"
+    }
+  ]
+}

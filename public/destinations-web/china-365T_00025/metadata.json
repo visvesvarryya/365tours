@@ -1,0 +1,100 @@
+{
+  "id": "365T_00025",
+  "name": "China",
+  "display_name": "CHINA",
+  "slug": "china-365T_00025",
+  "detail_url": "https://365tours.in/destination-detail.php?id=365T_00025",
+  "flag_file": "CHINA_flag.png",
+  "signature_itineraries": 8,
+  "destinations_offered": [
+    "Beijing",
+    "Chengde",
+    "Chengdu. Chenyang",
+    "Chongqing",
+    "Dali",
+    "Datong",
+    "Dunhuang",
+    "Fenghuang",
+    "Guilin",
+    "Hainan",
+    "Hangzhou",
+    "Huang Shan",
+    "Jianshui",
+    "Jiuzhaigou",
+    "Kaili",
+    "Kashgar",
+    "Kunming",
+    "Lijiang",
+    "Longji",
+    "Moganshan",
+    "Nanjing",
+    "Pingyao",
+    "Shaxi",
+    "Suzhou",
+    "Turpan",
+    "Urumqi",
+    "Xiahe",
+    "Xiamen",
+    "Xian",
+    "Yangshou",
+    "Yangtze",
+    "Yuanyang",
+    "Zhangjiajie",
+    "Zhaoxing",
+    "Zhongdian"
+  ],
+  "folder": "public/destinations/china-365T_00025",
+  "image_count": 10,
+  "images": [
+    {
+      "file": "365T_00025_28.jpg",
+      "path": "public/destinations/china-365T_00025/365T_00025_28.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00025/365T_00025_28.jpg"
+    },
+    {
+      "file": "365T_00025_71.jpg",
+      "path": "public/destinations/china-365T_00025/365T_00025_71.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00025/365T_00025_71.jpg"
+    },
+    {
+      "file": "365T_00025_2.jpg",
+      "path": "public/destinations/china-365T_00025/365T_00025_2.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00025/365T_00025_2.jpg"
+    },
+    {
+      "file": "365T_00025_17.jpg",
+      "path": "public/destinations/china-365T_00025/365T_00025_17.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00025/365T_00025_17.jpg"
+    },
+    {
+      "file": "365T_00025_40.jpg",
+      "path": "public/destinations/china-365T_00025/365T_00025_40.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00025/365T_00025_40.jpg"
+    },
+    {
+      "file": "365T_00025_27.jpg",
+      "path": "public/destinations/china-365T_00025/365T_00025_27.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00025/365T_00025_27.jpg"
+    },
+    {
+      "file": "365T_00025_25.jpg",
+      "path": "public/destinations/china-365T_00025/365T_00025_25.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00025/365T_00025_25.jpg"
+    },
+    {
+      "file": "365T_00025_31.jpg",
+      "path": "public/destinations/china-365T_00025/365T_00025_31.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00025/365T_00025_31.jpg"
+    },
+    {
+      "file": "recipebook_img.jpg",
+      "path": "public/destinations/china-365T_00025/recipebook_img.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00025/recipebook_img.jpg"
+    },
+    {
+      "file": "CHINA_flag.png",
+      "path": "public/destinations/china-365T_00025/CHINA_flag.png",
+      "source_url": "https://365tours.in/tour_images/365T_00025/CHINA_flag.png"
+    }
+  ]
+}

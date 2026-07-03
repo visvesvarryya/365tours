@@ -1,0 +1,66 @@
+[
+  {
+    "slug": "rajasthan",
+    "name": "Rajasthan",
+    "desc": "Palaces, forts, deserts & camel safaris",
+    "author": "Chainwit.",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:East_facade_Hawa_Mahal_Jaipur_from_ground_level_(July_2022)_-_img_01.jpg"
+  },
+  {
+    "slug": "kerala",
+    "name": "Kerala",
+    "desc": "Backwaters, houseboats & spice gardens",
+    "author": "Vyacheslav Argenberg",
+    "license": "CC BY 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Kerala_backwaters,_Houseboats,_India.jpg"
+  },
+  {
+    "slug": "tamil-nadu",
+    "name": "Tamil Nadu",
+    "desc": "Dravidian temples, hill stations & coasts",
+    "author": "Jim Evans",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Sri_Meenakshi_Devasthanam_Temple_(east-exposure).jpg"
+  },
+  {
+    "slug": "himalayas",
+    "name": "Himalayas & North",
+    "desc": "Ladakh, Kashmir, Manali & spiritual trails",
+    "author": "KennyOMG",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Pangong_Tso_2.jpg"
+  },
+  {
+    "slug": "gujarat",
+    "name": "Gujarat",
+    "desc": "Rann of Kutch, lions & heritage crafts",
+    "author": "Superfast1111",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Rann_of_Kutch_-_White_Desert_2.jpg"
+  },
+  {
+    "slug": "wildlife",
+    "name": "Wildlife & Tigers",
+    "desc": "Ranthambore, Bandhavgarh & Jim Corbett",
+    "author": "Giles Laurent",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:080_Bengal_tiger_in_Ranthambore_National_Park_Photo_by_Giles_Laurent.jpg"
+  },
+  {
+    "slug": "northeast",
+    "name": "Northeast India",
+    "desc": "Meghalaya, Assam, Arunachal & Sikkim",
+    "author": "Vikramjit Kakati",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:NohKaLikai_Falls_V2_Wiki.jpg"
+  },
+  {
+    "slug": "andaman",
+    "name": "Andaman & Nicobar",
+    "desc": "Crystal waters, coral reefs & island life",
+    "author": "Vyacheslav Argenberg",
+    "license": "CC BY 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Havelock_Island,_Radhanagar_Beach_before_sunset,_Andaman_Islands.jpg"
+  }
+]

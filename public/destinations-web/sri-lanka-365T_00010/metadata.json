@@ -1,0 +1,96 @@
+{
+  "id": "365T_00010",
+  "name": "Sri lanka",
+  "display_name": "SRI LANKA",
+  "slug": "sri-lanka-365T_00010",
+  "detail_url": "https://365tours.in/destination-detail.php?id=365T_00010",
+  "flag_file": "SRI_LANKA_flag.png",
+  "signature_itineraries": 8,
+  "destinations_offered": [
+    "Colombo",
+    "Kandy",
+    "Nuwara Eliya",
+    "Anuradhapura",
+    "Polonnaruwa",
+    "Batticaloa",
+    "Jaffna",
+    "Galle",
+    "Ratnapura",
+    "Negombo",
+    "Kalpitya",
+    "Wilpattu",
+    "Trincomalee",
+    "Sigiriya",
+    "Bentota",
+    "Balapitiya",
+    "Hikkaduwa",
+    "Unawatuna",
+    "Ahangama",
+    "Weligama",
+    "Mirissa",
+    "Yala",
+    "Sinharaja",
+    "Udawalawe",
+    "Hortons Plains",
+    "Adams Peak",
+    "Kitulgala",
+    "Ella",
+    "Kataragama",
+    "Pasikuda",
+    "Arugambay"
+  ],
+  "folder": "public/destinations/sri-lanka-365T_00010",
+  "image_count": 10,
+  "images": [
+    {
+      "file": "365T_00010_56.jpg",
+      "path": "public/destinations/sri-lanka-365T_00010/365T_00010_56.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00010/365T_00010_56.jpg"
+    },
+    {
+      "file": "365T_00010_55.jpg",
+      "path": "public/destinations/sri-lanka-365T_00010/365T_00010_55.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00010/365T_00010_55.jpg"
+    },
+    {
+      "file": "365T_00010_31.jpg",
+      "path": "public/destinations/sri-lanka-365T_00010/365T_00010_31.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00010/365T_00010_31.jpg"
+    },
+    {
+      "file": "365T_00010_62.jpg",
+      "path": "public/destinations/sri-lanka-365T_00010/365T_00010_62.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00010/365T_00010_62.jpg"
+    },
+    {
+      "file": "365T_00010_84.jpg",
+      "path": "public/destinations/sri-lanka-365T_00010/365T_00010_84.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00010/365T_00010_84.jpg"
+    },
+    {
+      "file": "365T_00010_76.jpg",
+      "path": "public/destinations/sri-lanka-365T_00010/365T_00010_76.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00010/365T_00010_76.jpg"
+    },
+    {
+      "file": "365T_00010_40.jpg",
+      "path": "public/destinations/sri-lanka-365T_00010/365T_00010_40.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00010/365T_00010_40.jpg"
+    },
+    {
+      "file": "365T_00010_77.jpg",
+      "path": "public/destinations/sri-lanka-365T_00010/365T_00010_77.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00010/365T_00010_77.jpg"
+    },
+    {
+      "file": "recipebook_img.jpg",
+      "path": "public/destinations/sri-lanka-365T_00010/recipebook_img.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00010/recipebook_img.jpg"
+    },
+    {
+      "file": "SRI_LANKA_flag.png",
+      "path": "public/destinations/sri-lanka-365T_00010/SRI_LANKA_flag.png",
+      "source_url": "https://365tours.in/tour_images/365T_00010/SRI LANKA_flag.png"
+    }
+  ]
+}

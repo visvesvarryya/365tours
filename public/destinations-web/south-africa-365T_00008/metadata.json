@@ -1,0 +1,94 @@
+{
+  "id": "365T_00008",
+  "name": "South africa",
+  "display_name": "SOUTH AFRICA",
+  "slug": "south-africa-365T_00008",
+  "detail_url": "https://365tours.in/destination-detail.php?id=365T_00008",
+  "flag_file": "SOUTH_AFRICA_flag.png",
+  "signature_itineraries": 8,
+  "destinations_offered": [
+    "Addo",
+    "Amakhala",
+    "Blyde Canyon",
+    "Calitzdorp",
+    "Cape Town",
+    "Coffee Bay. Constantia",
+    "De Hoop",
+    "De Kelders",
+    "Durban",
+    "East London",
+    "Eswatini",
+    "Franschhoek",
+    "Hazyview",
+    "Hermanus",
+    "Johannesburg",
+    "Knysna",
+    "Kruger",
+    "Kwandwe",
+    "Lake St Lucia",
+    "Langebaan",
+    "Lesotho",
+    "Montagu",
+    "Oudtshoorn",
+    "Plettenberg Bay",
+    "Port Elizebeth",
+    "Swellendam",
+    "Cango Caves",
+    "Pilanesberg",
+    "Tsitsikamma"
+  ],
+  "folder": "public/destinations/south-africa-365T_00008",
+  "image_count": 10,
+  "images": [
+    {
+      "file": "365T_00008_71.jpg",
+      "path": "public/destinations/south-africa-365T_00008/365T_00008_71.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00008/365T_00008_71.jpg"
+    },
+    {
+      "file": "365T_00008_81.jpg",
+      "path": "public/destinations/south-africa-365T_00008/365T_00008_81.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00008/365T_00008_81.jpg"
+    },
+    {
+      "file": "365T_00008_26.jpg",
+      "path": "public/destinations/south-africa-365T_00008/365T_00008_26.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00008/365T_00008_26.jpg"
+    },
+    {
+      "file": "365T_00008_53.jpg",
+      "path": "public/destinations/south-africa-365T_00008/365T_00008_53.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00008/365T_00008_53.jpg"
+    },
+    {
+      "file": "365T_00008_24.jpg",
+      "path": "public/destinations/south-africa-365T_00008/365T_00008_24.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00008/365T_00008_24.jpg"
+    },
+    {
+      "file": "365T_00008_88.jpg",
+      "path": "public/destinations/south-africa-365T_00008/365T_00008_88.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00008/365T_00008_88.jpg"
+    },
+    {
+      "file": "365T_00008_18.jpg",
+      "path": "public/destinations/south-africa-365T_00008/365T_00008_18.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00008/365T_00008_18.jpg"
+    },
+    {
+      "file": "365T_00008_96.jpg",
+      "path": "public/destinations/south-africa-365T_00008/365T_00008_96.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00008/365T_00008_96.jpg"
+    },
+    {
+      "file": "recipebook_img.jpg",
+      "path": "public/destinations/south-africa-365T_00008/recipebook_img.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00008/recipebook_img.jpg"
+    },
+    {
+      "file": "SOUTH_AFRICA_flag.png",
+      "path": "public/destinations/south-africa-365T_00008/SOUTH_AFRICA_flag.png",
+      "source_url": "https://365tours.in/tour_images/365T_00008/SOUTH AFRICA_flag.png"
+    }
+  ]
+}

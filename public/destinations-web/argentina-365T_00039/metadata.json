@@ -1,0 +1,68 @@
+{
+  "id": "365T_00039",
+  "name": "Argentina",
+  "display_name": "ARGENTINA",
+  "slug": "argentina-365T_00039",
+  "detail_url": "https://365tours.in/destination-detail.php?id=365T_00039",
+  "flag_file": "ARGENTINA_flag.png",
+  "signature_itineraries": 8,
+  "destinations_offered": [
+    "Bariloche",
+    "Buenos Aires",
+    "Cafayate",
+    "Cordoba",
+    "El Calafate",
+    "El Chalten",
+    "Esteros De Ibera",
+    "Iguazu Falls",
+    "Mendoza",
+    "Perito Moreno",
+    "Los Glaciares National Park",
+    "Puerto Madryn",
+    "Ushuaia"
+  ],
+  "folder": "public/destinations/argentina-365T_00039",
+  "image_count": 8,
+  "images": [
+    {
+      "file": "itenary_69.jpg",
+      "path": "public/destinations/argentina-365T_00039/itenary_69.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00039/itenary_69.jpg"
+    },
+    {
+      "file": "itenary_92.jpg",
+      "path": "public/destinations/argentina-365T_00039/itenary_92.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00039/itenary_92.jpg"
+    },
+    {
+      "file": "itenary_18.jpg",
+      "path": "public/destinations/argentina-365T_00039/itenary_18.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00039/itenary_18.jpg"
+    },
+    {
+      "file": "itenary_40.jpg",
+      "path": "public/destinations/argentina-365T_00039/itenary_40.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00039/itenary_40.jpg"
+    },
+    {
+      "file": "itenary_27.jpg",
+      "path": "public/destinations/argentina-365T_00039/itenary_27.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00039/itenary_27.jpg"
+    },
+    {
+      "file": "itenary_100.jpg",
+      "path": "public/destinations/argentina-365T_00039/itenary_100.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00039/itenary_100.jpg"
+    },
+    {
+      "file": "recipebook_img.jpg",
+      "path": "public/destinations/argentina-365T_00039/recipebook_img.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00039/recipebook_img.jpg"
+    },
+    {
+      "file": "ARGENTINA_flag.png",
+      "path": "public/destinations/argentina-365T_00039/ARGENTINA_flag.png",
+      "source_url": "https://365tours.in/tour_images/365T_00039/ARGENTINA_flag.png"
+    }
+  ]
+}

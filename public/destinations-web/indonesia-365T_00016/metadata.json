@@ -1,0 +1,77 @@
+{
+  "id": "365T_00016",
+  "name": "Indonesia",
+  "display_name": "INDONESIA",
+  "slug": "indonesia-365T_00016",
+  "detail_url": "https://365tours.in/destination-detail.php?id=365T_00016",
+  "flag_file": "INDONESIA_flag.png",
+  "signature_itineraries": 8,
+  "destinations_offered": [
+    "Bali",
+    "Jakarta",
+    "Sumatra",
+    "Bandung",
+    "Java",
+    "Surabaya",
+    "Borobudur",
+    "Prambanan",
+    "Komodo",
+    "Yogyakarta",
+    "Bukit Lawang",
+    "Lombok"
+  ],
+  "folder": "public/destinations/indonesia-365T_00016",
+  "image_count": 10,
+  "images": [
+    {
+      "file": "365T_00016_0.jpg",
+      "path": "public/destinations/indonesia-365T_00016/365T_00016_0.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00016/365T_00016_0.jpg"
+    },
+    {
+      "file": "365T_00016_87.jpg",
+      "path": "public/destinations/indonesia-365T_00016/365T_00016_87.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00016/365T_00016_87.jpg"
+    },
+    {
+      "file": "365T_00016_2.jpg",
+      "path": "public/destinations/indonesia-365T_00016/365T_00016_2.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00016/365T_00016_2.jpg"
+    },
+    {
+      "file": "365T_00016_75.jpg",
+      "path": "public/destinations/indonesia-365T_00016/365T_00016_75.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00016/365T_00016_75.jpg"
+    },
+    {
+      "file": "365T_00016_94.jpg",
+      "path": "public/destinations/indonesia-365T_00016/365T_00016_94.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00016/365T_00016_94.jpg"
+    },
+    {
+      "file": "365T_00016_4.jpg",
+      "path": "public/destinations/indonesia-365T_00016/365T_00016_4.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00016/365T_00016_4.jpg"
+    },
+    {
+      "file": "365T_00016_22.jpg",
+      "path": "public/destinations/indonesia-365T_00016/365T_00016_22.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00016/365T_00016_22.jpg"
+    },
+    {
+      "file": "365T_00016_67.jpg",
+      "path": "public/destinations/indonesia-365T_00016/365T_00016_67.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00016/365T_00016_67.jpg"
+    },
+    {
+      "file": "recipebook_img.jpg",
+      "path": "public/destinations/indonesia-365T_00016/recipebook_img.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00016/recipebook_img.jpg"
+    },
+    {
+      "file": "INDONESIA_flag.png",
+      "path": "public/destinations/indonesia-365T_00016/INDONESIA_flag.png",
+      "source_url": "https://365tours.in/tour_images/365T_00016/INDONESIA_flag.png"
+    }
+  ]
+}

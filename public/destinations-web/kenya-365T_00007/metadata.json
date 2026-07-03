@@ -1,0 +1,89 @@
+{
+  "id": "365T_00007",
+  "name": "Kenya",
+  "display_name": "KENYA",
+  "slug": "kenya-365T_00007",
+  "detail_url": "https://365tours.in/destination-detail.php?id=365T_00007",
+  "flag_file": "KENYA_flag.png",
+  "signature_itineraries": 8,
+  "destinations_offered": [
+    "Aberdares",
+    "Amboseli",
+    "Diani",
+    "Lamu",
+    "Lake Elementeita",
+    "Lake Naivasha",
+    "Lake Nakuru",
+    "Lake Victoria",
+    "Lake Magadi",
+    "Lake Bogoria",
+    "Masai Mara",
+    "Meru",
+    "Mt Kenya",
+    "Mombasa",
+    "Nairobi",
+    "Ol Pejata",
+    "Samburu",
+    "Hells Gate",
+    "Shaba",
+    "Sweet Waters Camp",
+    "Laikipia",
+    "Tsavo East",
+    "Tsavo West",
+    "Watamu"
+  ],
+  "folder": "public/destinations/kenya-365T_00007",
+  "image_count": 10,
+  "images": [
+    {
+      "file": "365T_00007_9.jpg",
+      "path": "public/destinations/kenya-365T_00007/365T_00007_9.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00007/365T_00007_9.jpg"
+    },
+    {
+      "file": "365T_00007_98.jpg",
+      "path": "public/destinations/kenya-365T_00007/365T_00007_98.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00007/365T_00007_98.jpg"
+    },
+    {
+      "file": "365T_00007_34.jpg",
+      "path": "public/destinations/kenya-365T_00007/365T_00007_34.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00007/365T_00007_34.jpg"
+    },
+    {
+      "file": "365T_00007_12.jpg",
+      "path": "public/destinations/kenya-365T_00007/365T_00007_12.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00007/365T_00007_12.jpg"
+    },
+    {
+      "file": "365T_00007_50.jpg",
+      "path": "public/destinations/kenya-365T_00007/365T_00007_50.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00007/365T_00007_50.jpg"
+    },
+    {
+      "file": "365T_00007_61.jpg",
+      "path": "public/destinations/kenya-365T_00007/365T_00007_61.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00007/365T_00007_61.jpg"
+    },
+    {
+      "file": "365T_00007_29.jpg",
+      "path": "public/destinations/kenya-365T_00007/365T_00007_29.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00007/365T_00007_29.jpg"
+    },
+    {
+      "file": "365T_00007_54.jpg",
+      "path": "public/destinations/kenya-365T_00007/365T_00007_54.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00007/365T_00007_54.jpg"
+    },
+    {
+      "file": "recipebook_img.jpg",
+      "path": "public/destinations/kenya-365T_00007/recipebook_img.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00007/recipebook_img.jpg"
+    },
+    {
+      "file": "KENYA_flag.png",
+      "path": "public/destinations/kenya-365T_00007/KENYA_flag.png",
+      "source_url": "https://365tours.in/tour_images/365T_00007/KENYA_flag.png"
+    }
+  ]
+}

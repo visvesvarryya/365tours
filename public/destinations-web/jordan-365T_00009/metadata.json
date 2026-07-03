@@ -1,0 +1,77 @@
+{
+  "id": "365T_00009",
+  "name": "Jordan",
+  "display_name": "JORDAN",
+  "slug": "jordan-365T_00009",
+  "detail_url": "https://365tours.in/destination-detail.php?id=365T_00009",
+  "flag_file": "JORDAN_flag.png",
+  "signature_itineraries": 8,
+  "destinations_offered": [
+    "Amman",
+    "Kerak",
+    "Petra",
+    "Aqaba",
+    "Madaba",
+    "Dead Sea",
+    "Dana Biosphere",
+    "Mt Nebo",
+    "Wadi Rum",
+    "Jerash",
+    "Little Petra",
+    "Aaron's Tomb"
+  ],
+  "folder": "public/destinations/jordan-365T_00009",
+  "image_count": 10,
+  "images": [
+    {
+      "file": "365T_00009_29.jpg",
+      "path": "public/destinations/jordan-365T_00009/365T_00009_29.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00009/365T_00009_29.jpg"
+    },
+    {
+      "file": "365T_00009_57.jpg",
+      "path": "public/destinations/jordan-365T_00009/365T_00009_57.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00009/365T_00009_57.jpg"
+    },
+    {
+      "file": "365T_00009_61.jpg",
+      "path": "public/destinations/jordan-365T_00009/365T_00009_61.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00009/365T_00009_61.jpg"
+    },
+    {
+      "file": "365T_00009_60.jpg",
+      "path": "public/destinations/jordan-365T_00009/365T_00009_60.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00009/365T_00009_60.jpg"
+    },
+    {
+      "file": "365T_00009_13.jpg",
+      "path": "public/destinations/jordan-365T_00009/365T_00009_13.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00009/365T_00009_13.jpg"
+    },
+    {
+      "file": "365T_00009_32.jpg",
+      "path": "public/destinations/jordan-365T_00009/365T_00009_32.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00009/365T_00009_32.jpg"
+    },
+    {
+      "file": "365T_00009_69.jpg",
+      "path": "public/destinations/jordan-365T_00009/365T_00009_69.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00009/365T_00009_69.jpg"
+    },
+    {
+      "file": "365T_00009_42.jpg",
+      "path": "public/destinations/jordan-365T_00009/365T_00009_42.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00009/365T_00009_42.jpg"
+    },
+    {
+      "file": "recipebook_img.jpg",
+      "path": "public/destinations/jordan-365T_00009/recipebook_img.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00009/recipebook_img.jpg"
+    },
+    {
+      "file": "JORDAN_flag.png",
+      "path": "public/destinations/jordan-365T_00009/JORDAN_flag.png",
+      "source_url": "https://365tours.in/tour_images/365T_00009/JORDAN_flag.png"
+    }
+  ]
+}

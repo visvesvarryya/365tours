@@ -1,0 +1,81 @@
+{
+  "id": "365T_00048",
+  "name": "Brazil",
+  "display_name": "BRAZIL",
+  "slug": "brazil-365T_00048",
+  "detail_url": "https://365tours.in/destination-detail.php?id=365T_00048",
+  "flag_file": "BRAZIL_flag.png",
+  "signature_itineraries": 8,
+  "destinations_offered": [
+    "Amazon",
+    "Belem",
+    "Brasila",
+    "Chapada Dos Guimares",
+    "Fernando De Noronha",
+    "Florianpolis",
+    "Green Coast",
+    "Iguazu Falls",
+    "Northern Coast",
+    "Lencois",
+    "Chapda Diamantina",
+    "Manus",
+    "Morro Del Sao Paulo",
+    "Northeast Coast",
+    "Ouro Preto",
+    "Pantanal",
+    "Penedo",
+    "Rio De Janeiro",
+    "Salvador",
+    "Tirandentes",
+    "Trancoso"
+  ],
+  "folder": "public/destinations/brazil-365T_00048",
+  "image_count": 9,
+  "images": [
+    {
+      "file": "itenary_19.jpg",
+      "path": "public/destinations/brazil-365T_00048/itenary_19.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00048/itenary_19.jpg"
+    },
+    {
+      "file": "itenary_75.jpg",
+      "path": "public/destinations/brazil-365T_00048/itenary_75.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00048/itenary_75.jpg"
+    },
+    {
+      "file": "itenary_68.jpg",
+      "path": "public/destinations/brazil-365T_00048/itenary_68.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00048/itenary_68.jpg"
+    },
+    {
+      "file": "itenary_67.jpg",
+      "path": "public/destinations/brazil-365T_00048/itenary_67.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00048/itenary_67.jpg"
+    },
+    {
+      "file": "itenary_63.jpg",
+      "path": "public/destinations/brazil-365T_00048/itenary_63.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00048/itenary_63.jpg"
+    },
+    {
+      "file": "itenary_24.jpg",
+      "path": "public/destinations/brazil-365T_00048/itenary_24.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00048/itenary_24.jpg"
+    },
+    {
+      "file": "itenary_5.jpg",
+      "path": "public/destinations/brazil-365T_00048/itenary_5.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00048/itenary_5.jpg"
+    },
+    {
+      "file": "recipebook_img.jpg",
+      "path": "public/destinations/brazil-365T_00048/recipebook_img.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00048/recipebook_img.jpg"
+    },
+    {
+      "file": "BRAZIL_flag.png",
+      "path": "public/destinations/brazil-365T_00048/BRAZIL_flag.png",
+      "source_url": "https://365tours.in/tour_images/365T_00048/BRAZIL_flag.png"
+    }
+  ]
+}

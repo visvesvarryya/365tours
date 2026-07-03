@@ -1,0 +1,75 @@
+{
+  "id": "365T_00065",
+  "name": "Ethiopia",
+  "display_name": "ETHIOPIA",
+  "slug": "ethiopia-365T_00065",
+  "detail_url": "https://365tours.in/destination-detail.php?id=365T_00065",
+  "flag_file": "ETHIOPIA_flag.png",
+  "signature_itineraries": 8,
+  "destinations_offered": [
+    "Addis Ababa",
+    "Adama",
+    "Axum",
+    "Bahir Dar",
+    "Dire Dawa",
+    "Gondar",
+    "Harar",
+    "Lalibela",
+    "Mekele",
+    "Hawassa"
+  ],
+  "folder": "public/destinations/ethiopia-365T_00065",
+  "image_count": 10,
+  "images": [
+    {
+      "file": "itenary_40.jpg",
+      "path": "public/destinations/ethiopia-365T_00065/itenary_40.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00065/itenary_40.jpg"
+    },
+    {
+      "file": "itenary_38.jpg",
+      "path": "public/destinations/ethiopia-365T_00065/itenary_38.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00065/itenary_38.jpg"
+    },
+    {
+      "file": "itenary_60.jpg",
+      "path": "public/destinations/ethiopia-365T_00065/itenary_60.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00065/itenary_60.jpg"
+    },
+    {
+      "file": "itenary_57.jpg",
+      "path": "public/destinations/ethiopia-365T_00065/itenary_57.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00065/itenary_57.jpg"
+    },
+    {
+      "file": "itenary_12.jpg",
+      "path": "public/destinations/ethiopia-365T_00065/itenary_12.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00065/itenary_12.jpg"
+    },
+    {
+      "file": "itenary_19.jpg",
+      "path": "public/destinations/ethiopia-365T_00065/itenary_19.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00065/itenary_19.jpg"
+    },
+    {
+      "file": "itenary_99.jpg",
+      "path": "public/destinations/ethiopia-365T_00065/itenary_99.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00065/itenary_99.jpg"
+    },
+    {
+      "file": "itenary_61.jpg",
+      "path": "public/destinations/ethiopia-365T_00065/itenary_61.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00065/itenary_61.jpg"
+    },
+    {
+      "file": "recipebook_img.jpg",
+      "path": "public/destinations/ethiopia-365T_00065/recipebook_img.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00065/recipebook_img.jpg"
+    },
+    {
+      "file": "ETHIOPIA_flag.png",
+      "path": "public/destinations/ethiopia-365T_00065/ETHIOPIA_flag.png",
+      "source_url": "https://365tours.in/tour_images/365T_00065/ETHIOPIA_flag.png"
+    }
+  ]
+}

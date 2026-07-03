@@ -1,0 +1,30 @@
+# dependencies
+/node_modules
+
+# next.js
+/.next
+/out
+
+# production / vercel
+/build
+.vercel
+
+# env
+.env
+.env*.local
+
+# python tooling (scraping/creative scripts run locally only)
+.venv
+
+# captured leads (local dev)
+/data
+
+# logs / os
+*.log
+.DS_Store
+Thumbs.db
+
+# large, regenerable asset archives (recreate via scripts/)
+#   originals kept locally; the site serves /public/destinations-web
+/public/destinations
+/public/retargeting-creatives

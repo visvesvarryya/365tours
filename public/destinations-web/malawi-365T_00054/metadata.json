@@ -1,0 +1,76 @@
+{
+  "id": "365T_00054",
+  "name": "Malawi",
+  "display_name": "MALAWI",
+  "slug": "malawi-365T_00054",
+  "detail_url": "https://365tours.in/destination-detail.php?id=365T_00054",
+  "flag_file": "MALAWI_flag.png",
+  "signature_itineraries": 8,
+  "destinations_offered": [
+    "Lake Malawi",
+    "Likoma Island",
+    "Liongwe",
+    "Liwonde",
+    "Majete",
+    "Nkhotakota",
+    "Nyika Plateau",
+    "Thyolo",
+    "Viphya Forest",
+    "Vwaza Marsh",
+    "Zomba Plateau"
+  ],
+  "folder": "public/destinations/malawi-365T_00054",
+  "image_count": 10,
+  "images": [
+    {
+      "file": "itenary_66.jpg",
+      "path": "public/destinations/malawi-365T_00054/itenary_66.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00054/itenary_66.jpg"
+    },
+    {
+      "file": "itenary_70.jpg",
+      "path": "public/destinations/malawi-365T_00054/itenary_70.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00054/itenary_70.jpg"
+    },
+    {
+      "file": "itenary_73.jpg",
+      "path": "public/destinations/malawi-365T_00054/itenary_73.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00054/itenary_73.jpg"
+    },
+    {
+      "file": "365T_00054_16.jpg",
+      "path": "public/destinations/malawi-365T_00054/365T_00054_16.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00054/365T_00054_16.jpg"
+    },
+    {
+      "file": "itenary_32.jpg",
+      "path": "public/destinations/malawi-365T_00054/itenary_32.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00054/itenary_32.jpg"
+    },
+    {
+      "file": "itenary_28.jpg",
+      "path": "public/destinations/malawi-365T_00054/itenary_28.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00054/itenary_28.jpg"
+    },
+    {
+      "file": "itenary_99.jpg",
+      "path": "public/destinations/malawi-365T_00054/itenary_99.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00054/itenary_99.jpg"
+    },
+    {
+      "file": "itenary_31.jpg",
+      "path": "public/destinations/malawi-365T_00054/itenary_31.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00054/itenary_31.jpg"
+    },
+    {
+      "file": "recipebook_img.jpg",
+      "path": "public/destinations/malawi-365T_00054/recipebook_img.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00054/recipebook_img.jpg"
+    },
+    {
+      "file": "MALAWI_flag.png",
+      "path": "public/destinations/malawi-365T_00054/MALAWI_flag.png",
+      "source_url": "https://365tours.in/tour_images/365T_00054/MALAWI_flag.png"
+    }
+  ]
+}

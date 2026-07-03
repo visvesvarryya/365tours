@@ -1,0 +1,87 @@
+{
+  "id": "365T_00029",
+  "name": "Tanzania",
+  "display_name": "TANZANIA",
+  "slug": "tanzania-365T_00029",
+  "detail_url": "https://365tours.in/destination-detail.php?id=365T_00029",
+  "flag_file": "TANZANIA_flag.png",
+  "signature_itineraries": 8,
+  "destinations_offered": [
+    "Arusha",
+    "Bagamoyo",
+    "Dar es Salaam",
+    "Karatu",
+    "Katavi",
+    "Lake Eyasi",
+    "Lake Manyara",
+    "Lake Natron",
+    "Longido",
+    "Mahale",
+    "Mikumi",
+    "Mt Kilimanjaro",
+    "Ngorongoro",
+    "Pangani",
+    "Ruaha",
+    "Rubondo Island",
+    "Saadani",
+    "Selous",
+    "Songo Songo",
+    "Serengeti",
+    "Tarangire",
+    "Kilmanjaro"
+  ],
+  "folder": "public/destinations/tanzania-365T_00029",
+  "image_count": 10,
+  "images": [
+    {
+      "file": "itenary_37.jpg",
+      "path": "public/destinations/tanzania-365T_00029/itenary_37.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00029/itenary_37.jpg"
+    },
+    {
+      "file": "itenary_32.jpg",
+      "path": "public/destinations/tanzania-365T_00029/itenary_32.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00029/itenary_32.jpg"
+    },
+    {
+      "file": "itenary_27.jpg",
+      "path": "public/destinations/tanzania-365T_00029/itenary_27.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00029/itenary_27.jpg"
+    },
+    {
+      "file": "itenary_79.jpg",
+      "path": "public/destinations/tanzania-365T_00029/itenary_79.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00029/itenary_79.jpg"
+    },
+    {
+      "file": "itenary_66.jpg",
+      "path": "public/destinations/tanzania-365T_00029/itenary_66.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00029/itenary_66.jpg"
+    },
+    {
+      "file": "itenary_19.jpg",
+      "path": "public/destinations/tanzania-365T_00029/itenary_19.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00029/itenary_19.jpg"
+    },
+    {
+      "file": "itenary_7.jpg",
+      "path": "public/destinations/tanzania-365T_00029/itenary_7.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00029/itenary_7.jpg"
+    },
+    {
+      "file": "itenary_80.jpg",
+      "path": "public/destinations/tanzania-365T_00029/itenary_80.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00029/itenary_80.jpg"
+    },
+    {
+      "file": "recipebook_img.jpg",
+      "path": "public/destinations/tanzania-365T_00029/recipebook_img.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00029/recipebook_img.jpg"
+    },
+    {
+      "file": "TANZANIA_flag.png",
+      "path": "public/destinations/tanzania-365T_00029/TANZANIA_flag.png",
+      "source_url": "https://365tours.in/tour_images/365T_00029/TANZANIA_flag.png"
+    }
+  ]
+}

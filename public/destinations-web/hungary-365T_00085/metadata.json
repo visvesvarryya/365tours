@@ -1,0 +1,74 @@
+{
+  "id": "365T_00085",
+  "name": "Hungary",
+  "display_name": "HUNGARY",
+  "slug": "hungary-365T_00085",
+  "detail_url": "https://365tours.in/destination-detail.php?id=365T_00085",
+  "flag_file": "HUNGARY_flag.png",
+  "signature_itineraries": 8,
+  "destinations_offered": [
+    "Budapest",
+    "Debrecen",
+    "Eger",
+    "Gyor",
+    "Nyfegyhaza",
+    "Pecs",
+    "Szeged",
+    "Aggtelek",
+    "Lake Balaton"
+  ],
+  "folder": "public/destinations/hungary-365T_00085",
+  "image_count": 10,
+  "images": [
+    {
+      "file": "itenary_65.jpg",
+      "path": "public/destinations/hungary-365T_00085/itenary_65.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00085/itenary_65.jpg"
+    },
+    {
+      "file": "itenary_43.jpg",
+      "path": "public/destinations/hungary-365T_00085/itenary_43.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00085/itenary_43.jpg"
+    },
+    {
+      "file": "365T_00085_33.jpg",
+      "path": "public/destinations/hungary-365T_00085/365T_00085_33.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00085/365T_00085_33.jpg"
+    },
+    {
+      "file": "itenary_80.jpg",
+      "path": "public/destinations/hungary-365T_00085/itenary_80.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00085/itenary_80.jpg"
+    },
+    {
+      "file": "itenary_92.jpg",
+      "path": "public/destinations/hungary-365T_00085/itenary_92.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00085/itenary_92.jpg"
+    },
+    {
+      "file": "itenary_7.jpg",
+      "path": "public/destinations/hungary-365T_00085/itenary_7.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00085/itenary_7.jpg"
+    },
+    {
+      "file": "itenary_28.jpg",
+      "path": "public/destinations/hungary-365T_00085/itenary_28.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00085/itenary_28.jpg"
+    },
+    {
+      "file": "itenary_100.jpg",
+      "path": "public/destinations/hungary-365T_00085/itenary_100.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00085/itenary_100.jpg"
+    },
+    {
+      "file": "recipebook_img.jpg",
+      "path": "public/destinations/hungary-365T_00085/recipebook_img.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00085/recipebook_img.jpg"
+    },
+    {
+      "file": "HUNGARY_flag.png",
+      "path": "public/destinations/hungary-365T_00085/HUNGARY_flag.png",
+      "source_url": "https://365tours.in/tour_images/365T_00085/HUNGARY_flag.png"
+    }
+  ]
+}

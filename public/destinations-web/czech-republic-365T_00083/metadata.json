@@ -1,0 +1,73 @@
+{
+  "id": "365T_00083",
+  "name": "Czech republic",
+  "display_name": "CZECH REPUBLIC",
+  "slug": "czech-republic-365T_00083",
+  "detail_url": "https://365tours.in/destination-detail.php?id=365T_00083",
+  "flag_file": "CZECH_REPUBLIC_flag.png",
+  "signature_itineraries": 8,
+  "destinations_offered": [
+    "Prague",
+    "Brno",
+    "Budweis",
+    "Cesky Krumlov",
+    "Karlovy Vary",
+    "Kutna Hora",
+    "Opava",
+    "Telc",
+    "Zlin",
+    "Ostrava",
+    "Litomysi",
+    "Terezin",
+    "Znojmo"
+  ],
+  "folder": "public/destinations/czech-republic-365T_00083",
+  "image_count": 9,
+  "images": [
+    {
+      "file": "itenary_93.jpg",
+      "path": "public/destinations/czech-republic-365T_00083/itenary_93.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00083/itenary_93.jpg"
+    },
+    {
+      "file": "itenary_73.jpg",
+      "path": "public/destinations/czech-republic-365T_00083/itenary_73.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00083/itenary_73.jpg"
+    },
+    {
+      "file": "itenary_75.jpg",
+      "path": "public/destinations/czech-republic-365T_00083/itenary_75.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00083/itenary_75.jpg"
+    },
+    {
+      "file": "itenary_13.jpg",
+      "path": "public/destinations/czech-republic-365T_00083/itenary_13.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00083/itenary_13.jpg"
+    },
+    {
+      "file": "itenary_6.jpg",
+      "path": "public/destinations/czech-republic-365T_00083/itenary_6.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00083/itenary_6.jpg"
+    },
+    {
+      "file": "itenary_50.jpg",
+      "path": "public/destinations/czech-republic-365T_00083/itenary_50.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00083/itenary_50.jpg"
+    },
+    {
+      "file": "itenary_81.jpg",
+      "path": "public/destinations/czech-republic-365T_00083/itenary_81.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00083/itenary_81.jpg"
+    },
+    {
+      "file": "recipebook_img.jpg",
+      "path": "public/destinations/czech-republic-365T_00083/recipebook_img.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00083/recipebook_img.jpg"
+    },
+    {
+      "file": "CZECH_REPUBLIC_flag.png",
+      "path": "public/destinations/czech-republic-365T_00083/CZECH_REPUBLIC_flag.png",
+      "source_url": "https://365tours.in/tour_images/365T_00083/CZECH REPUBLIC_flag.png"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "id": "365T_00038",
+  "name": "Israel",
+  "display_name": "ISRAEL",
+  "slug": "israel-365T_00038",
+  "detail_url": "https://365tours.in/destination-detail.php?id=365T_00038",
+  "flag_file": "ISRAEL_flag.png",
+  "signature_itineraries": 8,
+  "destinations_offered": [
+    "Acre",
+    "Bethlehem",
+    "Galilee",
+    "Jericho",
+    "Jerusalem",
+    "Nazreth",
+    "Golan Heights",
+    "Haifa",
+    "Negev",
+    "Tel Aviv"
+  ],
+  "folder": "public/destinations/israel-365T_00038",
+  "image_count": 10,
+  "images": [
+    {
+      "file": "itenary_24.jpg",
+      "path": "public/destinations/israel-365T_00038/itenary_24.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00038/itenary_24.jpg"
+    },
+    {
+      "file": "itenary_51.jpg",
+      "path": "public/destinations/israel-365T_00038/itenary_51.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00038/itenary_51.jpg"
+    },
+    {
+      "file": "itenary_4.jpg",
+      "path": "public/destinations/israel-365T_00038/itenary_4.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00038/itenary_4.jpg"
+    },
+    {
+      "file": "itenary_11.jpg",
+      "path": "public/destinations/israel-365T_00038/itenary_11.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00038/itenary_11.jpg"
+    },
+    {
+      "file": "itenary_30.jpg",
+      "path": "public/destinations/israel-365T_00038/itenary_30.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00038/itenary_30.jpg"
+    },
+    {
+      "file": "itenary_18.jpg",
+      "path": "public/destinations/israel-365T_00038/itenary_18.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00038/itenary_18.jpg"
+    },
+    {
+      "file": "itenary_22.jpg",
+      "path": "public/destinations/israel-365T_00038/itenary_22.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00038/itenary_22.jpg"
+    },
+    {
+      "file": "itenary_27.jpg",
+      "path": "public/destinations/israel-365T_00038/itenary_27.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00038/itenary_27.jpg"
+    },
+    {
+      "file": "recipebook_img.jpg",
+      "path": "public/destinations/israel-365T_00038/recipebook_img.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00038/recipebook_img.jpg"
+    },
+    {
+      "file": "ISRAEL_flag.png",
+      "path": "public/destinations/israel-365T_00038/ISRAEL_flag.png",
+      "source_url": "https://365tours.in/tour_images/365T_00038/ISRAEL_flag.png"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "id": "365T_00092",
+  "name": "West indies",
+  "display_name": "WEST INDIES",
+  "slug": "west-indies-365T_00092",
+  "detail_url": "https://365tours.in/destination-detail.php?id=365T_00092",
+  "flag_file": "WEST_INDIES_flag.png",
+  "signature_itineraries": 8,
+  "destinations_offered": [],
+  "folder": "public/destinations/west-indies-365T_00092",
+  "image_count": 10,
+  "images": [
+    {
+      "file": "itenary_21.jpg",
+      "path": "public/destinations/west-indies-365T_00092/itenary_21.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00092/itenary_21.jpg"
+    },
+    {
+      "file": "itenary_15.jpg",
+      "path": "public/destinations/west-indies-365T_00092/itenary_15.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00092/itenary_15.jpg"
+    },
+    {
+      "file": "itenary_12.jpg",
+      "path": "public/destinations/west-indies-365T_00092/itenary_12.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00092/itenary_12.jpg"
+    },
+    {
+      "file": "itenary_76.jpg",
+      "path": "public/destinations/west-indies-365T_00092/itenary_76.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00092/itenary_76.jpg"
+    },
+    {
+      "file": "itenary_68.jpg",
+      "path": "public/destinations/west-indies-365T_00092/itenary_68.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00092/itenary_68.jpg"
+    },
+    {
+      "file": "itenary_82.jpg",
+      "path": "public/destinations/west-indies-365T_00092/itenary_82.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00092/itenary_82.jpg"
+    },
+    {
+      "file": "itenary_91.jpg",
+      "path": "public/destinations/west-indies-365T_00092/itenary_91.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00092/itenary_91.jpg"
+    },
+    {
+      "file": "itenary_28.jpg",
+      "path": "public/destinations/west-indies-365T_00092/itenary_28.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00092/itenary_28.jpg"
+    },
+    {
+      "file": "recipebook_img.jpg",
+      "path": "public/destinations/west-indies-365T_00092/recipebook_img.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00092/recipebook_img.jpg"
+    },
+    {
+      "file": "WEST_INDIES_flag.png",
+      "path": "public/destinations/west-indies-365T_00092/WEST_INDIES_flag.png",
+      "source_url": "https://365tours.in/tour_images/365T_00092/WEST INDIES_flag.png"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": "365T_00047",
+  "name": "Chile",
+  "display_name": "CHILE",
+  "slug": "chile-365T_00047",
+  "detail_url": "https://365tours.in/destination-detail.php?id=365T_00047",
+  "flag_file": "CHILE_flag.png",
+  "signature_itineraries": 8,
+  "destinations_offered": [
+    "Aisen Region",
+    "Atacama Desert",
+    "Cajon Del Maipo",
+    "Casablanca Valley",
+    "Central Valley",
+    "Parque Patagonia",
+    "Chiloe Island",
+    "Colchagua Valley",
+    "Easter Island",
+    "Elqui Valley",
+    "Lake District",
+    "Northern Patagonia",
+    "Puerto Varas",
+    "Puerto Natales",
+    "Santa Cruz",
+    "Santiago",
+    "Torres Del Paine NP",
+    "Valparaiso"
+  ],
+  "folder": "public/destinations/chile-365T_00047",
+  "image_count": 8,
+  "images": [
+    {
+      "file": "itenary_34.jpg",
+      "path": "public/destinations/chile-365T_00047/itenary_34.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00047/itenary_34.jpg"
+    },
+    {
+      "file": "itenary_97.jpg",
+      "path": "public/destinations/chile-365T_00047/itenary_97.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00047/itenary_97.jpg"
+    },
+    {
+      "file": "itenary_5.jpg",
+      "path": "public/destinations/chile-365T_00047/itenary_5.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00047/itenary_5.jpg"
+    },
+    {
+      "file": "itenary_63.jpg",
+      "path": "public/destinations/chile-365T_00047/itenary_63.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00047/itenary_63.jpg"
+    },
+    {
+      "file": "itenary_75.jpg",
+      "path": "public/destinations/chile-365T_00047/itenary_75.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00047/itenary_75.jpg"
+    },
+    {
+      "file": "itenary_78.jpg",
+      "path": "public/destinations/chile-365T_00047/itenary_78.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00047/itenary_78.jpg"
+    },
+    {
+      "file": "recipebook_img.jpg",
+      "path": "public/destinations/chile-365T_00047/recipebook_img.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00047/recipebook_img.jpg"
+    },
+    {
+      "file": "CHILE_flag.png",
+      "path": "public/destinations/chile-365T_00047/CHILE_flag.png",
+      "source_url": "https://365tours.in/tour_images/365T_00047/CHILE_flag.png"
+    }
+  ]
+}

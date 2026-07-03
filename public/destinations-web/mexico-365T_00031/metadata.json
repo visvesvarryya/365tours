@@ -1,0 +1,98 @@
+{
+  "id": "365T_00031",
+  "name": "Mexico",
+  "display_name": "MEXICO",
+  "slug": "mexico-365T_00031",
+  "detail_url": "https://365tours.in/destination-detail.php?id=365T_00031",
+  "flag_file": "MEXICO_flag.png",
+  "signature_itineraries": 8,
+  "destinations_offered": [
+    "Baja California",
+    "Barrancas",
+    "Bonampak",
+    "Cancun",
+    "Chiapas",
+    "Chichen Itza",
+    "Chihuahua",
+    "Coba",
+    "Costalegre",
+    "Cuernavaca",
+    "Guanajuato",
+    "Huatulco",
+    "Isla Holbox",
+    "Isla Mujeras",
+    "Ixtapa-Zihuatanejo",
+    "Kabah",
+    "La Paz",
+    "Loreto",
+    "Merida. Mexico City",
+    "Morelia",
+    "Oaxaca",
+    "Palenque",
+    "Puebla",
+    "Puerto Vallarta",
+    "Queretaro",
+    "San Jose",
+    "Taxco",
+    "Teotihuacan",
+    "Tulum",
+    "Uxmal",
+    "Veracruz",
+    "Yaxchilan",
+    "Yucatan Peninsula"
+  ],
+  "folder": "public/destinations/mexico-365T_00031",
+  "image_count": 10,
+  "images": [
+    {
+      "file": "itenary_44.jpg",
+      "path": "public/destinations/mexico-365T_00031/itenary_44.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00031/itenary_44.jpg"
+    },
+    {
+      "file": "itenary_66.jpg",
+      "path": "public/destinations/mexico-365T_00031/itenary_66.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00031/itenary_66.jpg"
+    },
+    {
+      "file": "itenary_51.jpg",
+      "path": "public/destinations/mexico-365T_00031/itenary_51.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00031/itenary_51.jpg"
+    },
+    {
+      "file": "itenary_52.jpg",
+      "path": "public/destinations/mexico-365T_00031/itenary_52.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00031/itenary_52.jpg"
+    },
+    {
+      "file": "itenary_73.jpg",
+      "path": "public/destinations/mexico-365T_00031/itenary_73.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00031/itenary_73.jpg"
+    },
+    {
+      "file": "itenary_92.jpg",
+      "path": "public/destinations/mexico-365T_00031/itenary_92.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00031/itenary_92.jpg"
+    },
+    {
+      "file": "itenary_55.jpg",
+      "path": "public/destinations/mexico-365T_00031/itenary_55.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00031/itenary_55.jpg"
+    },
+    {
+      "file": "itenary_47.jpg",
+      "path": "public/destinations/mexico-365T_00031/itenary_47.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00031/itenary_47.jpg"
+    },
+    {
+      "file": "recipebook_img.jpg",
+      "path": "public/destinations/mexico-365T_00031/recipebook_img.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00031/recipebook_img.jpg"
+    },
+    {
+      "file": "MEXICO_flag.png",
+      "path": "public/destinations/mexico-365T_00031/MEXICO_flag.png",
+      "source_url": "https://365tours.in/tour_images/365T_00031/MEXICO_flag.png"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "id": "365T_00084",
+  "name": "Finland",
+  "display_name": "FINLAND",
+  "slug": "finland-365T_00084",
+  "detail_url": "https://365tours.in/destination-detail.php?id=365T_00084",
+  "flag_file": "FINLAND_flag.png",
+  "signature_itineraries": 8,
+  "destinations_offered": [
+    "Helsinki",
+    "Hameenlinna",
+    "Rovaniemi",
+    "Savonlinna",
+    "Turku",
+    "Kauhava",
+    "Lappajarvi",
+    "Levi",
+    "Nuuksio",
+    "Riistunturi",
+    "Saariselka",
+    "Salamajarvi",
+    "Yllas"
+  ],
+  "folder": "public/destinations/finland-365T_00084",
+  "image_count": 10,
+  "images": [
+    {
+      "file": "itenary_13.jpg",
+      "path": "public/destinations/finland-365T_00084/itenary_13.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00084/itenary_13.jpg"
+    },
+    {
+      "file": "itenary_26.jpg",
+      "path": "public/destinations/finland-365T_00084/itenary_26.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00084/itenary_26.jpg"
+    },
+    {
+      "file": "itenary_31.jpg",
+      "path": "public/destinations/finland-365T_00084/itenary_31.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00084/itenary_31.jpg"
+    },
+    {
+      "file": "itenary_60.jpg",
+      "path": "public/destinations/finland-365T_00084/itenary_60.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00084/itenary_60.jpg"
+    },
+    {
+      "file": "itenary_23.jpg",
+      "path": "public/destinations/finland-365T_00084/itenary_23.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00084/itenary_23.jpg"
+    },
+    {
+      "file": "itenary_88.jpg",
+      "path": "public/destinations/finland-365T_00084/itenary_88.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00084/itenary_88.jpg"
+    },
+    {
+      "file": "itenary_47.jpg",
+      "path": "public/destinations/finland-365T_00084/itenary_47.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00084/itenary_47.jpg"
+    },
+    {
+      "file": "itenary_91.jpg",
+      "path": "public/destinations/finland-365T_00084/itenary_91.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00084/itenary_91.jpg"
+    },
+    {
+      "file": "recipebook_img.jpg",
+      "path": "public/destinations/finland-365T_00084/recipebook_img.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00084/recipebook_img.jpg"
+    },
+    {
+      "file": "FINLAND_flag.png",
+      "path": "public/destinations/finland-365T_00084/FINLAND_flag.png",
+      "source_url": "https://365tours.in/tour_images/365T_00084/FINLAND_flag.png"
+    }
+  ]
+}

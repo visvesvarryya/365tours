@@ -1,0 +1,84 @@
+{
+  "id": "365T_00041",
+  "name": "Japan",
+  "display_name": "JAPAN",
+  "slug": "japan-365T_00041",
+  "detail_url": "https://365tours.in/destination-detail.php?id=365T_00041",
+  "flag_file": "JAPAN_flag.png",
+  "signature_itineraries": 8,
+  "destinations_offered": [
+    "Hokkaido",
+    "Kyushu",
+    "Hakone",
+    "Mt Fuji",
+    "Okinawa",
+    "Hiroshima",
+    "Shikoku",
+    "Tohoku",
+    "Kanazawa",
+    "Kamakura",
+    "Kyoto",
+    "Matsue",
+    "Mt Koya",
+    "Nagasaki",
+    "Osaka",
+    "Shiakawago",
+    "Takayama",
+    "Tokyo",
+    "Tottori"
+  ],
+  "folder": "public/destinations/japan-365T_00041",
+  "image_count": 10,
+  "images": [
+    {
+      "file": "itenary_94.jpg",
+      "path": "public/destinations/japan-365T_00041/itenary_94.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00041/itenary_94.jpg"
+    },
+    {
+      "file": "itenary_16.jpg",
+      "path": "public/destinations/japan-365T_00041/itenary_16.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00041/itenary_16.jpg"
+    },
+    {
+      "file": "itenary_93.jpg",
+      "path": "public/destinations/japan-365T_00041/itenary_93.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00041/itenary_93.jpg"
+    },
+    {
+      "file": "itenary_87.jpg",
+      "path": "public/destinations/japan-365T_00041/itenary_87.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00041/itenary_87.jpg"
+    },
+    {
+      "file": "itenary_67.jpg",
+      "path": "public/destinations/japan-365T_00041/itenary_67.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00041/itenary_67.jpg"
+    },
+    {
+      "file": "itenary_9.jpg",
+      "path": "public/destinations/japan-365T_00041/itenary_9.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00041/itenary_9.jpg"
+    },
+    {
+      "file": "itenary_70.jpg",
+      "path": "public/destinations/japan-365T_00041/itenary_70.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00041/itenary_70.jpg"
+    },
+    {
+      "file": "itenary_3.jpg",
+      "path": "public/destinations/japan-365T_00041/itenary_3.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00041/itenary_3.jpg"
+    },
+    {
+      "file": "recipebook_img.jpg",
+      "path": "public/destinations/japan-365T_00041/recipebook_img.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00041/recipebook_img.jpg"
+    },
+    {
+      "file": "JAPAN_flag.png",
+      "path": "public/destinations/japan-365T_00041/JAPAN_flag.png",
+      "source_url": "https://365tours.in/tour_images/365T_00041/JAPAN_flag.png"
+    }
+  ]
+}

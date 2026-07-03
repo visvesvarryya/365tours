@@ -1,0 +1,64 @@
+{
+  "id": "365T_00095",
+  "name": "Cyprus",
+  "display_name": "CYPRUS",
+  "slug": "cyprus-365T_00095",
+  "detail_url": "https://365tours.in/destination-detail.php?id=365T_00095",
+  "flag_file": "CYPRUS_flag.png",
+  "signature_itineraries": null,
+  "destinations_offered": [],
+  "folder": "public/destinations/cyprus-365T_00095",
+  "image_count": 10,
+  "images": [
+    {
+      "file": "itenary_30.jpg",
+      "path": "public/destinations/cyprus-365T_00095/itenary_30.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00095/itenary_30.jpg"
+    },
+    {
+      "file": "itenary_77.jpg",
+      "path": "public/destinations/cyprus-365T_00095/itenary_77.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00095/itenary_77.jpg"
+    },
+    {
+      "file": "itenary_92.jpg",
+      "path": "public/destinations/cyprus-365T_00095/itenary_92.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00095/itenary_92.jpg"
+    },
+    {
+      "file": "itenary_62.jpg",
+      "path": "public/destinations/cyprus-365T_00095/itenary_62.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00095/itenary_62.jpg"
+    },
+    {
+      "file": "itenary_10.jpg",
+      "path": "public/destinations/cyprus-365T_00095/itenary_10.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00095/itenary_10.jpg"
+    },
+    {
+      "file": "itenary_60.jpg",
+      "path": "public/destinations/cyprus-365T_00095/itenary_60.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00095/itenary_60.jpg"
+    },
+    {
+      "file": "itenary_24.jpg",
+      "path": "public/destinations/cyprus-365T_00095/itenary_24.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00095/itenary_24.jpg"
+    },
+    {
+      "file": "itenary_93.jpg",
+      "path": "public/destinations/cyprus-365T_00095/itenary_93.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00095/itenary_93.jpg"
+    },
+    {
+      "file": "recipebook_img.jpg",
+      "path": "public/destinations/cyprus-365T_00095/recipebook_img.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00095/recipebook_img.jpg"
+    },
+    {
+      "file": "CYPRUS_flag.png",
+      "path": "public/destinations/cyprus-365T_00095/CYPRUS_flag.png",
+      "source_url": "https://365tours.in/tour_images/365T_00095/CYPRUS_flag.png"
+    }
+  ]
+}

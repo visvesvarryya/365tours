@@ -1,0 +1,78 @@
+{
+  "id": "365T_00046",
+  "name": "Uganda",
+  "display_name": "UGANDA",
+  "slug": "uganda-365T_00046",
+  "detail_url": "https://365tours.in/destination-detail.php?id=365T_00046",
+  "flag_file": "UGANDA_flag.png",
+  "signature_itineraries": 8,
+  "destinations_offered": [
+    "Bwindi",
+    "Entebbe",
+    "Ishasha",
+    "Jinja",
+    "Kampala",
+    "Kibale",
+    "Lake Bunyoni",
+    "Lake Mburo",
+    "Mgahinga",
+    "Murchison Falls",
+    "Ngamba",
+    "Queen Elizabeth NP",
+    "Semliki"
+  ],
+  "folder": "public/destinations/uganda-365T_00046",
+  "image_count": 10,
+  "images": [
+    {
+      "file": "itenary_81.jpg",
+      "path": "public/destinations/uganda-365T_00046/itenary_81.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00046/itenary_81.jpg"
+    },
+    {
+      "file": "itenary_74.jpg",
+      "path": "public/destinations/uganda-365T_00046/itenary_74.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00046/itenary_74.jpg"
+    },
+    {
+      "file": "itenary_11.jpg",
+      "path": "public/destinations/uganda-365T_00046/itenary_11.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00046/itenary_11.jpg"
+    },
+    {
+      "file": "itenary_15.jpg",
+      "path": "public/destinations/uganda-365T_00046/itenary_15.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00046/itenary_15.jpg"
+    },
+    {
+      "file": "itenary_34.jpg",
+      "path": "public/destinations/uganda-365T_00046/itenary_34.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00046/itenary_34.jpg"
+    },
+    {
+      "file": "itenary_20.jpg",
+      "path": "public/destinations/uganda-365T_00046/itenary_20.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00046/itenary_20.jpg"
+    },
+    {
+      "file": "itenary_39.jpg",
+      "path": "public/destinations/uganda-365T_00046/itenary_39.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00046/itenary_39.jpg"
+    },
+    {
+      "file": "itenary_25.jpg",
+      "path": "public/destinations/uganda-365T_00046/itenary_25.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00046/itenary_25.jpg"
+    },
+    {
+      "file": "recipebook_img.jpg",
+      "path": "public/destinations/uganda-365T_00046/recipebook_img.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00046/recipebook_img.jpg"
+    },
+    {
+      "file": "UGANDA_flag.png",
+      "path": "public/destinations/uganda-365T_00046/UGANDA_flag.png",
+      "source_url": "https://365tours.in/tour_images/365T_00046/UGANDA_flag.png"
+    }
+  ]
+}

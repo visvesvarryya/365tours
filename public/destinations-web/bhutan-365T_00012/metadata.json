@@ -1,0 +1,74 @@
+{
+  "id": "365T_00012",
+  "name": "Bhutan",
+  "display_name": "BHUTAN",
+  "slug": "bhutan-365T_00012",
+  "detail_url": "https://365tours.in/destination-detail.php?id=365T_00012",
+  "flag_file": "BHUTAN_flag.png",
+  "signature_itineraries": 8,
+  "destinations_offered": [
+    "Bumthang",
+    "Jakar",
+    "Paro",
+    "Phobjikha Valley",
+    "Punakha",
+    "Tashigang",
+    "Thimpu",
+    "Trongsa",
+    "Wangdiphodrang"
+  ],
+  "folder": "public/destinations/bhutan-365T_00012",
+  "image_count": 10,
+  "images": [
+    {
+      "file": "365T_00012_56.jpg",
+      "path": "public/destinations/bhutan-365T_00012/365T_00012_56.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00012/365T_00012_56.jpg"
+    },
+    {
+      "file": "365T_00012_5.jpg",
+      "path": "public/destinations/bhutan-365T_00012/365T_00012_5.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00012/365T_00012_5.jpg"
+    },
+    {
+      "file": "365T_00012_41.jpg",
+      "path": "public/destinations/bhutan-365T_00012/365T_00012_41.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00012/365T_00012_41.jpg"
+    },
+    {
+      "file": "365T_00012_25.jpg",
+      "path": "public/destinations/bhutan-365T_00012/365T_00012_25.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00012/365T_00012_25.jpg"
+    },
+    {
+      "file": "365T_00012_2.jpg",
+      "path": "public/destinations/bhutan-365T_00012/365T_00012_2.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00012/365T_00012_2.jpg"
+    },
+    {
+      "file": "365T_00012_19.jpg",
+      "path": "public/destinations/bhutan-365T_00012/365T_00012_19.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00012/365T_00012_19.jpg"
+    },
+    {
+      "file": "365T_00012_58.jpg",
+      "path": "public/destinations/bhutan-365T_00012/365T_00012_58.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00012/365T_00012_58.jpg"
+    },
+    {
+      "file": "365T_00012_90.jpg",
+      "path": "public/destinations/bhutan-365T_00012/365T_00012_90.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00012/365T_00012_90.jpg"
+    },
+    {
+      "file": "recipebook_img.jpg",
+      "path": "public/destinations/bhutan-365T_00012/recipebook_img.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00012/recipebook_img.jpg"
+    },
+    {
+      "file": "BHUTAN_flag.png",
+      "path": "public/destinations/bhutan-365T_00012/BHUTAN_flag.png",
+      "source_url": "https://365tours.in/tour_images/365T_00012/BHUTAN_flag.png"
+    }
+  ]
+}

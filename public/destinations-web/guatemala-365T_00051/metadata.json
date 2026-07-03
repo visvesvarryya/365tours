@@ -1,0 +1,73 @@
+{
+  "id": "365T_00051",
+  "name": "Guatemala",
+  "display_name": "GUATEMALA",
+  "slug": "guatemala-365T_00051",
+  "detail_url": "https://365tours.in/destination-detail.php?id=365T_00051",
+  "flag_file": "GUATEMALA_flag.png",
+  "signature_itineraries": 8,
+  "destinations_offered": [
+    "Antigua",
+    "Guatemala City",
+    "Coban",
+    "Flores",
+    "Lake Atitlan",
+    "Rio Dulce & Livingston",
+    "Tikal & Peten",
+    "Western Highlands."
+  ],
+  "folder": "public/destinations/guatemala-365T_00051",
+  "image_count": 10,
+  "images": [
+    {
+      "file": "itenary_78.jpg",
+      "path": "public/destinations/guatemala-365T_00051/itenary_78.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00051/itenary_78.jpg"
+    },
+    {
+      "file": "itenary_73.jpg",
+      "path": "public/destinations/guatemala-365T_00051/itenary_73.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00051/itenary_73.jpg"
+    },
+    {
+      "file": "itenary_51.jpg",
+      "path": "public/destinations/guatemala-365T_00051/itenary_51.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00051/itenary_51.jpg"
+    },
+    {
+      "file": "itenary_20.jpg",
+      "path": "public/destinations/guatemala-365T_00051/itenary_20.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00051/itenary_20.jpg"
+    },
+    {
+      "file": "itenary_71.jpg",
+      "path": "public/destinations/guatemala-365T_00051/itenary_71.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00051/itenary_71.jpg"
+    },
+    {
+      "file": "itenary_98.jpg",
+      "path": "public/destinations/guatemala-365T_00051/itenary_98.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00051/itenary_98.jpg"
+    },
+    {
+      "file": "itenary_50.jpg",
+      "path": "public/destinations/guatemala-365T_00051/itenary_50.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00051/itenary_50.jpg"
+    },
+    {
+      "file": "itenary_62.jpg",
+      "path": "public/destinations/guatemala-365T_00051/itenary_62.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00051/itenary_62.jpg"
+    },
+    {
+      "file": "recipebook_img.jpg",
+      "path": "public/destinations/guatemala-365T_00051/recipebook_img.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00051/recipebook_img.jpg"
+    },
+    {
+      "file": "GUATEMALA_flag.png",
+      "path": "public/destinations/guatemala-365T_00051/GUATEMALA_flag.png",
+      "source_url": "https://365tours.in/tour_images/365T_00051/GUATEMALA_flag.png"
+    }
+  ]
+}

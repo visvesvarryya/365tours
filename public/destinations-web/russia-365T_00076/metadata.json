@@ -1,0 +1,80 @@
+{
+  "id": "365T_00076",
+  "name": "Russia",
+  "display_name": "RUSSIA",
+  "slug": "russia-365T_00076",
+  "detail_url": "https://365tours.in/destination-detail.php?id=365T_00076",
+  "flag_file": "RUSSIA_flag.png",
+  "signature_itineraries": 8,
+  "destinations_offered": [
+    "Moscow",
+    "St Petersburg",
+    "Irkutsk",
+    "Ekaterinbutg",
+    "Kazan",
+    "Kostroma",
+    "Lake Baikal",
+    "Listvyanka",
+    "Novgorod",
+    "Solovetsky Islands",
+    "Suzdal",
+    "Ulan Ude",
+    "Vladimir",
+    "Vladivostok",
+    "Yaroslavi"
+  ],
+  "folder": "public/destinations/russia-365T_00076",
+  "image_count": 10,
+  "images": [
+    {
+      "file": "itenary_50.jpg",
+      "path": "public/destinations/russia-365T_00076/itenary_50.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00076/itenary_50.jpg"
+    },
+    {
+      "file": "itenary_68.jpg",
+      "path": "public/destinations/russia-365T_00076/itenary_68.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00076/itenary_68.jpg"
+    },
+    {
+      "file": "itenary_93.jpg",
+      "path": "public/destinations/russia-365T_00076/itenary_93.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00076/itenary_93.jpg"
+    },
+    {
+      "file": "itenary_31.jpg",
+      "path": "public/destinations/russia-365T_00076/itenary_31.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00076/itenary_31.jpg"
+    },
+    {
+      "file": "itenary_5.jpg",
+      "path": "public/destinations/russia-365T_00076/itenary_5.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00076/itenary_5.jpg"
+    },
+    {
+      "file": "itenary_73.jpg",
+      "path": "public/destinations/russia-365T_00076/itenary_73.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00076/itenary_73.jpg"
+    },
+    {
+      "file": "itenary_2.jpg",
+      "path": "public/destinations/russia-365T_00076/itenary_2.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00076/itenary_2.jpg"
+    },
+    {
+      "file": "itenary_6.jpg",
+      "path": "public/destinations/russia-365T_00076/itenary_6.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00076/itenary_6.jpg"
+    },
+    {
+      "file": "recipebook_img.jpg",
+      "path": "public/destinations/russia-365T_00076/recipebook_img.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00076/recipebook_img.jpg"
+    },
+    {
+      "file": "RUSSIA_flag.png",
+      "path": "public/destinations/russia-365T_00076/RUSSIA_flag.png",
+      "source_url": "https://365tours.in/tour_images/365T_00076/RUSSIA_flag.png"
+    }
+  ]
+}

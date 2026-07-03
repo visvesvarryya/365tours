@@ -1,0 +1,74 @@
+{
+  "id": "365T_00043",
+  "name": "Botswana",
+  "display_name": "BOTSWANA",
+  "slug": "botswana-365T_00043",
+  "detail_url": "https://365tours.in/destination-detail.php?id=365T_00043",
+  "flag_file": "BOTSWANA_flag.png",
+  "signature_itineraries": 8,
+  "destinations_offered": [
+    "Okavango Delta",
+    "Central Kalahari",
+    "Chobe National Park",
+    "Gaborone",
+    "Linyanti Wetlands",
+    "Makgadikgadi Pans",
+    "Maun",
+    "Moremi",
+    "Savuti"
+  ],
+  "folder": "public/destinations/botswana-365T_00043",
+  "image_count": 10,
+  "images": [
+    {
+      "file": "365T_00043_15.jpg",
+      "path": "public/destinations/botswana-365T_00043/365T_00043_15.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00043/365T_00043_15.jpg"
+    },
+    {
+      "file": "itenary_67.jpg",
+      "path": "public/destinations/botswana-365T_00043/itenary_67.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00043/itenary_67.jpg"
+    },
+    {
+      "file": "itenary_8.jpg",
+      "path": "public/destinations/botswana-365T_00043/itenary_8.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00043/itenary_8.jpg"
+    },
+    {
+      "file": "itenary_68.jpg",
+      "path": "public/destinations/botswana-365T_00043/itenary_68.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00043/itenary_68.jpg"
+    },
+    {
+      "file": "itenary_7.jpg",
+      "path": "public/destinations/botswana-365T_00043/itenary_7.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00043/itenary_7.jpg"
+    },
+    {
+      "file": "itenary_20.jpg",
+      "path": "public/destinations/botswana-365T_00043/itenary_20.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00043/itenary_20.jpg"
+    },
+    {
+      "file": "itenary_72.jpg",
+      "path": "public/destinations/botswana-365T_00043/itenary_72.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00043/itenary_72.jpg"
+    },
+    {
+      "file": "itenary_87.jpg",
+      "path": "public/destinations/botswana-365T_00043/itenary_87.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00043/itenary_87.jpg"
+    },
+    {
+      "file": "recipebook_img.jpg",
+      "path": "public/destinations/botswana-365T_00043/recipebook_img.jpg",
+      "source_url": "https://365tours.in/tour_images/365T_00043/recipebook_img.jpg"
+    },
+    {
+      "file": "BOTSWANA_flag.png",
+      "path": "public/destinations/botswana-365T_00043/BOTSWANA_flag.png",
+      "source_url": "https://365tours.in/tour_images/365T_00043/BOTSWANA_flag.png"
+    }
+  ]
+}
