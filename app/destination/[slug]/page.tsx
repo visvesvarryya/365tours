@@ -181,15 +181,13 @@ export default function DestinationPage({ params }: { params: { slug: string } }
         {dest.itineraries && dest.itineraries.length > 0 && (
           <section className="bg-stone-50 py-16">
             <div className="mx-auto max-w-7xl px-6 lg:px-10">
-              <p className="text-xs font-semibold uppercase tracking-[0.3em] text-brand-500">
-                Signature Itineraries
-              </p>
-              <h2 className="mt-3 font-serif text-3xl font-bold text-stone-900">
-                Ready-Made Journeys Through {dest.name}
+              {/* Same brush treatment as the landing page's "100 Countries" */}
+              <h2 className="font-brush leading-none text-stone-900">
+                <span className="text-6xl sm:text-8xl">{dest.itineraries.length}</span>{" "}
+                <span className="text-3xl sm:text-5xl">Signature Itineraries</span>
               </h2>
-              <p className="mt-3 max-w-2xl leading-relaxed text-stone-500">
-                Well-researched routes to suit your interest, time &amp; budget — every one fully
-                private and customisable.
+              <p className="mt-2 font-merri text-lg italic text-stone-600 sm:text-xl">
+                Well crafted based on your interest, time &amp; budget
               </p>
               <div className="mt-8">
                 <ItineraryCarousel items={dest.itineraries} name={dest.name} />
