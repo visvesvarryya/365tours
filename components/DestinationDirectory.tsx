@@ -23,8 +23,7 @@ export default function DestinationDirectory() {
             A–Z Destination Directory
           </h2>
           <p className="mt-3 leading-relaxed text-stone-500">
-            Across 7 continents — from Antarctica to Zimbabwe. Don&apos;t see your dream destination?
-            We likely cover it.
+            From Antarctica to Zimbabwe — don&apos;t see your dream destination? We likely cover it.
           </p>
         </div>
 

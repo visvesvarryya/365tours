@@ -1,10 +1,12 @@
+import Icon from "@/components/Icon";
+
 const pillars = [
-  { icon: "🔬", title: "1000+ Hours of Research", tint: "bg-sky-100 text-sky-700" },
-  { icon: "🧑‍🤝‍🧑", title: "100% Private Tours", tint: "bg-violet-100 text-violet-700" },
-  { icon: "🧭", title: "Expert Local Guides", tint: "bg-emerald-100 text-emerald-700" },
-  { icon: "🏨", title: "Top-Rated Stays & Dining", tint: "bg-rose-100 text-rose-700" },
-  { icon: "🚗", title: "Premium Private Vehicles", tint: "bg-amber-100 text-amber-700" },
-  { icon: "📞", title: "24/7 Dedicated Support", tint: "bg-teal-100 text-teal-700" },
+  { icon: "search", title: "1000+ Hours of Research", tint: "bg-sky-100 text-sky-700" },
+  { icon: "users", title: "100% Private Tours", tint: "bg-violet-100 text-violet-700" },
+  { icon: "compass", title: "Expert Local Guides", tint: "bg-emerald-100 text-emerald-700" },
+  { icon: "building", title: "Top-Rated Stays & Dining", tint: "bg-rose-100 text-rose-700" },
+  { icon: "car", title: "Premium Private Vehicles", tint: "bg-amber-100 text-amber-700" },
+  { icon: "phone", title: "24/7 Dedicated Support", tint: "bg-teal-100 text-teal-700" },
 ];
 
 export default function WhyUs() {
@@ -31,8 +33,8 @@ export default function WhyUs() {
               key={p.title}
               className="flex flex-col items-center gap-2 rounded-2xl border border-white bg-white/70 p-4 text-center shadow-sm transition hover:-translate-y-1 hover:shadow-md"
             >
-              <span className={`flex h-12 w-12 items-center justify-center rounded-2xl text-2xl ${p.tint}`}>
-                {p.icon}
+              <span className={`flex h-12 w-12 items-center justify-center rounded-2xl ${p.tint}`}>
+                <Icon name={p.icon} className="h-6 w-6" />
               </span>
               <p className="text-sm font-semibold leading-snug text-stone-800">{p.title}</p>
             </div>

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import IndianHolidays from "@/components/IndianHolidays";
+import IndiaCarousel from "@/components/IndiaCarousel";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 import { SITE_URL } from "@/lib/site";
@@ -106,6 +107,7 @@ export default function IndiaPage() {
           </div>
         </section>
 
+        <IndiaCarousel />
         <IndianHolidays />
         <Contact />
       </main>

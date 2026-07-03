@@ -8,6 +8,7 @@ module.exports = {
       fontFamily: {
         sans: ["var(--font-inter)", "system-ui", "sans-serif"],
         serif: ["var(--font-playfair)", "Georgia", "serif"],
+        brush: ["var(--font-brush)", "Comic Sans MS", "cursive"],
       },
       colors: {
         brand: {

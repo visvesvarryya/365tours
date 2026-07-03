@@ -1,5 +1,5 @@
 import type { Metadata, Viewport } from "next";
-import { Playfair_Display, Inter } from "next/font/google";
+import { Playfair_Display, Inter, Gochi_Hand } from "next/font/google";
 import "./globals.css";
 import Analytics from "@/components/Analytics";
 import FloatingWhatsApp from "@/components/FloatingWhatsApp";
@@ -16,6 +16,14 @@ const playfair = Playfair_Display({
 const inter = Inter({
   subsets: ["latin"],
   variable: "--font-inter",
+  display: "swap",
+});
+
+// Handwritten brush display font — the same one the original 365tours.in used.
+const brush = Gochi_Hand({
+  subsets: ["latin"],
+  weight: "400",
+  variable: "--font-brush",
   display: "swap",
 });
 
@@ -49,7 +57,7 @@ export const viewport: Viewport = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" className={`${playfair.variable} ${inter.variable}`}>
+    <html lang="en" className={`${playfair.variable} ${inter.variable} ${brush.variable}`}>
       <body>
         <Navbar />
         {children}

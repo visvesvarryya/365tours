@@ -1,16 +1,17 @@
 import Link from "next/link";
+import Icon from "@/components/Icon";
 
 // Ordered premium-first (reversed): our curated pick and top tiers lead the list.
 const categories = [
-  { label: "365 Pick", desc: "Our personally curated favourites — outstanding experience, exceptional value.", icon: "❤️", grad: "from-red-500 to-rose-600" },
-  { label: "Unusual", desc: "Treehouses, cave hotels, floating villas, desert camps — stays that are destinations themselves.", icon: "🏕️", grad: "from-teal-500 to-cyan-600" },
-  { label: "Eco", desc: "Sustainable lodges & nature camps that tread lightly on the environment.", icon: "🌿", grad: "from-emerald-500 to-green-600" },
-  { label: "Boutique", desc: "Intimate, design-forward properties with unique character and local flavour.", icon: "🛋️", grad: "from-pink-500 to-fuchsia-600" },
-  { label: "Heritage", desc: "Palaces, forts, havelis & colonial bungalows turned living history.", icon: "🏯", grad: "from-orange-500 to-amber-600" },
-  { label: "Luxury", desc: "Ultra-premium stays — private pools, butler service, pure indulgence.", icon: "💎", grad: "from-violet-500 to-purple-600" },
-  { label: "5 Star", desc: "Premium hotels with world-class facilities, fine dining and spa.", icon: "🌟", grad: "from-indigo-500 to-blue-600" },
-  { label: "4 Star", desc: "Superior hotels with enhanced facilities and prime locations.", icon: "🏨", grad: "from-sky-500 to-cyan-600" },
-  { label: "3 Star", desc: "Comfortable, well-located hotels with great value for money.", icon: "🏩", grad: "from-slate-500 to-stone-600" },
+  { label: "365 Pick", desc: "Our personally curated favourites — outstanding experience, exceptional value.", icon: "heart", grad: "from-red-500 to-rose-600" },
+  { label: "Unusual", desc: "Treehouses, cave hotels, floating villas, desert camps — stays that are destinations themselves.", icon: "sparkles", grad: "from-teal-500 to-cyan-600" },
+  { label: "Eco", desc: "Sustainable lodges & nature camps that tread lightly on the environment.", icon: "leaf", grad: "from-emerald-500 to-green-600" },
+  { label: "Boutique", desc: "Intimate, design-forward properties with unique character and local flavour.", icon: "home", grad: "from-pink-500 to-fuchsia-600" },
+  { label: "Heritage", desc: "Palaces, forts, havelis & colonial bungalows turned living history.", icon: "columns", grad: "from-orange-500 to-amber-600" },
+  { label: "Luxury", desc: "Ultra-premium stays — private pools, butler service, pure indulgence.", icon: "diamond", grad: "from-violet-500 to-purple-600" },
+  { label: "5 Star", desc: "Premium hotels with world-class facilities, fine dining and spa.", icon: "star", grad: "from-indigo-500 to-blue-600" },
+  { label: "4 Star", desc: "Superior hotels with enhanced facilities and prime locations.", icon: "building", grad: "from-sky-500 to-cyan-600" },
+  { label: "3 Star", desc: "Comfortable, well-located hotels with great value for money.", icon: "building", grad: "from-slate-500 to-stone-600" },
 ];
 
 export default function AccommodationTypes() {
@@ -38,12 +39,13 @@ export default function AccommodationTypes() {
               key={cat.label}
               className={`group relative overflow-hidden rounded-3xl bg-gradient-to-br ${cat.grad} p-6 text-white shadow-md transition hover:-translate-y-1 hover:shadow-xl`}
             >
-              <span className="absolute -right-3 -top-3 text-6xl opacity-20 transition-transform duration-500 group-hover:scale-125">
-                {cat.icon}
-              </span>
+              <Icon
+                name={cat.icon}
+                className="absolute -right-4 -top-4 h-28 w-28 text-white opacity-15 transition-transform duration-500 group-hover:scale-110"
+              />
               <div className="relative">
-                <div className="flex h-11 w-11 items-center justify-center rounded-2xl bg-white/25 text-xl">
-                  {cat.icon}
+                <div className="flex h-11 w-11 items-center justify-center rounded-2xl bg-white/25">
+                  <Icon name={cat.icon} className="h-6 w-6 text-white" />
                 </div>
                 <h3 className="mt-4 font-serif text-2xl font-bold">{cat.label}</h3>
                 <p className="mt-1.5 text-sm leading-relaxed text-white/90">{cat.desc}</p>
