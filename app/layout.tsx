@@ -1,5 +1,5 @@
 import type { Metadata, Viewport } from "next";
-import { Playfair_Display, Inter, Merriweather, Oswald } from "next/font/google";
+import { Playfair_Display, Inter, Merriweather, Oswald, Cinzel } from "next/font/google";
 import localFont from "next/font/local";
 import "./globals.css";
 import Analytics from "@/components/Analytics";
@@ -46,6 +46,16 @@ const oswald = Oswald({
   display: "swap",
 });
 
+// Cinzel — engraved Roman-lapidary style serif, closest web-safe match to
+// "Engravers MT" (a Windows-only font with no web/Google Fonts equivalent).
+// Used for the numbered guarantee plaques in the Tour Guarantee section.
+const cinzel = Cinzel({
+  subsets: ["latin"],
+  weight: ["600", "700"],
+  variable: "--font-cinzel",
+  display: "swap",
+});
+
 const description =
   "Explore. Experience. Evolve. Private & customised tours across 7 continents, 100 countries, and 1500+ destinations. Based in Chennai, India.";
 
@@ -76,7 +86,7 @@ export const viewport: Viewport = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" className={`${playfair.variable} ${inter.variable} ${brush.variable} ${merri.variable} ${oswald.variable}`}>
+    <html lang="en" className={`${playfair.variable} ${inter.variable} ${brush.variable} ${merri.variable} ${oswald.variable} ${cinzel.variable}`}>
       <body>
         <Navbar />
         {children}

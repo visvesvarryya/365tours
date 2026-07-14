@@ -1,12 +1,10 @@
 import Hero from "@/components/Hero";
-import Stats from "@/components/Stats";
-import Destinations from "@/components/Destinations";
+import TourGuarantee from "@/components/TourGuarantee";
 import DestinationDirectory from "@/components/DestinationDirectory";
 import AccommodationTypes from "@/components/AccommodationTypes";
 import TwelveReasons from "@/components/TwelveReasons";
 import TravelRewards from "@/components/TravelRewards";
 import WhyUs from "@/components/WhyUs";
-import MakeNewMemories from "@/components/MakeNewMemories";
 import TrustBar from "@/components/TrustBar";
 import Testimonials from "@/components/Testimonials";
 import Contact from "@/components/Contact";
@@ -48,15 +46,13 @@ export default function Home() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(orgJsonLd) }}
       />
       <Hero />
-      <Stats />
-      <Destinations />
+      <TourGuarantee />
       <DestinationDirectory />
       <AccommodationTypes />
       <TwelveReasons />
       <TravelRewards />
       <WhyUs />
       <Testimonials />
-      <MakeNewMemories />
       <TrustBar />
       <Contact />
       <Footer />

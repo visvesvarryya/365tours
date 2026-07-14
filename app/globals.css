@@ -48,6 +48,12 @@ img {
   max-width: 100%;
 }
 
+/* "Engravers Serif" — a licensed system/print font with no free web equivalent;
+   falls back to the closest available serif on the visitor's system. */
+.font-engravers {
+  font-family: "Engravers MT", "Engravers Old English", "Copperplate Gothic", Georgia, serif;
+}
+
 /* Custom scrollbar */
 ::-webkit-scrollbar {
   width: 6px;

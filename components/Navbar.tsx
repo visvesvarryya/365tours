@@ -2,15 +2,13 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import Logo from "@/components/Logo";
 
 // Root-relative hrefs so the links work from every page (home *and* destination pages).
 const navLinks = [
-  { label: "Destinations", href: "/#all-destinations" },
-  { label: "Accommodation", href: "/#accommodation" },
-  { label: "12 Reasons", href: "/#twelve-reasons" },
+  { label: "Blogs", href: "https://365tours.blogspot.com", external: true },
   { label: "Reviews", href: "/#reviews" },
-  { label: "Blog", href: "https://365tours.blogspot.com", external: true },
 ];
 
 export default function Navbar() {
@@ -42,8 +40,9 @@ export default function Navbar() {
       }`}
     >
       <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 lg:px-10">
-        {/* Logo — eager but not preloaded, so it doesn't compete with the hero LCP */}
-        <Logo />
+        {/* Logo — eager but not preloaded, so it doesn't compete with the hero LCP.
+            Matches the original 365tours.in header size (200px wide). */}
+        <Logo height={126} />
 
         {/* Desktop Nav */}
         <nav className="hidden items-center gap-8 lg:flex">
@@ -64,25 +63,31 @@ export default function Navbar() {
 
         {/* CTA */}
         <div className="hidden items-center gap-4 lg:flex">
-          <div className={`flex flex-col items-end leading-tight ${scrolled ? "text-stone-600" : "text-white/85"}`}>
+          <div className={`mr-3 flex flex-col items-end leading-tight ${scrolled ? "text-stone-600" : "text-white/85"}`}>
             <a
               href="tel:+919840148869"
-              className={`text-sm font-medium transition-colors ${scrolled ? "hover:text-brand-500" : "hover:text-white"}`}
+              className={`text-base font-medium transition-colors ${scrolled ? "hover:text-brand-500" : "hover:text-white"}`}
             >
               +91 98401 48869
             </a>
             <a
               href="mailto:tours@365tours.in"
-              className={`text-xs transition-colors ${scrolled ? "text-stone-500 hover:text-brand-500" : "text-white/70 hover:text-white"}`}
+              className={`text-sm transition-colors ${scrolled ? "text-stone-500 hover:text-brand-500" : "text-white/70 hover:text-white"}`}
             >
               tours@365tours.in
             </a>
           </div>
-          <Link
-            href="/#contact"
-            className="rounded-full bg-brand-500 px-5 py-2.5 text-sm font-semibold text-white transition hover:bg-brand-600 active:scale-95"
-          >
-            Plan a Tour
+          <Link href="/india" className="flex shrink-0 flex-col items-center gap-1">
+            <Image
+              src="/brand/india_logo.jpg"
+              alt="28 States · 8 UT · 500+ Destinations across India"
+              width={179}
+              height={114}
+              className="h-[65px] w-auto rounded object-contain shadow-sm"
+            />
+            <span className={`text-[11px] font-semibold ${scrolled ? "text-stone-600" : "text-white/85"}`}>
+              Indian Holidays
+            </span>
           </Link>
         </div>
 
@@ -126,13 +131,14 @@ export default function Navbar() {
                 {link.label}
               </Link>
             ))}
-            <Link
-              href="/#contact"
-              onClick={() => setMenuOpen(false)}
-              className="mt-2 inline-flex justify-center rounded-full bg-brand-500 px-6 py-3 text-sm font-semibold text-white"
-            >
-              Plan a Tour
-            </Link>
+            <div className="mt-2 flex items-center gap-4 border-t border-stone-100 pt-4">
+              <a href="tel:+919840148869" className="text-sm font-medium text-stone-700">
+                +91 98401 48869
+              </a>
+              <a href="mailto:tours@365tours.in" className="text-sm text-stone-500">
+                tours@365tours.in
+              </a>
+            </div>
           </nav>
         </div>
       )}

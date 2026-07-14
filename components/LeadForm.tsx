@@ -65,6 +65,8 @@ export default function LeadForm({
       email: contact.email.trim(),
       phone: contact.phone.trim(),
       groupSize: String(data.get("groupSize") || ""),
+      departureCity: String(data.get("departureCity") || "").trim(),
+      travelMonth: String(data.get("travelMonth") || "").trim(),
       message: String(data.get("message") || "").trim(),
       interests: destination ? [destination] : selected,
       destination,
@@ -162,7 +164,7 @@ export default function LeadForm({
         </label>
         <label className="block">
           <span className="text-xs font-medium uppercase tracking-widest text-stone-400">
-            Group Size
+            No. of People Travelling
           </span>
           <select
             name="groupSize"
@@ -174,6 +176,21 @@ export default function LeadForm({
             <option>Small group (3–5)</option>
             <option>Family / Group (6+)</option>
           </select>
+        </label>
+      </div>
+
+      <div className={variant === "full" ? "grid gap-5 sm:grid-cols-2" : "space-y-5"}>
+        <label className="block">
+          <span className="text-xs font-medium uppercase tracking-widest text-stone-400">
+            Country / City of Departure
+          </span>
+          <input name="departureCity" type="text" placeholder="Chennai, India" className={`mt-2 ${inputClass}`} />
+        </label>
+        <label className="block">
+          <span className="text-xs font-medium uppercase tracking-widest text-stone-400">
+            Likely Month of Travel
+          </span>
+          <input name="travelMonth" type="text" placeholder="December" className={`mt-2 ${inputClass}`} />
         </label>
       </div>
 

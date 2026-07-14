@@ -18,16 +18,21 @@ const services = [
 ];
 
 const company = [
-  { label: "About Us", href: "#" },
+  { label: "About Us", href: "/about-us" },
   { label: "Blog", href: "https://365tours.blogspot.com", external: true },
   { label: "Become a Partner", href: "#" },
   { label: "Loyalty Program", href: "#" },
   { label: "Careers", href: "#" },
-  { label: "CSR", href: "#" },
-  { label: "Privacy Policy", href: "#" },
+  { label: "CSR", href: "/csr" },
+  { label: "Terms of Use", href: "/terms-of-use" },
+  { label: "Disclaimer", href: "/disclaimer" },
+  { label: "Privacy Policy", href: "/privacy-policy" },
   { label: "Cookie Policy", href: "/cookie-policy" },
-  { label: "Booking Conditions", href: "#" },
-  { label: "Terms & Conditions", href: "#" },
+  {
+    label: "Office Address",
+    href: "https://maps.google.com/?q=37+1st+Street,+Singaravelan+Nagar,+Maduravoyal,+Chennai+600095",
+    external: true,
+  },
   { label: "Sitemap", href: "/sitemap.xml" },
 ];
 

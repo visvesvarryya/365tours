@@ -1,39 +1,32 @@
 import { getDestinationBySlug } from "@/lib/destinations";
-import { getGoogleReviews } from "@/lib/reviews";
 import ReviewsGrid, { GoogleG, Stars, type CuratedReview } from "@/components/ReviewsGrid";
 
-// Real 5-star Google reviews for 365 Tours (Chennai), copied verbatim from the public
-// Google listing. Shown as a shuffled 6-of-8 until the live Places API is configured
-// (GOOGLE_PLACES_API_KEY + GOOGLE_PLACE_ID), at which point the latest live 5-star
-// reviews are shown instead. No fabricated reviews are ever used.
+// Curated testimonials (docs/TestimonialsGeneral.docx) — shown on all pages except the
+// 6 destination pages named in that document (Bhutan, Cambodia, Egypt, Indonesia, Kenya,
+// Vietnam). Rating badge + "read all reviews" link still point to the public Google listing.
 const GOOGLE_REVIEWS_URL =
   "https://www.google.com/search?q=365+tours+chennai#lrd=0x3a526645a176a84d:0xa79d678833fd18ff,1";
+const RATING = "4.9";
+const RATING_TOTAL = "250";
 
 const reviews = [
-  { name: "Jayashri Murali", trip: "Vietnam", slug: "vietnam", avatar: "JM",
-    text: "365 Tours has always ensured hassle free and very enjoyable vacations, and Vietnam was no different. Meticulous arrangements and 24-hour availability make 365 Tours what it is." },
   { name: "Parvathi Sathasivam", trip: "Sri Lanka", slug: "sri-lanka", avatar: "PS",
-    text: "We as a group of 12 people went to Sri Lanka with 365 Tours and the trip far exceeded our expectations on every level. The planning and execution was perfect — wonderful arrangements and excellent hotels." },
-  { name: "Shobha Gupta", trip: "Bhutan", slug: "bhutan", avatar: "SG",
-    text: "Very good experience during our travel to Bhutan. Everything was taken care of — comfortable vehicle, good guide and constant follow-up. Thank you!" },
-  { name: "nv devadsan", trip: "Kenya", slug: "kenya", avatar: "ND",
-    text: "The Kenya trip was very well organised. We really enjoyed it." },
-  { name: "Venu Parameshwar", trip: "Bhutan", slug: "bhutan", avatar: "VP",
-    text: "We travelled to Bhutan with 365 Tours in March. Our overall experience was smooth and local arrangements on the ground were efficiently handled, making it an enjoyable experience." },
+    text: "We as a group of 12 people went to Sri Lanka in 2015 with 365 Tours and the trip far exceeded our expectations on every level. The actual planning process and the final execution was perfect. The agency's concern and care for our group was commendable — starting with our travel itinerary, wonderful travel arrangements and last but not the least excellent hotels. We had a wonderful trip with 365 Tours and will surely travel again with them." },
   { name: "Mahek Soni", trip: "Nepal", slug: "nepal", avatar: "MS",
-    text: "365 Tours organized a Nepal trip for my parents, and they had a really wonderful experience. Everything was very well coordinated and taken care of end-to-end, which made the trip smooth and stress-free." },
-  { name: "radha devadasan", trip: "", slug: "", avatar: "RD",
-    text: "We had a wonderful time and a hassle free trip. The arrangements done were very satisfactory." },
-  { name: "Durga Subramanian", trip: "", slug: "", avatar: "DS",
-    text: "Very nice stay and picturesque landscapes. Very friendly guidance." },
+    text: "Recently, 365 Tours organized a Nepal trip for my parents, and they had a really wonderful experience. Everything was very well coordinated and taken care of end-to-end, which made the trip smooth and stress-free for them. The team was supportive throughout the journey and ensured all arrangements were handled properly." },
+  { name: "Viral Lalith", trip: "", slug: "", avatar: "VL",
+    text: "Had a really wonderful experience with 365 Tours while arranging a trip for my parents. Everything — from flights and hotel bookings to airport transfers and local travel — was handled smoothly and professionally. The drivers were always on time, the cars were clean and comfortable, and the hotels chosen were excellent. I would personally recommend Mr. Jaishankar to anyone planning a trip." },
+  { name: "Bhavani Thiruvenkatachari", trip: "Bhutan", slug: "bhutan", avatar: "BT",
+    text: "Bhutan is beautiful and clean. People are lovely. We had a great time as a family. We have employed 365 Tours to plan our overseas as well as domestic tours many times now. They have always surpassed our expectations in their customised tour planning and listening to our feedback after every tour. Thanks Jai." },
+  { name: "Narayanan", trip: "Morocco", slug: "morocco", avatar: "N",
+    text: "We travelled to Morocco for a vacation, 6N/7D — beautifully organised by Jai and his team. Excellent stay and food, seamless travel, transfers and great coordination at all places with the local guides who were extremely courteous. Jai took personal care to ensure our trip was memorable." },
+  { name: "Teja Prakash", trip: "Maldives", slug: "maldives", avatar: "TP",
+    text: "Well handled my Maldives trip. Jayashankar communicates really well throughout the journey and stands as a confident person for my trip." },
 ];
 
-export default async function Testimonials() {
-  // Live Google reviews (latest, already filtered to 5-star) when the Places API is set.
-  const live = await getGoogleReviews();
-  const liveReviews = live && live.reviews.length > 0 ? live.reviews : null;
-  const ratingLabel = live?.rating ? live.rating.toFixed(1) : "4.9";
-  const totalLabel = live?.total ? live.total.toLocaleString() : "248";
+export default function Testimonials() {
+  const ratingLabel = RATING;
+  const totalLabel = RATING_TOTAL;
 
   // Resolve each review's destination photo server-side; the grid shuffles them.
   const curated: CuratedReview[] = reviews.map((r) => ({
@@ -53,7 +46,7 @@ export default async function Testimonials() {
             Traveller Stories
           </p>
           <h2 className="mt-3 font-serif text-4xl font-bold text-stone-900 sm:text-5xl">
-            Journeys They&apos;ll Never Forget
+            Memories to Cherish forever
           </h2>
           <a
             href={GOOGLE_REVIEWS_URL}
@@ -70,7 +63,7 @@ export default async function Testimonials() {
           </a>
         </div>
 
-        <ReviewsGrid live={liveReviews} curated={curated} show={6} />
+        <ReviewsGrid curated={curated} show={6} />
 
         {/* Read all reviews on Google */}
         <div className="mt-12 text-center">

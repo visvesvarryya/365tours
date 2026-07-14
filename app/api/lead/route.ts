@@ -10,6 +10,8 @@ interface LeadPayload {
   email?: string;
   phone?: string;
   groupSize?: string;
+  departureCity?: string;
+  travelMonth?: string;
   interests?: string[];
   message?: string;
   destination?: string;

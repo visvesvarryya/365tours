@@ -7,6 +7,9 @@ for (const dest of allDestinations) {
   if (!grouped[letter]) grouped[letter] = [];
   grouped[letter].push({ name: dest.name, slug: dest.slug, flag: dest.flag });
 }
+for (const letter of Object.keys(grouped)) {
+  grouped[letter].sort((a, b) => a.name.localeCompare(b.name));
+}
 
 const letters = Object.keys(grouped).sort();
 

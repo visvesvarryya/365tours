@@ -5,12 +5,12 @@ import Footer from "@/components/Footer";
 export const metadata: Metadata = {
   title: "Cookie Policy | 365 Tours",
   description:
-    "How 365 Tours uses cookies and local storage — essential storage, enquiry-form memory, and optional analytics cookies (used only with your consent).",
+    "How VRJ World Wide Holidays / 365 Tours uses cookies and similar technologies on 365tours.in.",
   alternates: { canonical: "/cookie-policy" },
   robots: { index: true, follow: true },
 };
 
-const updated = "3 July 2026";
+const updated = "13 July 2026";
 
 export default function CookiePolicyPage() {
   return (
@@ -21,76 +21,136 @@ export default function CookiePolicyPage() {
           <h1 className="mt-3 font-serif text-4xl font-bold text-stone-900 sm:text-5xl">
             Cookie Policy
           </h1>
-          <p className="mt-3 text-sm text-stone-400">Last updated: {updated}</p>
+          <p className="mt-3 text-sm text-stone-400">Effective: {updated}</p>
 
           <div className="mt-10 space-y-8 text-stone-600 leading-relaxed">
             <section>
               <p>
-                This policy explains how 365 Tours (a division of VRJ World Wide Holidays) uses
-                cookies and similar browser storage on 365tours.in. We keep it short, plain, and
-                up to date. By selecting <strong>Accept</strong> on our cookie banner you consent to
-                the optional cookies described below; you can withdraw consent at any time (see
-                &ldquo;Managing your choices&rdquo;).
+                VRJ World Wide Holidays / 365 Tours respects your privacy and is committed to
+                safeguarding the security of your personal data. This Cookie Policy explains how
+                information is collected, used, disclosed, transferred and stored via cookies on our
+                website, so you can understand our practices. Please read it together with our{" "}
+                <Link href="/privacy-policy" className="font-semibold text-brand-600 hover:underline">
+                  Privacy Policy
+                </Link>
+                . It applies to all individuals who visit our website and to all information
+                collected by means of cookies.
               </p>
             </section>
 
             <section>
+              <h2 className="font-serif text-2xl font-bold text-stone-900">What Is a Cookie?</h2>
+              <p className="mt-3">
+                Cookies are a feature of web browser software that allow web servers to temporarily
+                store information within your browser. They are generally used to make websites work,
+                keep track of your movements within a site, remember your login details, and similar
+                functions. Cookies are sent to the originating website (or another site that
+                recognises the cookie) on subsequent visits. Most browsers automatically accept
+                cookies, but you can change your browser settings to control or delete them, or to
+                stop receiving them altogether. Cookies cannot access any other information on your
+                device.
+              </p>
+            </section>
+
+            <section>
+              <h2 className="font-serif text-2xl font-bold text-stone-900">Types of Cookies</h2>
+              <p className="mt-3">
+                Cookies can be distinguished by their origin, function and lifespan:
+              </p>
+              <ul className="mt-3 list-disc space-y-2 pl-5">
+                <li><span className="font-semibold text-stone-800">First-party</span> cookies are stored by the website you are visiting; <span className="font-semibold text-stone-800">third-party</span> cookies are stored by another website. We do not control the collection or further use of data by third parties.</li>
+                <li><span className="font-semibold text-stone-800">Necessary</span> cookies allow the technical operation of a website (e.g. navigation and core features).</li>
+                <li><span className="font-semibold text-stone-800">Performance</span> cookies collect data on a website&apos;s performance — visitor counts, time spent, error messages.</li>
+                <li><span className="font-semibold text-stone-800">Functionality</span> cookies improve usability by remembering your choices (language, region, login, etc.).</li>
+                <li><span className="font-semibold text-stone-800">Targeting/advertising</span> cookies enable personalised advertising.</li>
+                <li><span className="font-semibold text-stone-800">Session</span> cookies are erased once you close your browser; <span className="font-semibold text-stone-800">persistent</span> cookies stay on your device until manually deleted or until they expire.</li>
+              </ul>
+            </section>
+
+            <section>
               <h2 className="font-serif text-2xl font-bold text-stone-900">
-                1. What are cookies &amp; local storage?
+                Information We Collect &amp; Our Purpose for Using Cookies
               </h2>
               <p className="mt-3">
-                Cookies are small text files stored by your browser. &ldquo;Local storage&rdquo; is a
-                similar browser feature that keeps small pieces of data on your device. Both let a
-                website remember information between visits.
+                Our website, online services, applications and advertisements may use cookies to
+                collect information related to your use of the site, and to carry out transactions —
+                disabling them may affect the site&apos;s functionality. We and our partners may use
+                cookies to record anonymous, non-personal information about your visits to this and
+                other websites, in order to measure advertising effectiveness.
               </p>
-            </section>
-
-            <section>
-              <h2 className="font-serif text-2xl font-bold text-stone-900">
-                2. How we use them
-              </h2>
-              <div className="mt-4 space-y-4">
-                <div className="rounded-2xl border border-stone-100 bg-stone-50 p-5">
-                  <p className="font-semibold text-stone-900">Essential (always on)</p>
-                  <p className="mt-1 text-sm">
-                    Required for the site to function and to remember your cookie choice. These do
-                    not track you and cannot be switched off.
-                  </p>
-                </div>
-                <div className="rounded-2xl border border-stone-100 bg-stone-50 p-5">
-                  <p className="font-semibold text-stone-900">Enquiry-form memory (local storage)</p>
-                  <p className="mt-1 text-sm">
-                    When you submit an enquiry, we save your <em>name, email and phone</em> in your
-                    own browser&apos;s local storage so the form is pre-filled next time. This data
-                    stays on your device — it is not a tracking cookie. Clear it any time by clearing
-                    your browser data.
-                  </p>
-                </div>
-                <div className="rounded-2xl border border-stone-100 bg-stone-50 p-5">
-                  <p className="font-semibold text-stone-900">Analytics &amp; advertising (optional)</p>
-                  <p className="mt-1 text-sm">
-                    Only if you <strong>Accept</strong>, we may use Google Analytics and Google Ads
-                    cookies to measure traffic, understand which pages are useful, and show relevant
-                    ads (remarketing). These load <em>only after</em> you consent. If you Decline,
-                    they are not loaded.
-                  </p>
-                </div>
-              </div>
-            </section>
-
-            <section>
-              <h2 className="font-serif text-2xl font-bold text-stone-900">
-                3. Managing your choices
-              </h2>
               <p className="mt-3">
-                You can withdraw or change consent at any time by clearing this site&apos;s data in
-                your browser settings — the cookie banner will then reappear on your next visit and
-                you can choose again. You can also block or delete cookies directly in your browser.
+                We may also collect non-personal information based on your browsing (clickstream)
+                activity, including pages browsed and products/services viewed or booked. This helps
+                us manage and develop our offers and tailor products and services to your interests. We
+                use this data to measure entry/exit points, page and section visits, search activity,
+                and the effectiveness of advertising banners and click-throughs.
+              </p>
+              <p className="mt-3">
+                As with most websites, we automatically gather and log some information — IP address,
+                browser type and language, Internet Service Provider, referring/exit pages, operating
+                system, date/time stamp, and clickstream data — to understand trends, administer the
+                site, learn about user behaviour, and gather aggregate demographic information; we may
+                use this in our marketing and advertising.
+              </p>
+              <p className="mt-3">
+                Some of our email messages use a click-through URL linked to content on our website;
+                when clicked, you pass through a separate web server before reaching the destination
+                page, which helps us gauge interest in particular topics and measure the effectiveness
+                of our communications. If you prefer not to be tracked this way, avoid clicking text or
+                graphic links within our emails. We also use pixel tags to confirm whether an email has
+                been opened, which may help us reduce or eliminate messages sent to you.
               </p>
             </section>
 
             <section>
-              <h2 className="font-serif text-2xl font-bold text-stone-900">4. Contact</h2>
+              <h2 className="font-serif text-2xl font-bold text-stone-900">Analytics Tools</h2>
+              <p className="mt-3">
+                We use analytics tools and third-party technologies, including Google Analytics, to
+                collect and analyse cookies. We have contractual relationships with these analytics
+                companies; they may combine this information with other data they have independently
+                collected from other websites, under their own privacy policies.
+              </p>
+            </section>
+
+            <section>
+              <h2 className="font-serif text-2xl font-bold text-stone-900">Controlling Cookies</h2>
+              <p className="mt-3">
+                Most browsers accept cookies automatically, but you can set yours to warn you before
+                accepting them, or to refuse them outright, via your browser&apos;s settings.
+                Disabling cookies may impact your experience on our website. If you use multiple
+                devices or browsers, you will need to set your preference on each one. To learn more
+                about cookies and how to disable them, visit{" "}
+                <a
+                  href="http://www.allaboutcookies.org/manage-cookies/stop-cookies-installed.html"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="font-semibold text-brand-600 hover:underline"
+                >
+                  allaboutcookies.org
+                </a>
+                .
+              </p>
+              <p className="mt-3">
+                On 365tours.in specifically, a cookie banner lets you Accept or Decline optional
+                analytics cookies on your first visit. You can change your choice at any time by
+                clearing this site&apos;s data in your browser settings — the banner will then reappear
+                on your next visit.
+              </p>
+            </section>
+
+            <section>
+              <h2 className="font-serif text-2xl font-bold text-stone-900">Changes to This Policy</h2>
+              <p className="mt-3">
+                This policy is effective as of Monday, 13 July 2026. We reserve the right to update or
+                change it at any time; substantial updates will be communicated by email or a prominent
+                notice on our website. Please check this page periodically — continued use of our
+                website after changes are posted constitutes your acknowledgment of, and consent to,
+                the modified policy.
+              </p>
+            </section>
+
+            <section>
+              <h2 className="font-serif text-2xl font-bold text-stone-900">Contact</h2>
               <p className="mt-3">
                 Questions about this policy? Email{" "}
                 <a href="mailto:tours@365tours.in" className="font-semibold text-brand-600 hover:underline">

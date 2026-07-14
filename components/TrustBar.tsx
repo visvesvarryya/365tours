@@ -39,9 +39,6 @@ export default function TrustBar() {
               key={g.heading}
               className="flex flex-col items-center rounded-3xl border border-stone-100 bg-white p-8 text-center shadow-sm transition hover:-translate-y-1 hover:shadow-md"
             >
-              <p className="mb-6 text-sm font-semibold uppercase tracking-wide text-stone-500">
-                {g.heading}
-              </p>
               <div className="flex flex-1 items-center justify-center">
                 <Image
                   src={g.img}
@@ -55,6 +52,13 @@ export default function TrustBar() {
             </div>
           ))}
         </div>
+
+        <p className="mx-auto mt-10 max-w-3xl text-center text-xs leading-relaxed text-stone-400">
+          Disclaimer: Logos and names displayed above are the trademarks of their respective
+          owners and are used here solely to indicate publications, platforms and recognitions
+          that have featured or rated 365 Tours. This does not imply any official partnership,
+          sponsorship or endorsement by these organisations unless explicitly stated.
+        </p>
       </div>
     </section>
   );

@@ -11,6 +11,7 @@ module.exports = {
         brush: ["var(--font-brush)", "cursive"],
         merri: ["var(--font-merri)", "Georgia", "serif"],
         oswald: ["var(--font-oswald)", "var(--font-inter)", "sans-serif"],
+        engravers: ["var(--font-cinzel)", "Georgia", "serif"],
       },
       colors: {
         brand: {

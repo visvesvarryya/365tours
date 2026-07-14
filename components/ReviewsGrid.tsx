@@ -1,8 +1,6 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import Image from "next/image";
-import type { LiveReview } from "@/lib/reviews";
 
 export type CuratedReview = {
   name: string;
@@ -45,11 +43,9 @@ function shuffle<T>(arr: T[]): T[] {
 }
 
 export default function ReviewsGrid({
-  live,
   curated,
   show = 6,
 }: {
-  live: LiveReview[] | null;
   curated: CuratedReview[];
   show?: number;
 }) {
@@ -57,112 +53,27 @@ export default function ReviewsGrid({
   const [shown, setShown] = useState<CuratedReview[]>(() => curated.slice(0, show));
 
   useEffect(() => {
-    if (!live || live.length === 0) setShown(shuffle(curated).slice(0, show));
-  }, [live, curated, show]);
-
-  if (live && live.length > 0) {
-    return (
-      <div className="grid gap-6 sm:grid-cols-2 xl:grid-cols-3">
-        {live.slice(0, show).map((r, i) => (
-          <LiveReviewCard key={`${r.author}-${i}`} review={r} />
-        ))}
-      </div>
-    );
-  }
+    setShown(shuffle(curated).slice(0, show));
+  }, [curated, show]);
 
   return (
-    <div className="grid gap-6 sm:grid-cols-2 xl:grid-cols-3">
+    <div className="grid gap-6 sm:grid-cols-2">
       {shown.map((review) => (
         <div
           key={review.name}
-          className="group flex flex-col overflow-hidden rounded-3xl bg-white shadow-sm ring-1 ring-stone-100 transition hover:-translate-y-1 hover:shadow-lg"
+          className="flex flex-col rounded-3xl bg-white p-6 shadow-sm ring-1 ring-stone-100 transition hover:-translate-y-1 hover:shadow-lg"
         >
-          <div className="relative h-40">
-            {review.photo ? (
-              <Image
-                src={review.photo}
-                alt={`${review.trip} — 365 Tours`}
-                fill
-                loading="lazy"
-                sizes="(max-width: 640px) 100vw, (max-width: 1280px) 50vw, 33vw"
-                className="object-cover transition-transform duration-500 group-hover:scale-105"
-              />
-            ) : (
-              <div className="h-full w-full bg-gradient-to-br from-brand-400 to-teal-600" />
-            )}
-            <div className="absolute inset-0 bg-gradient-to-t from-stone-900/75 via-stone-900/10 to-transparent" />
-            <span className="absolute right-3 top-3 flex h-8 w-8 items-center justify-center rounded-full bg-white shadow">
-              <GoogleG size={16} />
-            </span>
-            {review.trip && (
-              <span className="absolute bottom-3 left-4 inline-flex items-center gap-1.5 rounded-full bg-white/95 px-3 py-1 text-xs font-semibold text-stone-800 shadow">
-                📍 {review.trip}
-              </span>
-            )}
-          </div>
-          <div className="flex flex-1 flex-col p-6">
-            <Stars count={5} />
-            <p className="mt-3 flex-1 text-sm leading-relaxed text-stone-600">
-              &ldquo;{review.text}&rdquo;
-            </p>
-            <div className="mt-5 flex items-center gap-3 border-t border-stone-100 pt-4">
-              <div className="flex h-10 w-10 items-center justify-center rounded-full bg-brand-100 text-xs font-bold text-brand-700">
-                {review.avatar}
-              </div>
-              <div>
-                <p className="text-sm font-semibold text-stone-900">{review.name}</p>
-                <p className="flex items-center gap-1 text-xs text-stone-400">
-                  <GoogleG size={11} /> Verified Google review
-                </p>
-              </div>
-            </div>
+          <Stars count={5} />
+          <p className="mt-3 flex-1 text-sm leading-relaxed text-stone-600">
+            &ldquo;{review.text}&rdquo;
+          </p>
+          <div className="mt-5 flex items-center gap-2 border-t border-stone-100 pt-4">
+            <p className="text-sm font-semibold text-stone-900">{review.name}</p>
+            <span className="text-stone-300">·</span>
+            <GoogleG size={13} />
           </div>
         </div>
       ))}
-    </div>
-  );
-}
-
-function LiveReviewCard({ review }: { review: LiveReview }) {
-  const initials = review.author
-    .split(" ")
-    .map((w) => w[0])
-    .join("")
-    .slice(0, 2)
-    .toUpperCase();
-  return (
-    <div className="flex flex-col rounded-3xl bg-white p-6 shadow-sm ring-1 ring-stone-100 transition hover:-translate-y-1 hover:shadow-lg">
-      <div className="flex items-center justify-between">
-        <div className="flex items-center gap-3">
-          {review.photo ? (
-            // eslint-disable-next-line @next/next/no-img-element
-            <img
-              src={review.photo}
-              alt={review.author}
-              width={44}
-              height={44}
-              loading="lazy"
-              referrerPolicy="no-referrer"
-              className="h-11 w-11 rounded-full object-cover ring-1 ring-stone-200"
-            />
-          ) : (
-            <div className="flex h-11 w-11 items-center justify-center rounded-full bg-brand-100 text-sm font-bold text-brand-700">
-              {initials}
-            </div>
-          )}
-          <div>
-            <p className="text-sm font-semibold text-stone-900">{review.author}</p>
-            <p className="text-xs text-stone-400">{review.time}</p>
-          </div>
-        </div>
-        <GoogleG size={18} />
-      </div>
-      <div className="mt-4">
-        <Stars count={5} />
-      </div>
-      <p className="mt-3 line-clamp-5 text-sm leading-relaxed text-stone-600">
-        &ldquo;{review.text}&rdquo;
-      </p>
     </div>
   );
 }

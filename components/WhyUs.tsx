@@ -49,7 +49,7 @@ export default function WhyUs() {
           >
             <span className="text-lg font-bold text-stone-900">4.9</span>
             <span className="text-amber-500">★★★★★</span>
-            <span className="text-sm text-stone-500">· 248 Google reviews</span>
+            <span className="text-sm text-stone-500">· 250 Google reviews</span>
           </a>
         </div>
       </div>
