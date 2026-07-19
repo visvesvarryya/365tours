@@ -12,6 +12,8 @@ module.exports = {
         merri: ["var(--font-merri)", "Georgia", "serif"],
         oswald: ["var(--font-oswald)", "var(--font-inter)", "sans-serif"],
         engravers: ["var(--font-cinzel)", "Georgia", "serif"],
+        heebo: ["var(--font-heebo)", "Arial", "sans-serif"],
+        lato: ["var(--font-lato)", "Arial", "sans-serif"],
       },
       colors: {
         brand: {

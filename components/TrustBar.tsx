@@ -22,7 +22,7 @@ const groups = [
 
 export default function TrustBar() {
   return (
-    <section className="border-y border-amber-100 bg-gradient-to-b from-amber-50 to-white py-16">
+    <section className="border-y border-amber-100 bg-gradient-to-b from-amber-50 to-white py-20">
       <div className="mx-auto max-w-7xl px-6 lg:px-10">
         <div className="mx-auto mb-12 max-w-2xl text-center">
           <p className="text-xs font-semibold uppercase tracking-[0.3em] text-amber-600">

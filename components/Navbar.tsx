@@ -3,15 +3,22 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
+import { usePathname } from "next/navigation";
 import Logo from "@/components/Logo";
+import { GoogleG, Stars } from "@/components/ReviewsGrid";
 
 // Root-relative hrefs so the links work from every page (home *and* destination pages).
+const GOOGLE_REVIEWS_URL =
+  "https://www.google.com/search?q=365+tours+chennai#lrd=0x3a526645a176a84d:0xa79d678833fd18ff,1";
+const RATING = "4.9";
+
 const navLinks = [
   { label: "Blogs", href: "https://365tours.blogspot.com", external: true },
-  { label: "Reviews", href: "/#reviews" },
 ];
 
 export default function Navbar() {
+  const pathname = usePathname();
+  const onIndiaPage = pathname === "/india";
   const [scrolled, setScrolled] = useState(false);
   const [hidden, setHidden] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
@@ -42,7 +49,7 @@ export default function Navbar() {
       <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 lg:px-10">
         {/* Logo — eager but not preloaded, so it doesn't compete with the hero LCP.
             Matches the original 365tours.in header size (200px wide). */}
-        <Logo height={126} />
+        <Logo height={126} faded={!scrolled} />
 
         {/* Desktop Nav */}
         <nav className="hidden items-center gap-8 lg:flex">
@@ -59,6 +66,21 @@ export default function Navbar() {
               {link.label}
             </Link>
           ))}
+          <a
+            href={GOOGLE_REVIEWS_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="5-star Google Reviews"
+            className={`flex items-center gap-1.5 rounded-full border px-3 py-1.5 backdrop-blur-sm transition ${
+              scrolled
+                ? "border-stone-200 bg-white text-stone-900 hover:shadow-sm"
+                : "border-white/30 bg-white/15 text-white hover:bg-white/25"
+            }`}
+          >
+            <GoogleG size={15} />
+            <span className="text-sm font-bold">{RATING}</span>
+            <Stars count={5} />
+          </a>
         </nav>
 
         {/* CTA */}
@@ -77,18 +99,35 @@ export default function Navbar() {
               tours@365tours.in
             </a>
           </div>
-          <Link href="/india" className="flex shrink-0 flex-col items-center gap-1">
-            <Image
-              src="/brand/india_logo.jpg"
-              alt="28 States · 8 UT · 500+ Destinations across India"
-              width={179}
-              height={114}
-              className="h-[65px] w-auto rounded object-contain shadow-sm"
-            />
-            <span className={`text-[11px] font-semibold ${scrolled ? "text-stone-600" : "text-white/85"}`}>
-              Indian Holidays
-            </span>
-          </Link>
+          {onIndiaPage ? (
+            <Link href="/" className="flex shrink-0 flex-col items-center gap-1">
+              <div className="rounded bg-white p-1 shadow-sm">
+                <Image
+                  src="/brand/7_countries.png"
+                  alt="7 Continents · 100 Countries · 1500+ Destinations"
+                  width={179}
+                  height={114}
+                  className="h-[57px] w-auto rounded-sm object-contain"
+                />
+              </div>
+              <span className={`text-[11px] font-semibold ${scrolled ? "text-stone-600" : "text-white/85"}`}>
+                International Holidays
+              </span>
+            </Link>
+          ) : (
+            <Link href="/india" className="flex shrink-0 flex-col items-center gap-1">
+              <Image
+                src="/brand/india_logo.jpg"
+                alt="28 States · 8 UT · 500+ Destinations across India"
+                width={179}
+                height={114}
+                className="h-[65px] w-auto rounded object-contain shadow-sm"
+              />
+              <span className={`text-[11px] font-semibold ${scrolled ? "text-stone-600" : "text-white/85"}`}>
+                Indian Holidays
+              </span>
+            </Link>
+          )}
         </div>
 
         {/* Mobile hamburger */}
@@ -125,12 +164,26 @@ export default function Navbar() {
               <Link
                 key={link.label}
                 href={link.href}
+                target={link.external ? "_blank" : undefined}
+                rel={link.external ? "noopener noreferrer" : undefined}
                 onClick={() => setMenuOpen(false)}
                 className="text-base font-medium text-stone-700 hover:text-brand-500 transition-colors"
               >
                 {link.label}
               </Link>
             ))}
+            <a
+              href={GOOGLE_REVIEWS_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={() => setMenuOpen(false)}
+              aria-label="5-star Google Reviews"
+              className="flex w-fit items-center gap-1.5 rounded-full border border-stone-200 bg-white px-3 py-1.5 text-stone-900"
+            >
+              <GoogleG size={15} />
+              <span className="text-sm font-bold">{RATING}</span>
+              <Stars count={5} />
+            </a>
             <div className="mt-2 flex items-center gap-4 border-t border-stone-100 pt-4">
               <a href="tel:+919840148869" className="text-sm font-medium text-stone-700">
                 +91 98401 48869

@@ -1,11 +1,16 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import { useLightboxOpen } from "@/lib/useLightboxOpen";
+import { useReachedEnquiry } from "@/lib/useReachedEnquiry";
 
-/** Appears after scrolling down; smooth-scrolls back to the top. Sits above the
- *  floating WhatsApp button so the two never overlap. */
+/** Appears after scrolling down past the enquiry/contact section; smooth-scrolls
+ *  back to the top. Sits above the floating WhatsApp button so the two never
+ *  overlap. */
 export default function BackToTop() {
   const [show, setShow] = useState(false);
+  const lightboxOpen = useLightboxOpen();
+  const reachedEnquiry = useReachedEnquiry();
 
   useEffect(() => {
     const onScroll = () => setShow(window.scrollY > 500);
@@ -13,6 +18,8 @@ export default function BackToTop() {
     window.addEventListener("scroll", onScroll, { passive: true });
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
+
+  if (lightboxOpen || !reachedEnquiry) return null;
 
   return (
     <button

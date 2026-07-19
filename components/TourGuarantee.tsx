@@ -10,20 +10,22 @@ const guarantees = [
 
 export default function TourGuarantee() {
   return (
-    <section id="tour-guarantee" className="bg-white py-16">
+    <section id="tour-guarantee" className="bg-white py-20">
       <div className="mx-auto max-w-6xl px-6 text-center lg:px-10">
-        <p className="text-xs font-semibold uppercase tracking-[0.3em] text-brand-500">
+        <h2 className="font-serif text-3xl font-bold text-stone-900 sm:text-4xl">
           Our Tour Guarantee &amp; Enhancement
-        </p>
+        </h2>
 
-        {/* 7 numbered guarantees — engraved-plaque style numerals */}
-        <div className="mt-10 grid grid-cols-2 gap-x-6 gap-y-10 sm:grid-cols-4 lg:grid-cols-7 lg:gap-x-4">
+        {/* 7 numbered guarantees — engraved-plaque cards */}
+        <div className="mt-12 grid grid-cols-2 gap-px overflow-hidden rounded-3xl border border-stone-200 bg-stone-200 sm:grid-cols-4 lg:grid-cols-7">
           {guarantees.map((g) => (
-            <div key={g.n} className="flex flex-col items-center">
-              <span className="font-engravers text-5xl font-bold text-brand-500">{g.n}</span>
-              <span className="mt-3 h-px w-8 bg-brand-200" />
-              <p className="mt-3 text-sm font-bold text-stone-900">{g.title}</p>
-              <p className="mt-1 text-xs leading-snug text-stone-500">{g.detail}</p>
+            <div key={g.n} className="flex flex-col items-center bg-white px-4 py-8">
+              <span className="font-engravers text-[44px] leading-none text-brand-600">
+                {g.n}
+              </span>
+              <span className="mt-4 h-[2px] w-10 bg-gradient-to-r from-amber-400 to-brand-500" />
+              <p className="mt-4 text-sm font-bold text-stone-900">{g.title}</p>
+              <p className="mt-1.5 text-xs leading-snug text-stone-500">{g.detail}</p>
             </div>
           ))}
         </div>

@@ -1,6 +1,16 @@
-/** Always-visible WhatsApp lead channel — a clean round button that opens the
- *  user's WhatsApp (app on mobile, WhatsApp Web on desktop) with a prefilled message. */
+"use client";
+
+import { useLightboxOpen } from "@/lib/useLightboxOpen";
+import { useReachedEnquiry } from "@/lib/useReachedEnquiry";
+
+/** WhatsApp lead channel — a clean round button that opens the user's WhatsApp
+ *  (app on mobile, WhatsApp Web on desktop) with a prefilled message. Stays out
+ *  of the way until the visitor scrolls down to the enquiry/contact section. */
 export default function FloatingWhatsApp() {
+  const lightboxOpen = useLightboxOpen();
+  const reachedEnquiry = useReachedEnquiry();
+  if (lightboxOpen || !reachedEnquiry) return null;
+
   return (
     <a
       href="https://wa.me/919840148869?text=Hi%20365%20Tours%2C%20I%27d%20like%20to%20plan%20a%20trip."

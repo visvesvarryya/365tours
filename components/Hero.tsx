@@ -98,9 +98,10 @@ export default function Hero() {
         ) : null
       )}
       {/* Warm "golden hour" overlay — dark at bottom-left for text legibility,
-          sunny amber glow toward the top-right. */}
-      <div className="absolute inset-0 bg-gradient-to-tr from-stone-950/85 via-stone-900/55 to-orange-900/30" />
-      <div className="absolute inset-0 bg-gradient-to-t from-transparent via-transparent to-amber-400/15" />
+          sunny amber glow toward the top-right. Kept light so the photo itself
+          still reads bright, not washed out. */}
+      <div className="absolute inset-0 bg-gradient-to-tr from-stone-950/65 via-stone-900/30 to-transparent" />
+      <div className="absolute inset-0 bg-gradient-to-t from-transparent via-transparent to-amber-400/8" />
 
       {/* Content */}
       <div className="relative flex min-h-screen flex-col">
@@ -136,10 +137,6 @@ export default function Hero() {
               <span><span className="text-amber-300">1,500+</span> Destinations</span>
             </div>
 
-            <p className="mt-3 max-w-xl text-base leading-relaxed text-white/80 sm:text-lg">
-              Bespoke private journeys crafted around your time, taste, and travel style.
-            </p>
-
             {/* Destination caption + slide dots */}
             {heroSlides.length > 0 && (
               <div className="mt-7 flex items-center gap-4">
@@ -166,25 +163,27 @@ export default function Hero() {
                 </div>
               </div>
             )}
-
-            {/* Social media — each icon in its own brand colour */}
-            <div className="mt-6 flex items-center gap-3">
-              {socials.map((s) => (
-                <a
-                  key={s.label}
-                  href={s.href}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label={s.label}
-                  className="flex h-10 w-10 items-center justify-center rounded-full bg-white shadow-sm transition hover:-translate-y-0.5 hover:shadow-md"
-                >
-                  <svg width="18" height="18" fill={s.color} viewBox="0 0 24 24">
-                    {s.icon}
-                  </svg>
-                </a>
-              ))}
-            </div>
           </div>
+        </div>
+
+        {/* Social media — its own row at the very bottom of the hero, in normal
+            flow (not absolutely positioned) so it can never overlap the
+            vertically-centred caption/carousel controls above it. */}
+        <div className="mx-auto flex w-full max-w-7xl items-center gap-3 px-6 pb-8 lg:px-10">
+          {socials.map((s) => (
+            <a
+              key={s.label}
+              href={s.href}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label={s.label}
+              className="flex h-10 w-10 items-center justify-center rounded-full bg-white shadow-sm transition hover:-translate-y-0.5 hover:shadow-md"
+            >
+              <svg width="18" height="18" fill={s.color} viewBox="0 0 24 24">
+                {s.icon}
+              </svg>
+            </a>
+          ))}
         </div>
 
         {/* Carousel arrow (step forward through destinations manually) */}

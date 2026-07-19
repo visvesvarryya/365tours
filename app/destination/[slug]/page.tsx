@@ -92,21 +92,21 @@ export default function DestinationPage({ params }: { params: { slug: string } }
       />
       <main>
         {/* ── HERO ── */}
-        <section className="relative min-h-[70vh] overflow-hidden bg-stone-950">
+        <section className="relative h-[560px] overflow-hidden bg-stone-950 sm:h-[580px] lg:h-[650px]">
           {dest.heroImage && (
             <Image
               src={dest.heroImage}
               alt=""
               fill
               priority
-              quality={68}
+              quality={90}
               sizes="100vw"
-              className="object-cover"
+              className="object-cover object-center"
             />
           )}
-          <div className="absolute inset-0 bg-gradient-to-b from-stone-950/50 via-stone-950/40 to-stone-950/90" />
+          <div className="absolute inset-0 bg-gradient-to-t from-stone-950/85 from-0% via-transparent via-30% to-transparent" />
 
-          <div className="relative flex min-h-[70vh] flex-col justify-end pb-16 pt-32">
+          <div className="relative flex h-[560px] flex-col justify-end pb-10 pt-28 sm:h-[580px] sm:pb-14 sm:pt-32 lg:h-[650px]">
             <div className="mx-auto w-full max-w-7xl px-6 lg:px-10">
               {/* Breadcrumb */}
               <nav className="mb-6 flex items-center gap-2 text-xs text-white/50">
@@ -241,11 +241,8 @@ export default function DestinationPage({ params }: { params: { slug: string } }
                 {/* Destinations / regions offered */}
                 {dest.regions && dest.regions.length > 0 && (
                   <div className="mb-14">
-                    <p className="text-xs font-semibold uppercase tracking-[0.3em] text-brand-500">
+                    <h2 className="font-serif text-3xl font-bold text-stone-900">
                       Destinations Offered
-                    </p>
-                    <h2 className="mt-3 font-serif text-3xl font-bold text-stone-900">
-                      Regions We Cover in {dest.name}
                     </h2>
                     <div className="mt-6 flex flex-wrap gap-2.5">
                       {dest.regions.map((region) => (

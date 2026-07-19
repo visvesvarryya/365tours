@@ -1,10 +1,7 @@
 import Hero from "@/components/Hero";
 import TourGuarantee from "@/components/TourGuarantee";
 import DestinationDirectory from "@/components/DestinationDirectory";
-import AccommodationTypes from "@/components/AccommodationTypes";
 import TwelveReasons from "@/components/TwelveReasons";
-import TravelRewards from "@/components/TravelRewards";
-import WhyUs from "@/components/WhyUs";
 import TrustBar from "@/components/TrustBar";
 import Testimonials from "@/components/Testimonials";
 import Contact from "@/components/Contact";
@@ -47,12 +44,9 @@ export default function Home() {
       />
       <Hero />
       <TourGuarantee />
-      <DestinationDirectory />
-      <AccommodationTypes />
-      <TwelveReasons />
-      <TravelRewards />
-      <WhyUs />
       <Testimonials />
+      <DestinationDirectory />
+      <TwelveReasons />
       <TrustBar />
       <Contact />
       <Footer />

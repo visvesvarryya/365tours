@@ -2,25 +2,19 @@ import LeadForm from "@/components/LeadForm";
 
 export default function Contact() {
   return (
-    <section id="contact" className="bg-white py-24">
+    <section id="contact" className="bg-white py-20">
       <div className="mx-auto max-w-7xl px-6 lg:px-10">
         <div className="grid gap-16 lg:grid-cols-2">
           {/* Left: info */}
           <div>
-            <p className="text-xs font-semibold uppercase tracking-[0.3em] text-brand-500">
-              Let's Plan Together
-            </p>
-            <h2 className="mt-4 font-serif text-4xl font-bold text-stone-900 sm:text-5xl text-balance">
-              Your perfect journey starts with a conversation.
-            </h2>
-            <p className="mt-6 text-stone-500 leading-relaxed">
+            <p className="text-stone-500 leading-relaxed">
               Share your travel dates, group size, and dream destinations. Our travel designers will
               craft a custom itinerary and send it to you within 24–48 hours — no commitment
               required.
             </p>
 
             {/* Contact cards */}
-            <div className="mt-10 grid gap-4 sm:grid-cols-2">
+            <div className="mt-8 grid gap-4 sm:grid-cols-2">
               <a
                 href="tel:+919840148869"
                 className="group flex items-center gap-4 rounded-2xl border border-stone-200 bg-stone-50 p-5 transition hover:border-brand-300 hover:bg-brand-50"
@@ -95,14 +89,24 @@ export default function Contact() {
           </div>
 
           {/* Right: form */}
-          <div className="rounded-3xl bg-stone-950 p-8 shadow-2xl shadow-stone-950/20 sm:p-10">
-            <h3 className="font-serif text-2xl font-bold text-white">Request a Custom Itinerary</h3>
-            <p className="mt-2 text-sm text-stone-400">
-              Free consultation · No commitment · Reply within 24 hrs
-            </p>
+          <div className="relative rounded-3xl bg-gradient-to-br from-amber-400 via-orange-500 to-brand-600 p-[2px] shadow-2xl shadow-stone-900/20">
+            <div className="rounded-[calc(1.5rem-2px)] bg-stone-950 p-8 sm:p-10">
+              <div className="mb-1 inline-flex items-center gap-2 rounded-full border border-amber-300/40 bg-amber-400/15 px-4 py-1.5">
+                <span className="h-1.5 w-1.5 animate-pulse rounded-full bg-amber-400" />
+                <span className="text-xs font-bold uppercase tracking-[0.2em] text-amber-200">
+                  Let&apos;s Plan Together
+                </span>
+              </div>
+              <h3 className="mt-4 font-serif text-2xl font-bold text-white sm:text-3xl">
+                Request a Custom Itinerary
+              </h3>
+              <p className="mt-2 text-sm text-stone-400">
+                Free consultation · No commitment · Reply within 24 hrs
+              </p>
 
-            <div className="mt-8">
-              <LeadForm variant="full" source="homepage-contact" />
+              <div className="mt-8">
+                <LeadForm variant="full" source="homepage-contact" />
+              </div>
             </div>
           </div>
         </div>

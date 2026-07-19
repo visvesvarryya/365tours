@@ -1,5 +1,5 @@
 import type { Metadata, Viewport } from "next";
-import { Playfair_Display, Inter, Merriweather, Oswald, Cinzel } from "next/font/google";
+import { Playfair_Display, Inter, Merriweather, Oswald, Cinzel, Heebo, Lato } from "next/font/google";
 import localFont from "next/font/local";
 import "./globals.css";
 import Analytics from "@/components/Analytics";
@@ -56,6 +56,22 @@ const cinzel = Cinzel({
   display: "swap",
 });
 
+// Heebo Bold + Lato — the exact typefaces 365tours.in uses for the "12 Reasons"
+// heading (Heebo Bold) and reason cards (Lato Bold/Semibold).
+const heebo = Heebo({
+  subsets: ["latin"],
+  weight: ["700"],
+  variable: "--font-heebo",
+  display: "swap",
+});
+
+const lato = Lato({
+  subsets: ["latin"],
+  weight: ["400", "700"],
+  variable: "--font-lato",
+  display: "swap",
+});
+
 const description =
   "Explore. Experience. Evolve. Private & customised tours across 7 continents, 100 countries, and 1500+ destinations. Based in Chennai, India.";
 
@@ -86,7 +102,7 @@ export const viewport: Viewport = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" className={`${playfair.variable} ${inter.variable} ${brush.variable} ${merri.variable} ${oswald.variable} ${cinzel.variable}`}>
+    <html lang="en" className={`${playfair.variable} ${inter.variable} ${brush.variable} ${merri.variable} ${oswald.variable} ${cinzel.variable} ${heebo.variable} ${lato.variable}`}>
       <body>
         <Navbar />
         {children}
