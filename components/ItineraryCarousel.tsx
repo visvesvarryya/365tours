@@ -13,10 +13,44 @@ export default function ItineraryCarousel({
   name: string;
 }) {
   const ref = useRef<HTMLDivElement>(null);
+  // Wraps around at either end — mirrors the lightbox's circular prev/next,
+  // instead of just stopping dead at the first/last card.
   const scroll = (dir: number) => {
     const el = ref.current;
-    if (el) el.scrollBy({ left: dir * el.clientWidth * 0.85, behavior: "smooth" });
+    if (!el) return;
+    const max = el.scrollWidth - el.clientWidth;
+    const atStart = el.scrollLeft <= 1;
+    const atEnd = el.scrollLeft >= max - 1;
+    if (dir < 0 && atStart) {
+      el.scrollTo({ left: max, behavior: "smooth" });
+    } else if (dir > 0 && atEnd) {
+      el.scrollTo({ left: 0, behavior: "smooth" });
+    } else {
+      el.scrollBy({ left: dir * el.clientWidth * 0.85, behavior: "smooth" });
+    }
   };
+
+  // Tracks scroll position for the mobile-only dot indicators + edge fade —
+  // there's no scrollbar and the arrow buttons are desktop-only, so on a
+  // phone nothing else hints that this row is horizontally scrollable.
+  const [activeIndex, setActiveIndex] = useState(0);
+  useEffect(() => {
+    const el = ref.current;
+    if (!el || items.length < 2) return;
+    let ticking = false;
+    const onScroll = () => {
+      if (ticking) return;
+      ticking = true;
+      requestAnimationFrame(() => {
+        const max = el.scrollWidth - el.clientWidth;
+        const ratio = max > 0 ? el.scrollLeft / max : 0;
+        setActiveIndex(Math.round(ratio * (items.length - 1)));
+        ticking = false;
+      });
+    };
+    el.addEventListener("scroll", onScroll, { passive: true });
+    return () => el.removeEventListener("scroll", onScroll);
+  }, [items.length]);
 
   const [openIndex, setOpenIndex] = useState<number | null>(null);
   const close = useCallback(() => setOpenIndex(null), []);
@@ -90,6 +124,12 @@ export default function ItineraryCarousel({
         ))}
       </div>
 
+      {/* Mobile-only "there's more" cue: a fading edge over the peeking next
+          card, gone once you've actually scrolled to the last one. */}
+      {items.length > 1 && activeIndex < items.length - 1 && (
+        <div className="pointer-events-none absolute right-0 top-0 h-[calc(100%-0.5rem)] w-14 bg-gradient-to-l from-stone-50 to-transparent sm:hidden" />
+      )}
+
       {items.length > 1 && (
         <>
           <button
@@ -111,6 +151,21 @@ export default function ItineraryCarousel({
             </svg>
           </button>
         </>
+      )}
+
+      {/* Mobile-only dot indicators — shows position/count since there's no
+          visible scrollbar and the arrow buttons are desktop-only. */}
+      {items.length > 1 && (
+        <div className="mt-3 flex justify-center gap-1.5 sm:hidden">
+          {items.map((it, i) => (
+            <span
+              key={it.src}
+              className={`h-1.5 rounded-full transition-all ${
+                i === activeIndex ? "w-5 bg-brand-500" : "w-1.5 bg-stone-300"
+              }`}
+            />
+          ))}
+        </div>
       )}
 
       {/* ── LIGHTBOX — portaled to <body> so it can never inherit a stray ancestor's

@@ -11,7 +11,7 @@ import Footer from "@/components/Footer";
 import SocialLinks from "@/components/SocialLinks";
 import DestinationViewTracker from "@/components/DestinationViewTracker";
 import { SITE_URL, absoluteUrl } from "@/lib/site";
-import { destinations, getDestinationBySlug, getAllSlugs } from "@/lib/destinations";
+import { getDestinationBySlug, getAllSlugs } from "@/lib/destinations";
 
 export async function generateStaticParams() {
   return getAllSlugs().map((slug) => ({ slug }));
@@ -42,20 +42,6 @@ export async function generateMetadata({
 export default function DestinationPage({ params }: { params: { slug: string } }) {
   const dest = getDestinationBySlug(params.slug);
   if (!dest) notFound();
-
-  // Rank other destinations by similarity to this one: shared experience types
-  // weighted, plus a bonus for the same continent — most similar first.
-  const related = destinations
-    .filter((d) => d.slug !== dest.slug)
-    .map((d) => {
-      const sharedExperiences = d.experiences.filter((e) => dest.experiences.includes(e)).length;
-      const sameContinent = d.continent === dest.continent ? 1 : 0;
-      return { d, score: sharedExperiences * 2 + sameContinent * 3 };
-    })
-    .filter((x) => x.score > 0)
-    .sort((a, b) => b.score - a.score)
-    .slice(0, 3)
-    .map((x) => x.d);
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -182,60 +168,6 @@ export default function DestinationPage({ params }: { params: { slug: string } }
 
         {/* ── INDUSTRY PROVENANCE (As Seen / Top Rated / Heritage partners) ── */}
         <TrustBar />
-
-        {/* ── RELATED DESTINATIONS (last section before the footer) ── */}
-        {related.length > 0 && (
-          <section className="bg-stone-50 py-10">
-            <div className="mx-auto max-w-7xl px-6 lg:px-10">
-              <p className="text-xs font-semibold uppercase tracking-[0.3em] text-brand-500">
-                You may also like
-              </p>
-              <h2 className="mt-3 font-serif text-3xl font-bold text-stone-900">
-                Related Destinations
-              </h2>
-              <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-                {related.map((r) => (
-                  <Link
-                    key={r.slug}
-                    href={`/destination/${r.slug}`}
-                    className="group overflow-hidden rounded-3xl bg-white shadow-md transition hover:-translate-y-1 hover:shadow-xl"
-                  >
-                    <div className="relative h-48 overflow-hidden">
-                      <Image
-                        src={r.image}
-                        alt={r.name}
-                        fill
-                        loading="lazy"
-                        sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                        className="object-contain transition-transform duration-500 group-hover:scale-105"
-                      />
-                    </div>
-                    <div className="p-6">
-                      <p className="text-xs text-stone-400">{r.continent}</p>
-                      <h3 className="mt-1 font-serif text-xl font-bold text-stone-900">{r.name}</h3>
-                      <p className="mt-1 text-sm text-stone-500">{r.tagline}</p>
-                      <div className="mt-4 flex items-center gap-1.5 text-sm font-semibold text-brand-500 group-hover:gap-3 transition-all">
-                        Explore {r.name}
-                        <svg width="14" height="14" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>
-                          <path strokeLinecap="round" strokeLinejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" />
-                        </svg>
-                      </div>
-                    </div>
-                  </Link>
-                ))}
-              </div>
-
-              <div className="mt-8 text-center">
-                <Link
-                  href="/#all-destinations"
-                  className="inline-flex items-center gap-2 rounded-full border-2 border-brand-500 px-8 py-3.5 text-sm font-semibold text-brand-500 transition hover:bg-brand-500 hover:text-white"
-                >
-                  View all 100 countries →
-                </Link>
-              </div>
-            </div>
-          </section>
-        )}
       </main>
 
       <Footer />
