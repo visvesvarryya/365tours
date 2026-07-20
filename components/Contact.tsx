@@ -2,7 +2,7 @@ import LeadForm from "@/components/LeadForm";
 
 export default function Contact() {
   return (
-    <section id="contact" className="bg-white py-20">
+    <section id="contact" className="bg-white py-10">
       <div className="mx-auto max-w-7xl px-6 lg:px-10">
         <div className="grid gap-16 lg:grid-cols-2">
           {/* Left: info */}

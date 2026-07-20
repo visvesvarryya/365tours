@@ -59,7 +59,7 @@ export default function AboutUsPage() {
                   alt="Jai Shankar — Founder, 365 Tours"
                   fill
                   sizes="220px"
-                  className="object-cover"
+                  className="object-contain"
                 />
               </div>
               <p className="mt-3 text-center text-sm font-semibold text-stone-900 sm:text-left">
@@ -101,7 +101,7 @@ export default function AboutUsPage() {
                 alt="Jai Shankar at the pyramids of Giza, Egypt"
                 fill
                 sizes="(max-width: 640px) 50vw, 300px"
-                className="object-cover"
+                className="object-contain"
               />
             </div>
             <div className="relative aspect-[4/3] overflow-hidden rounded-2xl shadow-sm">
@@ -110,7 +110,7 @@ export default function AboutUsPage() {
                 alt="Jai Shankar on the coast of Sri Lanka"
                 fill
                 sizes="(max-width: 640px) 50vw, 300px"
-                className="object-cover"
+                className="object-contain"
               />
             </div>
           </div>

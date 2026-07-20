@@ -38,7 +38,7 @@ export default function Testimonials() {
   }));
 
   return (
-    <section id="reviews" className="bg-gradient-to-b from-rose-50 via-orange-50 to-white py-20">
+    <section id="reviews" className="bg-gradient-to-b from-rose-50 via-orange-50 to-white py-10">
       <div className="mx-auto max-w-7xl px-6 lg:px-10">
         {/* Header */}
         <div className="mx-auto mb-12 max-w-2xl text-center">

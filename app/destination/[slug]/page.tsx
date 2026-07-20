@@ -168,7 +168,7 @@ export default function DestinationPage({ params }: { params: { slug: string } }
         </section>
 
         {/* ── BRIEF DESCRIPTION (itineraries come right after this) ── */}
-        <section className="bg-white pt-14 pb-8">
+        <section className="bg-white pb-10 pt-20">
           <div className="mx-auto max-w-4xl px-6 lg:px-10">
             <p className="text-xs font-semibold uppercase tracking-[0.3em] text-brand-500">About</p>
             <h2 className="mt-3 font-serif text-3xl font-bold text-stone-900">
@@ -180,7 +180,7 @@ export default function DestinationPage({ params }: { params: { slug: string } }
 
         {/* ── SIGNATURE ITINERARIES (come first, right after the intro) ── */}
         {dest.itineraries && dest.itineraries.length > 0 && (
-          <section className="bg-stone-50 py-16">
+          <section className="bg-stone-50 py-10">
             <div className="mx-auto max-w-7xl px-6 lg:px-10">
               {/* Same brush treatment as the landing page's "100 Countries" */}
               <h2 className="font-brush leading-none text-stone-900">
@@ -216,7 +216,7 @@ export default function DestinationPage({ params }: { params: { slug: string } }
         )}
 
         {/* ── MORE DETAILS (Highlights + Travel Rewards sidebar, then the rest) ── */}
-        <section className="bg-white py-16">
+        <section className="bg-white py-10">
           <div className="mx-auto max-w-6xl px-6 lg:px-10">
             <div className="grid gap-10 lg:grid-cols-[1fr_340px] lg:items-start">
               <div>
@@ -338,7 +338,7 @@ export default function DestinationPage({ params }: { params: { slug: string } }
 
         {/* ── RELATED DESTINATIONS ── */}
         {related.length > 0 && (
-          <section className="bg-stone-50 py-20">
+          <section className="bg-stone-50 py-10">
             <div className="mx-auto max-w-7xl px-6 lg:px-10">
               <p className="text-xs font-semibold uppercase tracking-[0.3em] text-brand-500">
                 You may also like
@@ -360,7 +360,7 @@ export default function DestinationPage({ params }: { params: { slug: string } }
                         fill
                         loading="lazy"
                         sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                        className="object-cover transition-transform duration-500 group-hover:scale-105"
+                        className="object-contain transition-transform duration-500 group-hover:scale-105"
                       />
                     </div>
                     <div className="p-6">
@@ -392,7 +392,7 @@ export default function DestinationPage({ params }: { params: { slug: string } }
       </main>
 
       {/* ── SIMPLE FOOTER ── */}
-      <footer className="bg-stone-950 py-10 text-center text-sm text-stone-500">
+      <footer className="bg-stone-950 py-16 text-center text-sm text-stone-500">
         <p>
           © {new Date().getFullYear()} 365 Tours · Chennai, India ·{" "}
           <a href="tel:+919840148869" className="hover:text-brand-400 transition-colors">

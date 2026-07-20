@@ -15,7 +15,7 @@ const letters = Object.keys(grouped).sort();
 
 export default function DestinationDirectory() {
   return (
-    <section id="all-destinations" className="bg-gradient-to-b from-white via-amber-50 to-white py-20">
+    <section id="all-destinations" className="bg-gradient-to-b from-white via-amber-50 to-white py-10">
       <div className="mx-auto max-w-7xl px-6 lg:px-10">
         {/* Header */}
         <div className="mx-auto mb-8 max-w-2xl text-center">
@@ -30,7 +30,7 @@ export default function DestinationDirectory() {
         </div>
 
         {/* Compact columnar A-Z listing (no quick-jump nav) */}
-        <div className="mb-12 columns-1 gap-6 sm:columns-2 lg:columns-3 xl:columns-4">
+        <div className="columns-1 gap-6 sm:columns-2 lg:columns-3 xl:columns-4">
           {letters.map((letter) => (
             <div key={letter} className="mb-5 break-inside-avoid">
               <div className="mb-1.5 flex items-center gap-2">
@@ -67,20 +67,6 @@ export default function DestinationDirectory() {
               </ul>
             </div>
           ))}
-        </div>
-
-        <div className="rounded-3xl bg-gradient-to-r from-brand-600 to-teal-600 p-8 text-center text-white sm:p-10">
-          <h3 className="font-serif text-2xl font-bold sm:text-3xl">Don&apos;t see your destination?</h3>
-          <p className="mx-auto mt-2 max-w-xl text-brand-50">
-            We cover virtually every country on earth — reach out and we&apos;ll design a custom
-            itinerary for wherever your heart is set on.
-          </p>
-          <Link
-            href="#contact"
-            className="mt-5 inline-flex items-center gap-2 rounded-full bg-white px-8 py-3.5 text-sm font-semibold text-brand-600 transition hover:bg-brand-50"
-          >
-            Request any destination →
-          </Link>
         </div>
       </div>
     </section>

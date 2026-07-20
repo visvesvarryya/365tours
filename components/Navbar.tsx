@@ -18,7 +18,11 @@ const navLinks = [
 
 export default function Navbar() {
   const pathname = usePathname();
-  const onIndiaPage = pathname === "/india";
+  // The India badge (links to /india) is the default everywhere; the reciprocal
+  // "7 Continents" badge (links home) shows instead on the India hub itself and
+  // on international destination pages, since those are already international
+  // content — pointing back to /india there would be the wrong direction.
+  const onIndiaPage = pathname === "/india" || pathname?.startsWith("/destination/");
   const [scrolled, setScrolled] = useState(false);
   const [hidden, setHidden] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);

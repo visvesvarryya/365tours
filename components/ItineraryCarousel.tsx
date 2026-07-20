@@ -70,7 +70,7 @@ export default function ItineraryCarousel({
                   fill
                   loading="lazy"
                   sizes="(max-width: 640px) 96vw, (max-width: 1024px) 75vw, 40vw"
-                  className="object-cover transition-transform duration-300 hover:scale-105"
+                  className="object-contain transition-transform duration-300 hover:scale-105"
                 />
               </div>
               <div className="px-4 pb-4 pt-3">
@@ -129,17 +129,17 @@ export default function ItineraryCarousel({
                 className="relative flex flex-col items-center"
                 onClick={(e) => e.stopPropagation()}
               >
-                {/* Fixed, non-scrolling box that prioritises width — the photo fills it
-                    edge-to-edge (object-cover), cropping a sliver off top/bottom rather
-                    than letterboxing or ever needing scroll. */}
-                <div className="relative h-[80vh] w-[94vw]">
+                {/* Sized to the photo's own 3:2 ratio (all itinerary photos share it),
+                    so object-contain shows the complete photo — nothing cropped —
+                    while still maximising size and never needing to scroll. */}
+                <div className="relative aspect-[3/2] w-[min(94vw,calc(85vh*1.5))]">
                   <Image
                     src={items[openIndex].src}
                     alt={`${name} itinerary ${openIndex + 1}`}
                     fill
                     priority
                     sizes="94vw"
-                    className="rounded-2xl object-cover"
+                    className="rounded-2xl object-contain"
                   />
                 </div>
                 {/* Preload the adjacent photos so prev/next feel instant instead of

@@ -19,7 +19,7 @@ const bgTints = ["bg-[#CCDDED]", "bg-[#FDE9D1]", "bg-[#E9F3DA]"];
 
 export default function TwelveReasons() {
   return (
-    <section id="twelve-reasons" className="bg-white py-20">
+    <section id="twelve-reasons" className="bg-white py-10">
       <div className="mx-auto max-w-6xl px-6 lg:px-10">
         {/* Header */}
         <div className="mx-auto mb-10 text-center">

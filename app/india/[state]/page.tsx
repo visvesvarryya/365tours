@@ -104,7 +104,7 @@ export default function IndiaStatePage({ params }: { params: { state: string } }
 
         {/* ── SIGNATURE ITINERARIES ── */}
         {state.itineraries.length > 0 && (
-          <section className="bg-stone-50 py-16">
+          <section className="bg-stone-50 pb-10 pt-20">
             <div className="mx-auto max-w-7xl px-6 lg:px-10">
               <h2 className="font-brush leading-none text-stone-900">
                 <span className="text-6xl sm:text-8xl">{state.itineraries.length}</span>{" "}
@@ -140,7 +140,7 @@ export default function IndiaStatePage({ params }: { params: { state: string } }
 
         {/* ── DESTINATIONS OFFERED ── */}
         {cities.length > 0 && (
-          <section className="bg-white py-16">
+          <section className="bg-white py-10">
             <div className="mx-auto max-w-6xl px-6 lg:px-10">
               <h2 className="font-serif text-3xl font-bold text-stone-900">
                 Destinations Offered
@@ -166,7 +166,7 @@ export default function IndiaStatePage({ params }: { params: { state: string } }
         <TrustBar />
 
         {/* ── BACK TO FULL DIRECTORY ── */}
-        <div className="bg-white pb-16 text-center">
+        <div className="bg-white py-10 text-center">
           <Link
             href="/india#india-directory"
             className="inline-flex items-center gap-2 rounded-full border-2 border-brand-500 px-8 py-3.5 text-sm font-semibold text-brand-500 transition hover:bg-brand-500 hover:text-white"

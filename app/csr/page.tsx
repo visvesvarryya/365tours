@@ -56,7 +56,7 @@ export default function CsrPage() {
                 alt="Pavithra's tree — a sapling planted by 365 Tours for a better environment"
                 fill
                 sizes="(max-width: 640px) 100vw, 700px"
-                className="object-cover object-top"
+                className="object-contain"
               />
             </div>
             <p className="px-5 py-3 text-xs text-stone-500">
