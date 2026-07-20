@@ -3,13 +3,13 @@ import Image from "next/image";
 import SocialLinks from "@/components/SocialLinks";
 
 const links = [
-  { label: "About us", href: "/about-us" },
-  { label: "Terms of use", href: "/terms-of-use" },
+  { label: "About Us", href: "/about-us" },
+  { label: "Terms of Use", href: "/terms-of-use" },
   { label: "Disclaimer", href: "/disclaimer" },
   { label: "Privacy Policy", href: "/privacy-policy" },
   { label: "Cookie Policy", href: "/cookie-policy" },
   {
-    label: "Office Location",
+    label: "Office",
     href: "https://maps.google.com/?q=37+1st+Street,+Singaravelan+Nagar,+Maduravoyal,+Chennai+600095",
     external: true,
   },

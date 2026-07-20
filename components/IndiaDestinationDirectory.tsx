@@ -1,6 +1,8 @@
 import Link from "next/link";
 import { indiaStates } from "@/lib/india-destinations";
 
+const sortedStates = [...indiaStates].sort((a, b) => a.name.localeCompare(b.name));
+
 export default function IndiaDestinationDirectory() {
   return (
     <section id="india-directory" className="scroll-mt-40 bg-gradient-to-b from-white via-amber-50 to-white pb-10 pt-20">
@@ -19,7 +21,7 @@ export default function IndiaDestinationDirectory() {
         {/* State-by-state directory — one city per line, matching the original site's listing.
             Every state and city links to the same /india/[state] page, mirroring the source. */}
         <div className="columns-1 gap-8 sm:columns-2 lg:columns-3 xl:columns-4 2xl:columns-5">
-          {indiaStates.map((state) => (
+          {sortedStates.map((state) => (
             <div key={state.name} className="mb-7 break-inside-avoid">
               <Link
                 href={`/india/${state.slug}`}

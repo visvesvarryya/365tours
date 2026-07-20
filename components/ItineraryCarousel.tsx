@@ -30,9 +30,9 @@ export default function ItineraryCarousel({
     }
   };
 
-  // Tracks scroll position for the mobile-only dot indicators + edge fade —
-  // there's no scrollbar and the arrow buttons are desktop-only, so on a
-  // phone nothing else hints that this row is horizontally scrollable.
+// Tracks scroll position for the mobile-only pager — there's no scrollbar
+  // and the arrow buttons are desktop-only, so on a phone nothing else hints
+  // that this row is horizontally scrollable.
   const [activeIndex, setActiveIndex] = useState(0);
   useEffect(() => {
     const el = ref.current;
@@ -124,13 +124,7 @@ export default function ItineraryCarousel({
         ))}
       </div>
 
-      {/* Mobile-only "there's more" cue: a fading edge over the peeking next
-          card, gone once you've actually scrolled to the last one. */}
-      {items.length > 1 && activeIndex < items.length - 1 && (
-        <div className="pointer-events-none absolute right-0 top-0 h-[calc(100%-0.5rem)] w-14 bg-gradient-to-l from-stone-50 to-transparent sm:hidden" />
-      )}
-
-      {items.length > 1 && (
+{items.length > 1 && (
         <>
           <button
             onClick={() => scroll(-1)}
@@ -153,18 +147,36 @@ export default function ItineraryCarousel({
         </>
       )}
 
-      {/* Mobile-only dot indicators — shows position/count since there's no
-          visible scrollbar and the arrow buttons are desktop-only. */}
+      {/* Mobile-only pager: circular prev/next arrows around a "3 / 8"
+          counter — stays a fixed, guaranteed-to-fit width no matter how many
+          itineraries there are, unlike a dot per card. */}
       {items.length > 1 && (
-        <div className="mt-3 flex justify-center gap-1.5 sm:hidden">
-          {items.map((it, i) => (
-            <span
-              key={it.src}
-              className={`h-1.5 rounded-full transition-all ${
-                i === activeIndex ? "w-5 bg-brand-500" : "w-1.5 bg-stone-300"
-              }`}
-            />
-          ))}
+        <div className="mt-4 flex items-center justify-center gap-4 sm:hidden">
+          <button
+            type="button"
+            onClick={() => scroll(-1)}
+            aria-label="Previous itinerary"
+            className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-stone-100 text-stone-600 transition active:scale-90"
+          >
+            <svg width="15" height="15" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>
+              <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
+            </svg>
+          </button>
+
+          <span className="min-w-[3.5rem] text-center font-oswald text-sm font-semibold tabular-nums text-stone-700">
+            {activeIndex + 1} / {items.length}
+          </span>
+
+          <button
+            type="button"
+            onClick={() => scroll(1)}
+            aria-label="Next itinerary"
+            className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-stone-100 text-stone-600 transition active:scale-90"
+          >
+            <svg width="15" height="15" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>
+              <path strokeLinecap="round" strokeLinejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+            </svg>
+          </button>
         </div>
       )}
 
