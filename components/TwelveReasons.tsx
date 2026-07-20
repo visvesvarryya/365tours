@@ -19,7 +19,7 @@ const bgTints = ["bg-[#CCDDED]", "bg-[#FDE9D1]", "bg-[#E9F3DA]"];
 
 export default function TwelveReasons() {
   return (
-    <section id="twelve-reasons" className="bg-white py-10">
+    <section id="twelve-reasons" className="bg-white pb-20 pt-10">
       <div className="mx-auto max-w-6xl px-6 lg:px-10">
         {/* Header */}
         <div className="mx-auto mb-10 text-center">
@@ -33,10 +33,10 @@ export default function TwelveReasons() {
           {reasons.map((r, i) => (
             <div
               key={r.title}
-              className={`rounded-[25px] border border-stone-200 p-6 text-center ${bgTints[i % 3]}`}
+              className={`rounded-[25px] border border-stone-200 p-6 text-center ${bgTints[Math.floor(i / 2) % 3]}`}
             >
-              <h3 className="font-lato text-xl font-bold text-black sm:text-2xl">{r.title}</h3>
-              <p className="mx-auto mt-1.5 w-[70%] font-lato text-stone-700">{r.body}</p>
+              <h3 className="text-xl font-bold text-black sm:text-2xl">{r.title}</h3>
+              <p className="mx-auto mt-1.5 w-[70%] font-lato text-[#222222]">{r.body}</p>
             </div>
           ))}
         </div>

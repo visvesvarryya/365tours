@@ -3,10 +3,13 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import ItineraryCarousel from "@/components/ItineraryCarousel";
-import LeadForm from "@/components/LeadForm";
+import QuickEnquiryCTA from "@/components/QuickEnquiryCTA";
+import DestinationsOffered from "@/components/DestinationsOffered";
 import TwelveReasons from "@/components/TwelveReasons";
 import TrustBar from "@/components/TrustBar";
 import Footer from "@/components/Footer";
+import SocialLinks from "@/components/SocialLinks";
+import DestinationViewTracker from "@/components/DestinationViewTracker";
 import { indiaStateDetails } from "@/lib/india-states";
 import { indiaDestinationsOffered } from "@/lib/india-destinations-offered";
 import { SITE_URL } from "@/lib/site";
@@ -66,6 +69,7 @@ export default function IndiaStatePage({ params }: { params: { state: string } }
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
+      <DestinationViewTracker id={`india-${state.slug}`} name={state.name} category="India" />
       <main>
         {/* ── HERO ── */}
         <section className="relative h-[350px] overflow-hidden bg-stone-950 sm:h-[450px] lg:h-[600px]">
@@ -98,6 +102,8 @@ export default function IndiaStatePage({ params }: { params: { state: string } }
               {state.tagline && (
                 <p className="mt-3 text-xl font-light italic text-white/70">{state.tagline}</p>
               )}
+
+              <SocialLinks className="mt-8" />
             </div>
           </div>
         </section>
@@ -116,48 +122,13 @@ export default function IndiaStatePage({ params }: { params: { state: string } }
               <div className="mt-8">
                 <ItineraryCarousel items={state.itineraries} name={state.name} />
               </div>
-              <div id="enquire" className="mt-12 scroll-mt-24 rounded-3xl bg-stone-950 p-8 shadow-xl sm:p-10">
-                <div className="grid gap-8 lg:grid-cols-[1fr_1.1fr] lg:items-center">
-                  <div>
-                    <p className="text-xs font-semibold uppercase tracking-widest text-brand-400">
-                      Quick Enquiry
-                    </p>
-                    <h3 className="mt-3 font-serif text-2xl font-bold text-white sm:text-3xl">
-                      Get the full {state.name} itinerary
-                    </h3>
-                    <p className="mt-3 text-sm leading-relaxed text-stone-400">
-                      For a detailed day-wise itinerary, price, inclusions &amp; exclusions, send us
-                      an enquiry — response within 24 hours. Every tour is fully private and
-                      customisable to your dates, pace and budget.
-                    </p>
-                  </div>
-                  <LeadForm variant="full" destination={state.name} source="india-itinerary-enquiry" />
-                </div>
-              </div>
+              <QuickEnquiryCTA name={state.name} source="india-itinerary-enquiry" />
             </div>
           </section>
         )}
 
         {/* ── DESTINATIONS OFFERED ── */}
-        {cities.length > 0 && (
-          <section className="bg-white py-10">
-            <div className="mx-auto max-w-6xl px-6 lg:px-10">
-              <h2 className="font-serif text-3xl font-bold text-stone-900">
-                Destinations Offered
-              </h2>
-              <div className="mt-6 flex flex-wrap gap-2.5">
-                {cities.map((city) => (
-                  <span
-                    key={city}
-                    className="rounded-full border border-brand-100 bg-brand-50 px-4 py-2 text-sm font-medium text-brand-700"
-                  >
-                    {city}
-                  </span>
-                ))}
-              </div>
-            </div>
-          </section>
-        )}
+        <DestinationsOffered name={state.name} items={cities} />
 
         {/* ── 12 REASONS ── */}
         <TwelveReasons />

@@ -15,7 +15,7 @@ const updated = "13 July 2026";
 export default function CookiePolicyPage() {
   return (
     <>
-      <main className="bg-white pt-28">
+      <main>
         <div className="mx-auto max-w-3xl px-6 pb-20 lg:px-10">
           <p className="text-xs font-semibold uppercase tracking-[0.3em] text-brand-500">Legal</p>
           <h1 className="mt-3 font-serif text-4xl font-bold text-stone-900 sm:text-5xl">

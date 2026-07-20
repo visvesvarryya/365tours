@@ -41,7 +41,7 @@ export default function Testimonials() {
     <section id="reviews" className="bg-gradient-to-b from-rose-50 via-orange-50 to-white py-10">
       <div className="mx-auto max-w-7xl px-6 lg:px-10">
         {/* Header */}
-        <div className="mx-auto mb-12 max-w-2xl text-center">
+        <div className="mx-auto mb-10 max-w-2xl text-center">
           <p className="text-xs font-semibold uppercase tracking-[0.3em] text-brand-500">
             Traveller Stories
           </p>
@@ -66,7 +66,7 @@ export default function Testimonials() {
         <ReviewsGrid curated={curated} show={6} />
 
         {/* Read all reviews on Google */}
-        <div className="mt-12 text-center">
+        <div className="mt-8 text-center">
           <a
             href={GOOGLE_REVIEWS_URL}
             target="_blank"

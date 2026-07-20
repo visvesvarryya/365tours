@@ -126,13 +126,13 @@ export default function ItineraryCarousel({
           >
             <div className="flex h-full items-center justify-center p-4">
               <div
-                className="relative flex flex-col items-center"
+                className="relative flex -translate-y-5 flex-col items-center sm:translate-y-1.5"
                 onClick={(e) => e.stopPropagation()}
               >
                 {/* Sized to the photo's own 3:2 ratio (all itinerary photos share it),
                     so object-contain shows the complete photo — nothing cropped —
                     while still maximising size and never needing to scroll. */}
-                <div className="relative aspect-[3/2] w-[min(94vw,calc(85vh*1.5))]">
+                <div className="relative aspect-[3/2] w-[min(98vw,calc(94vh*1.5))]">
                   <Image
                     src={items[openIndex].src}
                     alt={`${name} itinerary ${openIndex + 1}`}

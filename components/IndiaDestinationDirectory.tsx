@@ -3,7 +3,7 @@ import { indiaStates } from "@/lib/india-destinations";
 
 export default function IndiaDestinationDirectory() {
   return (
-    <section id="india-directory" className="scroll-mt-40 bg-gradient-to-b from-white via-amber-50 to-white pb-10 pt-28 sm:pt-32">
+    <section id="india-directory" className="scroll-mt-40 bg-gradient-to-b from-white via-amber-50 to-white pb-10 pt-20">
       <div className="mx-auto max-w-7xl px-6 lg:px-10">
         {/* Header */}
         <div className="mx-auto mb-10 max-w-2xl text-center">

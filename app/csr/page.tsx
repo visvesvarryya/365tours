@@ -21,7 +21,7 @@ const csrInitiatives = [
 export default function CsrPage() {
   return (
     <>
-      <main className="bg-white pt-28">
+      <main>
         <div className="mx-auto max-w-3xl px-6 pb-20 lg:px-10">
           <p className="text-xs font-semibold uppercase tracking-[0.3em] text-brand-500">
             Our Social Responsibility

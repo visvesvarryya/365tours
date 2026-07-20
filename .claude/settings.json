@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(curl -s \"https://365tours.in/destination-detail.php?id=365T_00005\" -A \"Mozilla/5.0\")",
+      "Bash(curl -s \"https://365tours.in/destination-detail.php?id=365T_00005\" -A \"Mozilla/5.0\" -o /tmp/myanmar.html)",
+      "Bash(curl -s \"https://365tours.in/destination-detail.php?id=365T_00005\" -A \"Mozilla/5.0\" -o /tmp/myanmar2.html)",
+      "Bash(node -e ' *)",
+      "Bash(node fetch-descriptions.js)",
+      "Bash(node apply-descriptions.js)",
+      "Bash(curl -s \"https://365tours.in/css/style.css\" -A \"Mozilla/5.0\")",
+      "Bash(curl -s http://localhost:3001/api/feeds/dynamic-remarketing)"
+    ]
+  }
+}

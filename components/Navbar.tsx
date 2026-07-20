@@ -16,8 +16,20 @@ const navLinks = [
   { label: "Blogs", href: "https://365tours.blogspot.com", external: true },
 ];
 
+// Simple legal/info pages carry no hero, so the transparent-over-hero navbar
+// treatment doesn't apply to them — they render with no header at all.
+const NO_NAVBAR_PATHS = [
+  "/about-us",
+  "/terms-of-use",
+  "/disclaimer",
+  "/privacy-policy",
+  "/cookie-policy",
+  "/csr",
+];
+
 export default function Navbar() {
   const pathname = usePathname();
+  const hideNavbar = pathname ? NO_NAVBAR_PATHS.includes(pathname) : false;
   // The India badge (links to /india) is the default everywhere; the reciprocal
   // "7 Continents" badge (links home) shows instead on the India hub itself and
   // on international destination pages, since those are already international
@@ -40,6 +52,8 @@ export default function Navbar() {
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
+  if (hideNavbar) return null;
+
   return (
     <header
       className={`fixed inset-x-0 top-0 z-50 transition-all duration-300 ${
@@ -50,10 +64,15 @@ export default function Navbar() {
           : "bg-transparent"
       }`}
     >
+      {/* Brand accent strip — the exact blue/orange/green split from 365tours.in's
+          own .theme-line (#0054A5 0-15%, #f79618 15-60%, #8BC53F 60-100%). Sits at
+          the very top of the viewport, above the nav content. */}
+      <div className="h-1 bg-[linear-gradient(to_right,#0054A5_0%,#0054A5_15%,#f79618_15%,#f79618_60%,#8BC53F_60%,#8BC53F_100%)]" />
+
       <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 lg:px-10">
         {/* Logo — eager but not preloaded, so it doesn't compete with the hero LCP.
             Matches the original 365tours.in header size (200px wide). */}
-        <Logo height={126} faded={!scrolled} />
+        <Logo height={126} />
 
         {/* Desktop Nav */}
         <nav className="hidden items-center gap-8 lg:flex">

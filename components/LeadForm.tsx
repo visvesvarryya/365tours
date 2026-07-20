@@ -2,18 +2,22 @@
 
 import { useState, useEffect, type FormEvent } from "react";
 import { trackLeadConversion } from "@/lib/analytics";
+import { destinations } from "@/lib/destinations";
+import { indiaStateDetails } from "@/lib/india-states";
 
 const STORAGE_KEY = "365tours_contact";
 
-const DEFAULT_INTERESTS = [
-  "India",
-  "Europe",
-  "South East Asia",
-  "Japan",
-  "Africa Safari",
-  "Americas",
-  "Middle East",
-  "Other",
+// Every country + India state name, for the destination field's suggestion list —
+// lets visitors pick from the real catalog instead of typing it out blind.
+const DESTINATION_OPTIONS = [
+  ...destinations.map((d) => d.name),
+  ...Object.values(indiaStateDetails).map((s) => s.name),
+].sort((a, b) => a.localeCompare(b));
+
+const MONTHS = [
+  "January", "February", "March", "April", "May", "June",
+  "July", "August", "September", "October", "November", "December",
+  "Flexible / Not sure yet",
 ];
 
 type Status = "idle" | "submitting" | "success" | "error";
@@ -27,49 +31,48 @@ export default function LeadForm({
   destination?: string;
   source?: string;
 }) {
-  const [selected, setSelected] = useState<string[]>(destination ? [destination] : []);
   const [status, setStatus] = useState<Status>("idle");
   const [error, setError] = useState("");
-  // Prefilled contact details, remembered from the visitor's last enquiry.
-  const [contact, setContact] = useState({ name: "", email: "", phone: "" });
+  // Prefilled from the visitor's last enquiry, so returning visitors don't retype it.
+  const [contact, setContact] = useState({ name: "", email: "", phone: "", departureCity: "" });
+  const [destinationInput, setDestinationInput] = useState(destination || "");
 
-  // Load saved contact details on mount (client-only, so no hydration mismatch).
   useEffect(() => {
     try {
       const raw = localStorage.getItem(STORAGE_KEY);
       if (raw) {
         const c = JSON.parse(raw);
-        setContact({ name: c.name || "", email: c.email || "", phone: c.phone || "" });
+        setContact({
+          name: c.name || "",
+          email: c.email || "",
+          phone: c.phone || "",
+          departureCity: c.departureCity || "",
+        });
       }
     } catch {
       /* ignore */
     }
   }, []);
 
-  const setField = (field: "name" | "email" | "phone") => (
+  const setField = (field: keyof typeof contact) => (
     e: React.ChangeEvent<HTMLInputElement>
   ) => setContact((c) => ({ ...c, [field]: e.target.value }));
-
-  const toggle = (item: string) =>
-    setSelected((prev) =>
-      prev.includes(item) ? prev.filter((x) => x !== item) : [...prev, item]
-    );
 
   async function handleSubmit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();
     setError("");
     const form = e.currentTarget;
     const data = new FormData(form);
+    const destinationValue = destination || destinationInput.trim();
     const payload = {
       name: contact.name.trim(),
       email: contact.email.trim(),
       phone: contact.phone.trim(),
       groupSize: String(data.get("groupSize") || ""),
-      departureCity: String(data.get("departureCity") || "").trim(),
-      travelMonth: String(data.get("travelMonth") || "").trim(),
-      message: String(data.get("message") || "").trim(),
-      interests: destination ? [destination] : selected,
-      destination,
+      departureCity: contact.departureCity.trim(),
+      travelMonth: String(data.get("travelMonth") || ""),
+      interests: destinationValue ? [destinationValue] : [],
+      destination: destinationValue,
       source,
     };
 
@@ -77,8 +80,28 @@ export default function LeadForm({
       setError("Please enter your name.");
       return;
     }
-    if (!payload.email && !payload.phone) {
-      setError("Add an email or phone so we can reach you.");
+    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(payload.email)) {
+      setError("Please enter a valid email address.");
+      return;
+    }
+    if (payload.phone.replace(/\D/g, "").length < 7) {
+      setError("Please enter a valid phone / WhatsApp number.");
+      return;
+    }
+    if (!destinationValue) {
+      setError("Please tell us which destination you're interested in.");
+      return;
+    }
+    if (!payload.groupSize) {
+      setError("Please enter the number of people travelling.");
+      return;
+    }
+    if (!payload.departureCity) {
+      setError("Please enter your country / city of departure.");
+      return;
+    }
+    if (!payload.travelMonth) {
+      setError("Please select your likely month of travel.");
       return;
     }
 
@@ -97,14 +120,20 @@ export default function LeadForm({
       try {
         localStorage.setItem(
           STORAGE_KEY,
-          JSON.stringify({ name: payload.name, email: payload.email, phone: payload.phone })
+          JSON.stringify({
+            name: payload.name,
+            email: payload.email,
+            phone: payload.phone,
+            departureCity: payload.departureCity,
+          })
         );
       } catch {
         /* ignore */
       }
-      trackLeadConversion({ destination, source });
+      trackLeadConversion({ destination: destinationValue, source });
       setStatus("success");
       form.reset();
+      setDestinationInput(destination || "");
     } catch (err) {
       setStatus("error");
       setError(err instanceof Error ? err.message : "Please try again.");
@@ -121,8 +150,8 @@ export default function LeadForm({
         </div>
         <h3 className="mt-6 font-serif text-2xl font-bold">Thank you! 🎉</h3>
         <p className="mt-2 max-w-sm text-brand-50">
-          Your enquiry{destination ? ` about ${destination}` : ""} is in. One of our travel
-          designers will craft your itinerary and reply within 24 hours.
+          Your enquiry{destination ? ` about ${destination}` : ""} is in. We will craft your
+          itinerary and reply within 4–24 hours.
         </p>
         <a
           href="https://wa.me/919840148869"
@@ -137,118 +166,165 @@ export default function LeadForm({
   }
 
   const inputClass =
-    "w-full rounded-2xl border border-white/10 bg-white/5 px-4 py-3 text-sm text-white placeholder-stone-500 outline-none transition focus:border-brand-400 focus:ring-1 focus:ring-brand-400";
+    "w-full rounded-xl border border-white/10 bg-white/5 px-3.5 py-2.5 text-sm text-white placeholder-stone-500 outline-none transition focus:border-brand-400 focus:ring-1 focus:ring-brand-400";
+  const selectClass =
+    "mt-1.5 w-full rounded-xl border border-white/10 bg-stone-900 px-3.5 py-2.5 text-sm text-white outline-none transition focus:border-brand-400";
   const submitting = status === "submitting";
+  const grid = variant === "full" ? "grid gap-3 sm:grid-cols-2" : "space-y-3";
 
   return (
-    <form onSubmit={handleSubmit} className="space-y-5">
-      <div className={variant === "full" ? "grid gap-5 sm:grid-cols-2" : "space-y-5"}>
+    <form onSubmit={handleSubmit} className="space-y-3" noValidate>
+      <p className="flex items-center gap-1.5 text-xs font-semibold uppercase tracking-widest text-brand-400">
+        <span className="h-1.5 w-1.5 animate-pulse rounded-full bg-brand-400" />
+        Response time 4–24 hours
+      </p>
+
+      <div className={grid}>
         <label className="block">
           <span className="text-xs font-medium uppercase tracking-widest text-stone-400">
             Your Name *
           </span>
-          <input name="name" type="text" required placeholder="Ravi Kumar" value={contact.name} onChange={setField("name")} className={`mt-2 ${inputClass}`} />
+          <input
+            name="name"
+            type="text"
+            required
+            minLength={2}
+            autoComplete="name"
+            placeholder="Ravi Kumar"
+            value={contact.name}
+            onChange={setField("name")}
+            className={`mt-1.5 ${inputClass}`}
+          />
         </label>
         <label className="block">
-          <span className="text-xs font-medium uppercase tracking-widest text-stone-400">Email</span>
-          <input name="email" type="email" placeholder="you@example.com" value={contact.email} onChange={setField("email")} className={`mt-2 ${inputClass}`} />
+          <span className="text-xs font-medium uppercase tracking-widest text-stone-400">
+            Email *
+          </span>
+          <input
+            name="email"
+            type="email"
+            required
+            autoComplete="email"
+            placeholder="you@example.com"
+            value={contact.email}
+            onChange={setField("email")}
+            className={`mt-1.5 ${inputClass}`}
+          />
         </label>
       </div>
 
-      <div className={variant === "full" ? "grid gap-5 sm:grid-cols-2" : "space-y-5"}>
+      <div className={grid}>
         <label className="block">
           <span className="text-xs font-medium uppercase tracking-widest text-stone-400">
-            Phone / WhatsApp
+            Phone / WhatsApp *
           </span>
-          <input name="phone" type="tel" placeholder="+91 98000 00000" value={contact.phone} onChange={setField("phone")} className={`mt-2 ${inputClass}`} />
+          <input
+            name="phone"
+            type="tel"
+            required
+            autoComplete="tel"
+            pattern="[0-9+\-\s()]{7,20}"
+            placeholder="+91 98000 00000"
+            value={contact.phone}
+            onChange={setField("phone")}
+            className={`mt-1.5 ${inputClass}`}
+          />
         </label>
         <label className="block">
           <span className="text-xs font-medium uppercase tracking-widest text-stone-400">
-            No. of People Travelling
+            Destination *
           </span>
-          <select
+          {destination ? (
+            <input
+              type="text"
+              value={destination}
+              disabled
+              className={`mt-2 ${inputClass} cursor-not-allowed opacity-70`}
+            />
+          ) : (
+            <>
+              <input
+                name="destination"
+                type="text"
+                required
+                list="destination-options"
+                autoComplete="off"
+                placeholder="e.g. Egypt"
+                value={destinationInput}
+                onChange={(e) => setDestinationInput(e.target.value)}
+                className={`mt-1.5 ${inputClass}`}
+              />
+              <datalist id="destination-options">
+                {DESTINATION_OPTIONS.map((name) => (
+                  <option key={name} value={name} />
+                ))}
+              </datalist>
+            </>
+          )}
+        </label>
+      </div>
+
+      <div className={grid}>
+        <label className="block">
+          <span className="text-xs font-medium uppercase tracking-widest text-stone-400">
+            No. of People Travelling *
+          </span>
+          <input
             name="groupSize"
-            className="mt-2 w-full rounded-2xl border border-white/10 bg-stone-900 px-4 py-3 text-sm text-white outline-none transition focus:border-brand-400"
-          >
-            <option value="">Select…</option>
-            <option>Solo</option>
-            <option>Couple (2)</option>
-            <option>Small group (3–5)</option>
-            <option>Family / Group (6+)</option>
-          </select>
-        </label>
-      </div>
-
-      <div className={variant === "full" ? "grid gap-5 sm:grid-cols-2" : "space-y-5"}>
-        <label className="block">
-          <span className="text-xs font-medium uppercase tracking-widest text-stone-400">
-            Country / City of Departure
-          </span>
-          <input name="departureCity" type="text" placeholder="Chennai, India" className={`mt-2 ${inputClass}`} />
+            type="number"
+            required
+            min={1}
+            step={1}
+            inputMode="numeric"
+            placeholder="2"
+            className={`mt-1.5 ${inputClass}`}
+          />
         </label>
         <label className="block">
           <span className="text-xs font-medium uppercase tracking-widest text-stone-400">
-            Likely Month of Travel
+            Country / City of Departure *
           </span>
-          <input name="travelMonth" type="text" placeholder="December" className={`mt-2 ${inputClass}`} />
+          <input
+            name="departureCity"
+            type="text"
+            required
+            autoComplete="address-level2"
+            placeholder="Chennai, India"
+            value={contact.departureCity}
+            onChange={setField("departureCity")}
+            className={`mt-1.5 ${inputClass}`}
+          />
         </label>
       </div>
-
-      {/* Destination chips (home form only) */}
-      {!destination && (
-        <div>
-          <span className="text-xs font-medium uppercase tracking-widest text-stone-400">
-            Destinations of Interest
-          </span>
-          <div className="mt-3 flex flex-wrap gap-2">
-            {DEFAULT_INTERESTS.map((item) => (
-              <button
-                key={item}
-                type="button"
-                onClick={() => toggle(item)}
-                className={`rounded-full border px-4 py-1.5 text-xs font-medium transition ${
-                  selected.includes(item)
-                    ? "border-brand-400 bg-brand-500 text-white"
-                    : "border-white/10 bg-white/5 text-stone-300 hover:border-white/30"
-                }`}
-              >
-                {item}
-              </button>
-            ))}
-          </div>
-        </div>
-      )}
 
       <label className="block">
         <span className="text-xs font-medium uppercase tracking-widest text-stone-400">
-          Tell us more (optional)
+          Likely Month of Travel *
         </span>
-        <textarea
-          name="message"
-          rows={3}
-          placeholder={
-            destination
-              ? `Your ${destination} trip — dates, interests, budget…`
-              : "Travel dates, special occasions, preferences, budget range…"
-          }
-          className={`mt-2 resize-none ${inputClass}`}
-        />
+        <select name="travelMonth" required defaultValue="" className={selectClass}>
+          <option value="" disabled>
+            Select…
+          </option>
+          {MONTHS.map((m) => (
+            <option key={m}>{m}</option>
+          ))}
+        </select>
       </label>
 
       {error && (
-        <p className="rounded-xl bg-red-500/10 px-4 py-2.5 text-sm text-red-300">{error}</p>
+        <p className="rounded-xl bg-red-500/10 px-4 py-2 text-xs text-red-300">{error}</p>
       )}
 
       <button
         type="submit"
         disabled={submitting}
-        className="w-full rounded-full bg-brand-500 py-4 text-sm font-semibold text-white shadow-lg shadow-brand-900/40 transition hover:bg-brand-400 active:scale-95 disabled:cursor-not-allowed disabled:opacity-60"
+        className="w-full rounded-full bg-brand-500 py-3 text-sm font-semibold uppercase tracking-wide text-white shadow-lg shadow-brand-900/40 transition hover:bg-brand-400 active:scale-95 disabled:cursor-not-allowed disabled:opacity-60"
       >
-        {submitting ? "Sending…" : destination ? `Send My ${destination} Enquiry →` : "Send My Enquiry →"}
+        {submitting ? "Sending…" : "Send My Enquiry"}
       </button>
 
       <p className="text-center text-xs text-stone-500">
-        Free consultation · No commitment · We respect your privacy — no spam, ever.
+        We respect your privacy — no spam, unnecessary follow up. Ever.
       </p>
     </form>
   );

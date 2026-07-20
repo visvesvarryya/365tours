@@ -114,7 +114,7 @@ export const indiaStateDetails: Record<string, IndiaStateDetail> = {
   "gujarat": {
     slug: "gujarat",
     name: "Gujarat",
-    tagline: "",
+    tagline: "ONE STATE. INFINITE EXPERIENCES",
     heroImage: "/india/states/gujarat/hero.jpg",
     itineraries: [
       { src: "/india/states/gujarat/tour-1.jpg", days: "3-4 Days", places: ["Ahmedabad", "Vadodara", "Statue of Unity"] },
@@ -161,7 +161,7 @@ export const indiaStateDetails: Record<string, IndiaStateDetail> = {
   "jharkhand": {
     slug: "jharkhand",
     name: "Jharkhand",
-    tagline: "",
+    tagline: "NATURE’S HIDDEN JEWEL",
     heroImage: "/india/states/jharkhand/hero.jpg",
     itineraries: [
       { src: "/india/states/jharkhand/tour-1.jpg", days: "Waterfalls", places: ["Ghaghari Dham", "Sita Fall", "Johna Falls", "Chandil Dam", "Lodh Falls"] },
@@ -177,7 +177,7 @@ export const indiaStateDetails: Record<string, IndiaStateDetail> = {
   "kerala": {
     slug: "kerala",
     name: "Kerala",
-    tagline: "",
+    tagline: "GOD’S OWN COUNTRY",
     heroImage: "/india/states/kerala/hero.jpg",
     itineraries: [
       { src: "/india/states/kerala/tour-1.jpg", days: "4-7 Days", places: ["Kochi", "Thattekad Sanctuary", "Vazachai Falls"] },
@@ -193,7 +193,7 @@ export const indiaStateDetails: Record<string, IndiaStateDetail> = {
   "karnataka": {
     slug: "karnataka",
     name: "Karnataka",
-    tagline: "",
+    tagline: "ONE STATE. MANY WORLDS",
     heroImage: "/india/states/karnataka/hero.jpg",
     itineraries: [
       { src: "/india/states/karnataka/tour-1.jpg", days: "3-7 Days", places: ["Mysuru", "Srirangapatna", "Nagarhole", "Kabini", "Ranganathittu"] },
@@ -209,7 +209,7 @@ export const indiaStateDetails: Record<string, IndiaStateDetail> = {
   "maharashtra": {
     slug: "maharashtra",
     name: "Maharashtra",
-    tagline: "",
+    tagline: "A CULMINATION OF CULTURE & HERITAGE",
     heroImage: "/india/states/maharashtra/hero.jpg",
     itineraries: [
       { src: "/india/states/maharashtra/tour-1.jpg", days: "Weekend Breaks", places: ["Ex Mumbai", "Lonavala", "Kolad", "Igatpuri", "Matheran"] },
@@ -337,7 +337,7 @@ export const indiaStateDetails: Record<string, IndiaStateDetail> = {
   "uttar-pradesh": {
     slug: "uttar-pradesh",
     name: "Uttar Pradesh",
-    tagline: "",
+    tagline: "WAH TAJ!",
     heroImage: "/india/states/uttar-pradesh/hero.jpg",
     itineraries: [
       { src: "/india/states/uttar-pradesh/tour-1.jpg", days: "4-7 Days", places: ["Agra", "Mathura, Vrindavan"] },

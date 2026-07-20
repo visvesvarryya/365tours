@@ -4,7 +4,6 @@ import DestinationDirectory from "@/components/DestinationDirectory";
 import TwelveReasons from "@/components/TwelveReasons";
 import TrustBar from "@/components/TrustBar";
 import Testimonials from "@/components/Testimonials";
-import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 import { SITE_URL, absoluteUrl } from "@/lib/site";
 
@@ -48,7 +47,6 @@ export default function Home() {
       <DestinationDirectory />
       <TwelveReasons />
       <TrustBar />
-      <Contact />
       <Footer />
     </>
   );

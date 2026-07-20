@@ -3,7 +3,6 @@ import IndiaHeroBackground from "@/components/IndiaHeroBackground";
 import IndiaDestinationDirectory from "@/components/IndiaDestinationDirectory";
 import TwelveReasons from "@/components/TwelveReasons";
 import TrustBar from "@/components/TrustBar";
-import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 import { SITE_URL } from "@/lib/site";
 
@@ -56,7 +55,6 @@ export default function IndiaPage() {
         <IndiaDestinationDirectory />
         <TwelveReasons />
         <TrustBar />
-        <Contact />
       </main>
       <Footer />
     </>

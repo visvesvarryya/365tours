@@ -2,6 +2,10 @@
 const nextConfig = {
   reactStrictMode: true,
   images: {
+    // Skip the sharp resize/re-encode pass in `next dev` — it runs synchronously
+    // on first request per image/size combo, which is what causes the scroll-load
+    // stutter locally. Production builds still get full AVIF/WebP optimization.
+    unoptimized: process.env.NODE_ENV !== "production",
     // Serve modern formats; next/image negotiates AVIF/WebP per browser.
     formats: ["image/avif", "image/webp"],
     minimumCacheTTL: 2678400, // cache optimised images 31 days

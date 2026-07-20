@@ -18,7 +18,7 @@ export default function DestinationDirectory() {
     <section id="all-destinations" className="bg-gradient-to-b from-white via-amber-50 to-white py-10">
       <div className="mx-auto max-w-7xl px-6 lg:px-10">
         {/* Header */}
-        <div className="mx-auto mb-8 max-w-2xl text-center">
+        <div className="mx-auto mb-10 max-w-2xl text-center">
           {/* Exact original 365tours.in treatment: "Above The Sky" brush script + Merriweather italic */}
           <h2 className="font-brush leading-none text-stone-900">
             <span className="text-7xl sm:text-8xl">100</span>{" "}
