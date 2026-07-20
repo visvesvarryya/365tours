@@ -63,6 +63,20 @@ export default function ItineraryCarousel({
     [items.length]
   );
 
+  // Swipe left/right on the enlarged photo to move between itineraries.
+  const touchStartX = useRef<number | null>(null);
+  const handleLightboxTouchStart = (e: React.TouchEvent) => {
+    touchStartX.current = e.touches[0].clientX;
+  };
+  const handleLightboxTouchEnd = (e: React.TouchEvent) => {
+    if (touchStartX.current === null) return;
+    const deltaX = e.changedTouches[0].clientX - touchStartX.current;
+    const threshold = 40;
+    if (deltaX > threshold) prev();
+    else if (deltaX < -threshold) next();
+    touchStartX.current = null;
+  };
+
   useEffect(() => {
     if (openIndex === null) return;
     const onKey = (e: KeyboardEvent) => {
@@ -199,7 +213,11 @@ export default function ItineraryCarousel({
                 {/* Sized to the photo's own 3:2 ratio (all itinerary photos share it),
                     so object-contain shows the complete photo — nothing cropped —
                     while still maximising size and never needing to scroll. */}
-                <div className="relative aspect-[3/2] w-[min(98vw,calc(94vh*1.5))]">
+                <div
+                  className="relative aspect-[3/2] w-[min(98vw,calc(94vh*1.5))]"
+                  onTouchStart={handleLightboxTouchStart}
+                  onTouchEnd={handleLightboxTouchEnd}
+                >
                   <Image
                     src={items[openIndex].src}
                     alt={`${name} itinerary ${openIndex + 1}`}
