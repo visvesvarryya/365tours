@@ -22,7 +22,7 @@ export default function TwelveReasons() {
     <section id="twelve-reasons" className="bg-white py-10">
       <div className="mx-auto max-w-6xl px-6 lg:px-10">
         {/* Header */}
-        <div className="mx-auto mb-10 text-center">
+        <div className="mx-auto mb-[10.125px] text-center">
           <h2 className="font-heebo text-[28px] font-bold uppercase tracking-[-0.5px] text-stone-900 sm:text-[36px]">
             12 Reasons to Travel with 365 Tours
           </h2>

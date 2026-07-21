@@ -20,7 +20,7 @@ export default function DestinationDirectory() {
         {/* Header */}
         <div className="mx-auto mb-10 max-w-2xl text-center">
           {/* Exact original 365tours.in treatment: "Above The Sky" brush script + Merriweather italic */}
-          <h2 className="font-brush leading-none text-stone-900">
+          <h2 className="-mt-3 font-brush leading-none text-stone-900 sm:-mt-5">
             <span className="text-7xl sm:text-8xl">100</span>{" "}
             <span className="text-5xl sm:text-7xl">Countries</span>
           </h2>
@@ -32,8 +32,8 @@ export default function DestinationDirectory() {
         {/* Compact columnar A-Z listing (no quick-jump nav) */}
         <div className="columns-1 gap-6 sm:columns-2 lg:columns-3 xl:columns-4">
           {letters.map((letter) => (
-            <div key={letter} className="mb-5 break-inside-avoid">
-              <div className="mb-1.5 flex items-center gap-2">
+            <div key={letter} className="mb-5">
+              <div className="mb-1.5 flex items-center gap-2 break-after-avoid">
                 <span className="font-serif text-lg font-bold text-brand-500">{letter}</span>
                 <span className="h-px flex-1 bg-stone-200" />
               </div>

@@ -66,7 +66,7 @@ export default function Testimonials() {
         <ReviewsGrid curated={curated} show={6} />
 
         {/* Read all reviews on Google */}
-        <div className="mt-8 text-center">
+        <div className="mt-6 text-center">
           <a
             href={GOOGLE_REVIEWS_URL}
             target="_blank"

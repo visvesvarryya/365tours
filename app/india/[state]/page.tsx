@@ -110,9 +110,9 @@ export default function IndiaStatePage({ params }: { params: { state: string } }
 
         {/* ── SIGNATURE ITINERARIES ── */}
         {state.itineraries.length > 0 && (
-          <section className="bg-stone-50 pb-10 pt-20">
+          <section className="bg-stone-50 py-10">
             <div className="mx-auto max-w-7xl px-6 lg:px-10">
-              <h2 className="font-brush leading-none text-stone-900">
+              <h2 className="-mt-3 font-brush leading-none text-stone-900 sm:-mt-5">
                 <span className="text-6xl sm:text-8xl">{state.itineraries.length}</span>{" "}
                 <span className="text-3xl sm:text-5xl">Popular Tours</span>
               </h2>

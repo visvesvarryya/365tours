@@ -10,7 +10,7 @@ const guarantees = [
 
 export default function TourGuarantee() {
   return (
-    <section id="tour-guarantee" className="bg-white pb-10 pt-20">
+    <section id="tour-guarantee" className="bg-white py-10">
       <div className="mx-auto max-w-6xl px-6 text-center lg:px-10">
         <h2 className="font-serif text-3xl font-bold text-stone-900 sm:text-4xl">
           Our Tour Guarantee &amp; Enhancement

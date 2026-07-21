@@ -132,7 +132,7 @@ export default function DestinationPage({ params }: { params: { slug: string } }
         </section>
 
         {/* ── BRIEF DESCRIPTION (itineraries come right after this) ── */}
-        <section className="bg-white pb-6 pt-12">
+        <section className="bg-white py-10">
           <div className="mx-auto max-w-4xl px-6 lg:px-10">
             <p className="font-merri text-xl italic leading-relaxed text-stone-700 sm:text-2xl">
               {dest.description}
@@ -145,7 +145,7 @@ export default function DestinationPage({ params }: { params: { slug: string } }
           <section className="bg-stone-50 py-10">
             <div className="mx-auto max-w-7xl px-6 lg:px-10">
               {/* Same brush treatment as the landing page's "100 Countries" */}
-              <h2 className="font-brush leading-none text-stone-900">
+              <h2 className="-mt-3 font-brush leading-none text-stone-900 sm:-mt-5">
                 <span className="text-6xl sm:text-8xl">{dest.itineraries.length}</span>{" "}
                 <span className="text-3xl sm:text-5xl">Signature Itineraries</span>
               </h2>
