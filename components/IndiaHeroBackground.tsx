@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Image from "next/image";
+import { heroBlur } from "@/lib/hero-blur";
 
 // Real photos from the live 365tours.in/India hero carousel.
 const slides = [
@@ -16,7 +17,6 @@ const slides = [
 export default function IndiaHeroBackground() {
   const [active, setActive] = useState(0);
   const [loaded, setLoaded] = useState<number[]>([0]);
-  const [decoded, setDecoded] = useState<number[]>([]);
 
   useEffect(() => {
     const id = setInterval(() => {
@@ -40,10 +40,11 @@ export default function IndiaHeroBackground() {
             fill
             priority={i === 0}
             sizes="100vw"
-            className="object-cover object-top transition-opacity duration-[1500ms] ease-in-out"
-            style={{ opacity: i === active && decoded.includes(i) ? 1 : 0 }}
+            className="object-cover object-top transition-opacity duration-500 ease-in-out"
+            style={{ opacity: i === active ? 1 : 0 }}
             aria-hidden={i !== active ? true : undefined}
-            onLoad={() => setDecoded((d) => (d.includes(i) ? d : [...d, i]))}
+            placeholder={heroBlur(slide.image) ? "blur" : "empty"}
+            blurDataURL={heroBlur(slide.image)}
           />
         ) : null
       )}

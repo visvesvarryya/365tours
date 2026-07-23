@@ -3,6 +3,7 @@
 import { useState, useEffect } from "react";
 import Image from "next/image";
 import SocialLinks from "@/components/SocialLinks";
+import { heroBlur } from "@/lib/hero-blur";
 
 // The 5 homepage hero photos + nicknames, supplied directly (docs/Home-page-Main Section/).
 const heroSlides: { name: string; tagline: string; image: string }[] = [
@@ -52,6 +53,8 @@ export default function Hero() {
             className="object-cover transition-opacity duration-500 ease-in-out"
             style={{ opacity: i === active ? 1 : 0 }}
             aria-hidden={i !== active ? true : undefined}
+            placeholder={heroBlur(slide.image) ? "blur" : "empty"}
+            blurDataURL={heroBlur(slide.image)}
           />
         ) : null
       )}
