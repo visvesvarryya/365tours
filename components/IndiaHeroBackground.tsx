@@ -39,7 +39,7 @@ export default function IndiaHeroBackground() {
             fill
             priority={i === 0}
             sizes="100vw"
-            className="object-cover object-top transition-opacity duration-500 ease-in-out"
+            className="object-cover object-top transition-opacity duration-[250ms] ease-in-out"
             style={{ opacity: i === active ? 1 : 0 }}
             aria-hidden={i !== active ? true : undefined}
           />

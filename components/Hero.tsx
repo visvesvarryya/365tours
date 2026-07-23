@@ -49,7 +49,7 @@ export default function Hero() {
             fill
             priority={i === 0}
             sizes="100vw"
-            className="object-cover transition-opacity duration-500 ease-in-out"
+            className="object-cover transition-opacity duration-[250ms] ease-in-out"
             style={{ opacity: i === active ? 1 : 0 }}
             aria-hidden={i !== active ? true : undefined}
           />
