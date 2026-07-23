@@ -18,9 +18,6 @@ export default function Hero() {
   // Only images that have been shown are mounted, so the homepage loads ONE hero
   // image (the LCP) up front; the rest stream in as the carousel advances.
   const [loaded, setLoaded] = useState<number[]>([0]);
-  // Tracks which slides have actually finished decoding, so the active slide
-  // fades in from the shimmer placeholder instead of popping in once ready.
-  const [decoded, setDecoded] = useState<number[]>([]);
 
   const go = (i: number) => {
     setActive(i);
@@ -52,10 +49,9 @@ export default function Hero() {
             fill
             priority={i === 0}
             sizes="100vw"
-            className="object-cover transition-opacity duration-[1500ms] ease-in-out"
-            style={{ opacity: i === active && decoded.includes(i) ? 1 : 0 }}
+            className="object-cover transition-opacity duration-500 ease-in-out"
+            style={{ opacity: i === active ? 1 : 0 }}
             aria-hidden={i !== active ? true : undefined}
-            onLoad={() => setDecoded((d) => (d.includes(i) ? d : [...d, i]))}
           />
         ) : null
       )}

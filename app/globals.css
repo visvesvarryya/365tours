@@ -77,28 +77,11 @@ img {
   }
 }
 
-/* Hero image loading state: a slow brand-toned sweep instead of a flat black
-   canvas while the photo downloads/decodes. The image itself fades in over it
-   (see .hero-img) rather than popping in abruptly once loaded. */
+/* Hero image loading state: a flat brand-toned background shows behind the
+   photo until it paints, so there's no black gap — no animation or fade,
+   so the image appears the instant it's ready. */
 .hero-shimmer {
-  background: linear-gradient(110deg, #132f33 8%, #1b524f 24%, #132f33 40%);
-  background-size: 200% 100%;
-  animation: hero-shimmer-sweep 2.2s ease-in-out infinite;
-}
-@keyframes hero-shimmer-sweep {
-  0% { background-position-x: 180%; }
-  100% { background-position-x: -20%; }
-}
-.hero-img {
-  opacity: 0;
-  transition: opacity 700ms ease-out;
-}
-.hero-img[data-loaded="true"] {
-  opacity: 1;
-}
-@media (prefers-reduced-motion: reduce) {
-  .hero-shimmer { animation: none; }
-  .hero-img { transition: none; }
+  background: #132f33;
 }
 
 /* Performance: skip rendering/layout of off-screen sections until scrolled into
