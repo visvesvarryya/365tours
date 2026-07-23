@@ -48,7 +48,7 @@ export default function IndiaPage() {
       />
       <main>
         {/* ── HERO ── */}
-        <section className="relative h-[460px] overflow-hidden bg-stone-950 md:h-[650px]">
+        <section className="hero-shimmer relative h-[460px] overflow-hidden md:h-[650px]">
           <IndiaHeroBackground />
         </section>
 

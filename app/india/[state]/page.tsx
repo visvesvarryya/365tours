@@ -1,6 +1,6 @@
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
-import Image from "next/image";
+import HeroImage from "@/components/HeroImage";
 import Link from "next/link";
 import ItineraryCarousel from "@/components/ItineraryCarousel";
 import QuickEnquiryCTA from "@/components/QuickEnquiryCTA";
@@ -72,9 +72,9 @@ export default function IndiaStatePage({ params }: { params: { state: string } }
       <DestinationViewTracker id={`india-${state.slug}`} name={state.name} category="India" />
       <main>
         {/* ── HERO ── */}
-        <section className="relative h-[350px] overflow-hidden bg-stone-950 sm:h-[450px] lg:h-[600px]">
+        <section className="hero-shimmer relative h-[350px] overflow-hidden sm:h-[450px] lg:h-[600px]">
           {state.heroImage && (
-            <Image
+            <HeroImage
               src={state.heroImage}
               alt=""
               fill

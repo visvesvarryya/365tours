@@ -1,7 +1,7 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import type { Metadata } from "next";
-import Image from "next/image";
+import HeroImage from "@/components/HeroImage";
 import ItineraryCarousel from "@/components/ItineraryCarousel";
 import QuickEnquiryCTA from "@/components/QuickEnquiryCTA";
 import DestinationsOffered from "@/components/DestinationsOffered";
@@ -78,9 +78,9 @@ export default function DestinationPage({ params }: { params: { slug: string } }
       <DestinationViewTracker id={dest.slug} name={dest.name} category={dest.continent} />
       <main>
         {/* ── HERO ── */}
-        <section className="relative h-[560px] overflow-hidden bg-stone-950 sm:h-[580px] lg:h-[650px]">
+        <section className="hero-shimmer relative h-[560px] overflow-hidden sm:h-[580px] lg:h-[650px]">
           {dest.heroImage && (
-            <Image
+            <HeroImage
               src={dest.heroImage}
               alt=""
               fill

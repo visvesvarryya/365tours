@@ -8,6 +8,9 @@
     "start": "next start",
     "lint": "next lint"
   },
+  "browserslist": [
+    "defaults and fully supports es6-module"
+  ],
   "dependencies": {
     "next": "14.2.5",
     "react": "18.3.1",
