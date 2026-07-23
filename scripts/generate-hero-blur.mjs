@@ -1,7 +1,8 @@
-// One-off/regenerable script: builds tiny base64 blur placeholders for every
-// hero image (homepage carousel, India hero carousel, destination pages,
-// India state pages) so next/image can show a blurred preview instantly
-// instead of a flat placeholder while the full photo loads.
+// One-off/regenerable script: builds tiny base64 blur placeholders for hero
+// images on destination pages and India state pages (single hero photo, no
+// carousel) so next/image can show a blurred preview instantly instead of a
+// flat placeholder while the full photo loads. The homepage and /india hero
+// carousels intentionally skip this — blur was deemed unnecessary there.
 //
 // Run with: node scripts/generate-hero-blur.mjs
 // Output: lib/hero-blur.json — { "<src or url>": "data:image/webp;base64,..." }
@@ -16,11 +17,7 @@ const PUBLIC = path.join(ROOT, "public");
 const OUT_FILE = path.join(ROOT, "lib", "hero-blur.json");
 
 function collectLocalSources() {
-  const patterns = [
-    "hero/*.jpg",
-    "india/hero/*.jpg",
-    "india/states/*/hero.jpg",
-  ];
+  const patterns = ["india/states/*/hero.jpg"];
   const sources = [];
   for (const pattern of patterns) {
     for (const abs of globSync(path.join(PUBLIC, pattern))) {
