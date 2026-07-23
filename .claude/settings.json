@@ -8,7 +8,12 @@
       "Bash(node fetch-descriptions.js)",
       "Bash(node apply-descriptions.js)",
       "Bash(curl -s \"https://365tours.in/css/style.css\" -A \"Mozilla/5.0\")",
-      "Bash(curl -s http://localhost:3001/api/feeds/dynamic-remarketing)"
+      "Bash(curl -s http://localhost:3001/api/feeds/dynamic-remarketing)",
+      "Bash(curl -s http://localhost:3003/destination/egypt)",
+      "Bash(python3 -c ' *)",
+      "Bash(rm -f scratch_test_prefill.mjs)",
+      "Bash(taskkill //IM chrome.exe //F)",
+      "Bash(node scripts/generate-country-names.mjs)"
     ]
   }
 }
